@@ -2,6 +2,8 @@ from ftplib import FTP
 import os
 from sets import Set
 import time
+import db
+
 
 
 def download(serverName,userName,passWord,remotePath,localPath):
@@ -14,7 +16,7 @@ def download(serverName,userName,passWord,remotePath,localPath):
           
      
      #ftp.cwd(remotePath)
-     localPath="C:\\Users\\Tharindu Prabhath\\Desktop\\FTP Parser\\"
+     localPath="..\\downloads\\"
      try:
           #print(ftp.pwd())
           lFileSet = Set(os.listdir(localPath))
