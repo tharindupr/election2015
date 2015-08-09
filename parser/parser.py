@@ -3,6 +3,7 @@ import MySQLdb
 import os
 from sets import Set
 import time
+
 #from db.py import *
 
 downdir="C:\\Users\\Tharindu Prabhath\\Desktop\\FTP Parser\\"
@@ -200,7 +201,10 @@ def updatedb(downdir):
                elif(fil[:5]=='AIVOT'):
                                          
                     #print(fil[:5]+"S.txt",fil[:5]+"V.txt")
-                    cursor.execute(allislandsql(fil[:5]+"S.txt",fil[:5]+"V.txt",downdir))
+                    try:
+                         cursor.execute(allislandsql(fil[:5]+"S.txt",fil[:5]+"V.txt",downdir))
+                    except MySQLdb.IntegrityError as err:
+                         print("Previously entered file")
                     #print fil[:3]+"S.txt",fil[:3]+"V.txt"
                     os.remove(downdir+"//"+fil[:5]+"S.txt")
                     os.remove("..//downloads//"+fil[:5]+"S.txt")
@@ -214,8 +218,11 @@ def updatedb(downdir):
                     db.commit()
 
                elif(fil=='AINAST.txt'):
-                                         
-                    cursor.execute(seatstosql(fil,downdir))
+
+                    try:                     
+                         cursor.execute(seatstosql(fil,downdir))
+                    except MySQLdb.IntegrityError as err:
+                         print("Previously entered file")
                     
                     os.remove(downdir+"//"+fil)
                     os.remove("..//downloads//"+fil)
@@ -223,8 +230,10 @@ def updatedb(downdir):
 
                     
                elif(fil=='AICOMP.txt'):
-                                         
-                    cursor.execute(composition(fil,downdir))
+                    try:                     
+                         cursor.execute(composition(fil,downdir))
+                    except MySQLdb.IntegrityError as err:
+                         print("Previously entered file")
                     os.remove(downdir+"//"+fil)
                     os.remove("..//downloads//"+fil)
                     db.commit()
@@ -285,17 +294,37 @@ def download(serverName,userName,passWord,remotePath,localPath):
                  localFile1=processingpath+ fl
                  print(localFile)
                  grabFile = True
-                 if grabFile:                
-                   #open a the local file
-                   fileObj = open(localFile, 'wb')
-                   fileObj1 = open(localFile1, 'wb')
-                   # Download the file a chunk at a time using RETR
-                   ftp.retrbinary('RETR ' + fl, fileObj.write)
-                   ftp.retrbinary('RETR ' + fl, fileObj1.write)
-                   # Close the file
-                   fileObj.close()
-                   fileObj1.close()
-                   
+                 if grabFile:
+                   if(fl=="AICOMP.txt" or fl=="AINAST.txt" or fl=="AIVOTS.txt" or fl=="AIVOTV.txt"):
+                        fileObj = open(localFile, 'wb')
+                        fileObj1 = open(localFile1, 'wb')
+                        
+                        # Download the file a chunk at a time using RETR
+                        ftp.retrbinary('RETR ' + fl, fileObj.write)
+                        ftp.retrbinary('RETR ' + fl, fileObj1.write)
+
+                                                 
+                             
+                             
+                        # Close the file
+                        fileObj.close()
+                        fileObj1.close()
+                        
+                        
+                   else:
+                        fileObj = open(localFile, 'wb')
+                        fileObj1 = open(localFile1, 'wb')
+                        
+                        # Download the file a chunk at a time using RETR
+                        ftp.retrbinary('RETR ' + fl, fileObj.write)
+                        ftp.retrbinary('RETR ' + fl, fileObj1.write)
+
+                                                 
+                             
+                             
+                        # Close the file
+                        fileObj.close()
+                        fileObj1.close()
           
      except:
           print "Connection Error"
@@ -304,6 +333,7 @@ def download(serverName,userName,passWord,remotePath,localPath):
 
 while(True):     
      download('31.220.16.10','u764471038','1992july07438','','')
+     
      updatedb('..//processing')
      time.sleep(30)
 
