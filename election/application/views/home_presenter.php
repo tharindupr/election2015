@@ -47,8 +47,8 @@
             <li class="xn-title">View as:</li>
 
             <?php if ($type=='A'){ echo ("<li><a href='http://localhost/arttvelection2015/election/elect/get_admin_home'><span class='fa fa-desktop'></span>Admin</a></li>");} ?>
-            <?php if ($type=='A'||'P'){ echo ("<li><a href='http://localhost/arttvelection2015/election/elect/get_presenter_home'><span class='fa fa-desktop'></span>Presenter</a></li>");} ?>
-            <?php if ($type=='A'||'P'||'M'){ echo ("<li><a href='http://localhost/arttvelection2015/election/elect/get_mcr_home'><span class='fa fa-desktop'></span>MCR</a></li>");} ?>
+            <?php if ($type!='M'){ echo ("<li><a href='http://localhost/arttvelection2015/election/elect/get_presenter_home'><span class='fa fa-desktop'></span>Presenter</a></li>");} ?>
+            <?php echo ("<li><a href='http://localhost/arttvelection2015/election/elect/get_mcr_home'><span class='fa fa-desktop'></span>MCR</a></li>"); ?>
 
 
 

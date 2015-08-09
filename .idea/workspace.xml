@@ -2,441 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b8b0138-6979-4843-a807-d626d5d21837" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\config\memcached.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\composer.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\contributing.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\readme.rst" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\system\core\Log.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\system\core\compat\hash.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\system\core\compat\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\system\core\compat\mbstring.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\system\core\compat\password.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\system\core\compat\standard.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\system\database\DB_query_builder.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\system\database\drivers\ibase\ibase_driver.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\system\database\drivers\ibase\ibase_forge.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\system\database\drivers\ibase\ibase_result.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\system\database\drivers\ibase\ibase_utility.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\system\database\drivers\ibase\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\system\database\drivers\pdo\subdrivers\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\system\database\drivers\pdo\subdrivers\pdo_4d_driver.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\system\database\drivers\pdo\subdrivers\pdo_4d_forge.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\system\database\drivers\pdo\subdrivers\pdo_cubrid_driver.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\system\database\drivers\pdo\subdrivers\pdo_cubrid_forge.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\system\database\drivers\pdo\subdrivers\pdo_dblib_driver.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\system\database\drivers\pdo\subdrivers\pdo_dblib_forge.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\system\database\drivers\pdo\subdrivers\pdo_firebird_driver.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\system\database\drivers\pdo\subdrivers\pdo_firebird_forge.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\system\database\drivers\pdo\subdrivers\pdo_ibm_driver.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\system\database\drivers\pdo\subdrivers\pdo_ibm_forge.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\system\database\drivers\pdo\subdrivers\pdo_informix_driver.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\system\database\drivers\pdo\subdrivers\pdo_informix_forge.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\system\database\drivers\pdo\subdrivers\pdo_mysql_driver.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\system\database\drivers\pdo\subdrivers\pdo_mysql_forge.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\system\database\drivers\pdo\subdrivers\pdo_oci_driver.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\system\database\drivers\pdo\subdrivers\pdo_oci_forge.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\system\database\drivers\pdo\subdrivers\pdo_odbc_driver.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\system\database\drivers\pdo\subdrivers\pdo_odbc_forge.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\system\database\drivers\pdo\subdrivers\pdo_pgsql_driver.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\system\database\drivers\pdo\subdrivers\pdo_pgsql_forge.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\system\database\drivers\pdo\subdrivers\pdo_sqlite_driver.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\system\database\drivers\pdo\subdrivers\pdo_sqlite_forge.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\system\database\drivers\pdo\subdrivers\pdo_sqlsrv_driver.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\system\database\drivers\pdo\subdrivers\pdo_sqlsrv_forge.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\system\database\drivers\sqlite3\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\system\database\drivers\sqlite3\sqlite3_driver.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\system\database\drivers\sqlite3\sqlite3_forge.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\system\database\drivers\sqlite3\sqlite3_result.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\system\database\drivers\sqlite3\sqlite3_utility.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\system\language\english\pagination_lang.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\system\libraries\Cache\drivers\Cache_redis.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\system\libraries\Cache\drivers\Cache_wincache.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\system\libraries\Encryption.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\system\libraries\Session\Session.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\system\libraries\Session\SessionHandlerInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\system\libraries\Session\Session_driver.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\system\libraries\Session\drivers\Session_database_driver.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\system\libraries\Session\drivers\Session_files_driver.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\system\libraries\Session\drivers\Session_memcached_driver.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\system\libraries\Session\drivers\Session_redis_driver.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\system\libraries\Session\drivers\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\system\libraries\Session\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\user_guide\DCO.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\user_guide\_downloads\ELDocs.tmbundle.zip" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\user_guide\_images\appflowchart.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\user_guide\_images\smile.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\user_guide\_static\ajax-loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\user_guide\_static\basic.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\user_guide\_static\ci-icon.ico" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\user_guide\_static\comment-bright.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\user_guide\_static\comment-close.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\user_guide\_static\comment.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\user_guide\_static\css\badge_only.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\user_guide\_static\css\theme.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\user_guide\_static\doctools.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\user_guide\_static\down-pressed.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\user_guide\_static\down.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\user_guide\_static\file.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\user_guide\_static\fonts\FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\user_guide\_static\fonts\fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\user_guide\_static\fonts\fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\user_guide\_static\fonts\fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\user_guide\_static\fonts\fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\user_guide\_static\jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\user_guide\_static\js\oldtheme.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\user_guide\_static\js\theme.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\user_guide\_static\minus.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\user_guide\_static\plus.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\user_guide\_static\pygments.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\user_guide\_static\searchtools.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\user_guide\_static\underscore.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\user_guide\_static\up-pressed.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\user_guide\_static\up.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\user_guide\_static\websupport.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\user_guide\contributing\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\user_guide\database\db_driver_reference.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\user_guide\database\metadata.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\user_guide\database\query_builder.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\user_guide\documentation\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\user_guide\general\compatibility_functions.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\user_guide\general\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\user_guide\general\welcome.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\user_guide\genindex.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\user_guide\helpers\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\user_guide\installation\upgrade_300.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\user_guide\libraries\encrypt.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\user_guide\libraries\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\user_guide\objects.inv" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\user_guide\search.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\user_guide\searchindex.js" afterPath="" />
-      <change type="MOVED" beforePath="C:\wamp\www\arttvelection2015\election\application\controllers\Welcome.php" afterPath="$PROJECT_DIR$/election/application/controllers/welcome.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/application/.htaccess" afterPath="$PROJECT_DIR$/election/application/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/application/cache/.htaccess" afterPath="$PROJECT_DIR$/election/application/cache/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/.htaccess" afterPath="$PROJECT_DIR$/election/system/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/core/Benchmark.php" afterPath="$PROJECT_DIR$/election/system/core/Benchmark.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/libraries/Cache/Cache.php" afterPath="$PROJECT_DIR$/election/system/libraries/Cache/Cache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/libraries/Cache/drivers/Cache_apc.php" afterPath="$PROJECT_DIR$/election/system/libraries/Cache/drivers/Cache_apc.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/libraries/Cache/drivers/Cache_dummy.php" afterPath="$PROJECT_DIR$/election/system/libraries/Cache/drivers/Cache_dummy.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/libraries/Cache/drivers/Cache_file.php" afterPath="$PROJECT_DIR$/election/system/libraries/Cache/drivers/Cache_file.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/libraries/Cache/drivers/Cache_memcached.php" afterPath="$PROJECT_DIR$/election/system/libraries/Cache/drivers/Cache_memcached.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/libraries/Calendar.php" afterPath="$PROJECT_DIR$/election/system/libraries/Calendar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/libraries/Cart.php" afterPath="$PROJECT_DIR$/election/system/libraries/Cart.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/core/CodeIgniter.php" afterPath="$PROJECT_DIR$/election/system/core/CodeIgniter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/core/Common.php" afterPath="$PROJECT_DIR$/election/system/core/Common.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/core/Config.php" afterPath="$PROJECT_DIR$/election/system/core/Config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/core/Controller.php" afterPath="$PROJECT_DIR$/election/system/core/Controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/DB.php" afterPath="$PROJECT_DIR$/election/system/database/DB.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/DB_cache.php" afterPath="$PROJECT_DIR$/election/system/database/DB_cache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/DB_driver.php" afterPath="$PROJECT_DIR$/election/system/database/DB_driver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/DB_forge.php" afterPath="$PROJECT_DIR$/election/system/database/DB_forge.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/DB_result.php" afterPath="$PROJECT_DIR$/election/system/database/DB_result.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/DB_utility.php" afterPath="$PROJECT_DIR$/election/system/database/DB_utility.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/libraries/Driver.php" afterPath="$PROJECT_DIR$/election/system/libraries/Driver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/libraries/Email.php" afterPath="$PROJECT_DIR$/election/system/libraries/Email.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/libraries/Encrypt.php" afterPath="$PROJECT_DIR$/election/system/libraries/Encrypt.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/core/Exceptions.php" afterPath="$PROJECT_DIR$/election/system/core/Exceptions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/libraries/Form_validation.php" afterPath="$PROJECT_DIR$/election/system/libraries/Form_validation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/libraries/Ftp.php" afterPath="$PROJECT_DIR$/election/system/libraries/Ftp.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/core/Hooks.php" afterPath="$PROJECT_DIR$/election/system/core/Hooks.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/libraries/Image_lib.php" afterPath="$PROJECT_DIR$/election/system/libraries/Image_lib.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/core/Input.php" afterPath="$PROJECT_DIR$/election/system/core/Input.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/libraries/Javascript.php" afterPath="$PROJECT_DIR$/election/system/libraries/Javascript.php" />
-      <change type="MODIFICATION" beforePath="C:\wamp\www\arttvelection2015\election\system\libraries\javascript\Jquery.php" afterPath="$PROJECT_DIR$/election/system/libraries/javascript/Jquery.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/core/Lang.php" afterPath="$PROJECT_DIR$/election/system/core/Lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/core/Loader.php" afterPath="$PROJECT_DIR$/election/system/core/Loader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/libraries/Migration.php" afterPath="$PROJECT_DIR$/election/system/libraries/Migration.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/core/Model.php" afterPath="$PROJECT_DIR$/election/system/core/Model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/core/Output.php" afterPath="$PROJECT_DIR$/election/system/core/Output.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/libraries/Pagination.php" afterPath="$PROJECT_DIR$/election/system/libraries/Pagination.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/libraries/Parser.php" afterPath="$PROJECT_DIR$/election/system/libraries/Parser.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/libraries/Profiler.php" afterPath="$PROJECT_DIR$/election/system/libraries/Profiler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/core/Router.php" afterPath="$PROJECT_DIR$/election/system/core/Router.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/core/Security.php" afterPath="$PROJECT_DIR$/election/system/core/Security.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/libraries/Table.php" afterPath="$PROJECT_DIR$/election/system/libraries/Table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/libraries/Trackback.php" afterPath="$PROJECT_DIR$/election/system/libraries/Trackback.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/libraries/Typography.php" afterPath="$PROJECT_DIR$/election/system/libraries/Typography.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/core/URI.php" afterPath="$PROJECT_DIR$/election/system/core/URI.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/libraries/Unit_test.php" afterPath="$PROJECT_DIR$/election/system/libraries/Unit_test.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/libraries/Upload.php" afterPath="$PROJECT_DIR$/election/system/libraries/Upload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/libraries/User_agent.php" afterPath="$PROJECT_DIR$/election/system/libraries/User_agent.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/core/Utf8.php" afterPath="$PROJECT_DIR$/election/system/core/Utf8.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/libraries/Xmlrpc.php" afterPath="$PROJECT_DIR$/election/system/libraries/Xmlrpc.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/libraries/Xmlrpcs.php" afterPath="$PROJECT_DIR$/election/system/libraries/Xmlrpcs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/libraries/Zip.php" afterPath="$PROJECT_DIR$/election/system/libraries/Zip.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/general/alternative_php.html" afterPath="$PROJECT_DIR$/election/user_guide/general/alternative_php.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/general/ancillary_classes.html" afterPath="$PROJECT_DIR$/election/user_guide/general/ancillary_classes.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/overview/appflow.html" afterPath="$PROJECT_DIR$/election/user_guide/overview/appflow.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/helpers/array_helper.html" afterPath="$PROJECT_DIR$/election/user_guide/helpers/array_helper.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/helpers/array_helper.php" afterPath="$PROJECT_DIR$/election/system/helpers/array_helper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/overview/at_a_glance.html" afterPath="$PROJECT_DIR$/election/user_guide/overview/at_a_glance.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/application/config/autoload.php" afterPath="$PROJECT_DIR$/election/application/config/autoload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/general/autoloader.html" afterPath="$PROJECT_DIR$/election/user_guide/general/autoloader.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/libraries/benchmark.html" afterPath="$PROJECT_DIR$/election/user_guide/libraries/benchmark.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/database/caching.html" afterPath="$PROJECT_DIR$/election/user_guide/database/caching.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/general/caching.html" afterPath="$PROJECT_DIR$/election/user_guide/general/caching.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/libraries/caching.html" afterPath="$PROJECT_DIR$/election/user_guide/libraries/caching.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/libraries/calendar.html" afterPath="$PROJECT_DIR$/election/user_guide/libraries/calendar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/language/english/calendar_lang.php" afterPath="$PROJECT_DIR$/election/system/language/english/calendar_lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/database/call_function.html" afterPath="$PROJECT_DIR$/election/user_guide/database/call_function.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/helpers/captcha_helper.html" afterPath="$PROJECT_DIR$/election/user_guide/helpers/captcha_helper.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/helpers/captcha_helper.php" afterPath="$PROJECT_DIR$/election/system/helpers/captcha_helper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/libraries/cart.html" afterPath="$PROJECT_DIR$/election/user_guide/libraries/cart.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/changelog.html" afterPath="$PROJECT_DIR$/election/user_guide/changelog.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/general/cli.html" afterPath="$PROJECT_DIR$/election/user_guide/general/cli.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/general/common_functions.html" afterPath="$PROJECT_DIR$/election/user_guide/general/common_functions.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/tutorial/conclusion.html" afterPath="$PROJECT_DIR$/election/user_guide/tutorial/conclusion.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/libraries/config.html" afterPath="$PROJECT_DIR$/election/user_guide/libraries/config.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/application/config/config.php" afterPath="$PROJECT_DIR$/election/application/config/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/database/configuration.html" afterPath="$PROJECT_DIR$/election/user_guide/database/configuration.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/database/connecting.html" afterPath="$PROJECT_DIR$/election/user_guide/database/connecting.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/application/config/constants.php" afterPath="$PROJECT_DIR$/election/application/config/constants.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/general/controllers.html" afterPath="$PROJECT_DIR$/election/user_guide/general/controllers.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/helpers/cookie_helper.html" afterPath="$PROJECT_DIR$/election/user_guide/helpers/cookie_helper.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/helpers/cookie_helper.php" afterPath="$PROJECT_DIR$/election/system/helpers/cookie_helper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/general/core_classes.html" afterPath="$PROJECT_DIR$/election/user_guide/general/core_classes.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/tutorial/create_news_items.html" afterPath="$PROJECT_DIR$/election/user_guide/tutorial/create_news_items.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/general/creating_drivers.html" afterPath="$PROJECT_DIR$/election/user_guide/general/creating_drivers.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/general/creating_libraries.html" afterPath="$PROJECT_DIR$/election/user_guide/general/creating_libraries.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/general/credits.html" afterPath="$PROJECT_DIR$/election/user_guide/general/credits.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/drivers/cubrid/cubrid_driver.php" afterPath="$PROJECT_DIR$/election/system/database/drivers/cubrid/cubrid_driver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/drivers/cubrid/cubrid_forge.php" afterPath="$PROJECT_DIR$/election/system/database/drivers/cubrid/cubrid_forge.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/drivers/cubrid/cubrid_result.php" afterPath="$PROJECT_DIR$/election/system/database/drivers/cubrid/cubrid_result.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/drivers/cubrid/cubrid_utility.php" afterPath="$PROJECT_DIR$/election/system/database/drivers/cubrid/cubrid_utility.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/css/custom.css" afterPath="$PROJECT_DIR$/election/css/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/application/config/database.php" afterPath="$PROJECT_DIR$/election/application/config/database.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/helpers/date_helper.html" afterPath="$PROJECT_DIR$/election/user_guide/helpers/date_helper.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/helpers/date_helper.php" afterPath="$PROJECT_DIR$/election/system/helpers/date_helper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/language/english/date_lang.php" afterPath="$PROJECT_DIR$/election/system/language/english/date_lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/language/english/db_lang.php" afterPath="$PROJECT_DIR$/election/system/language/english/db_lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/helpers/directory_helper.html" afterPath="$PROJECT_DIR$/election/user_guide/helpers/directory_helper.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/helpers/directory_helper.php" afterPath="$PROJECT_DIR$/election/system/helpers/directory_helper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/application/config/doctypes.php" afterPath="$PROJECT_DIR$/election/application/config/doctypes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/helpers/download_helper.html" afterPath="$PROJECT_DIR$/election/user_guide/helpers/download_helper.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/helpers/download_helper.php" afterPath="$PROJECT_DIR$/election/system/helpers/download_helper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/installation/downloads.html" afterPath="$PROJECT_DIR$/election/user_guide/installation/downloads.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/general/drivers.html" afterPath="$PROJECT_DIR$/election/user_guide/general/drivers.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/application/controllers/elect.php" afterPath="$PROJECT_DIR$/election/application/controllers/elect.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/libraries/email.html" afterPath="$PROJECT_DIR$/election/user_guide/libraries/email.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/helpers/email_helper.html" afterPath="$PROJECT_DIR$/election/user_guide/helpers/email_helper.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/helpers/email_helper.php" afterPath="$PROJECT_DIR$/election/system/helpers/email_helper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/language/english/email_lang.php" afterPath="$PROJECT_DIR$/election/system/language/english/email_lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/libraries/encryption.html" afterPath="$PROJECT_DIR$/election/user_guide/libraries/encryption.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/general/environments.html" afterPath="$PROJECT_DIR$/election/user_guide/general/environments.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/general/errors.html" afterPath="$PROJECT_DIR$/election/user_guide/general/errors.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/database/examples.html" afterPath="$PROJECT_DIR$/election/user_guide/database/examples.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/overview/features.html" afterPath="$PROJECT_DIR$/election/user_guide/overview/features.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/helpers/file_helper.html" afterPath="$PROJECT_DIR$/election/user_guide/helpers/file_helper.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/helpers/file_helper.php" afterPath="$PROJECT_DIR$/election/system/helpers/file_helper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/libraries/file_uploading.html" afterPath="$PROJECT_DIR$/election/user_guide/libraries/file_uploading.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/application/config/foreign_chars.php" afterPath="$PROJECT_DIR$/election/application/config/foreign_chars.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/database/forge.html" afterPath="$PROJECT_DIR$/election/user_guide/database/forge.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/helpers/form_helper.html" afterPath="$PROJECT_DIR$/election/user_guide/helpers/form_helper.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/helpers/form_helper.php" afterPath="$PROJECT_DIR$/election/system/helpers/form_helper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/libraries/form_validation.html" afterPath="$PROJECT_DIR$/election/user_guide/libraries/form_validation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/language/english/form_validation_lang.php" afterPath="$PROJECT_DIR$/election/system/language/english/form_validation_lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/libraries/ftp.html" afterPath="$PROJECT_DIR$/election/user_guide/libraries/ftp.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/language/english/ftp_lang.php" afterPath="$PROJECT_DIR$/election/system/language/english/ftp_lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/overview/getting_started.html" afterPath="$PROJECT_DIR$/election/user_guide/overview/getting_started.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/overview/goals.html" afterPath="$PROJECT_DIR$/election/user_guide/overview/goals.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/database/helpers.html" afterPath="$PROJECT_DIR$/election/user_guide/database/helpers.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/general/helpers.html" afterPath="$PROJECT_DIR$/election/user_guide/general/helpers.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/application/controllers/home.php" afterPath="$PROJECT_DIR$/election/application/controllers/home.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/application/views/home_admin.php" afterPath="$PROJECT_DIR$/election/application/views/home_admin.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/application/views/home_mcr.php" afterPath="$PROJECT_DIR$/election/application/views/home_mcr.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/application/views/home_presenter.php" afterPath="$PROJECT_DIR$/election/application/views/home_presenter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/application/views/home_view.php" afterPath="$PROJECT_DIR$/election/application/views/home_view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/general/hooks.html" afterPath="$PROJECT_DIR$/election/user_guide/general/hooks.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/application/config/hooks.php" afterPath="$PROJECT_DIR$/election/application/config/hooks.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/helpers/html_helper.html" afterPath="$PROJECT_DIR$/election/user_guide/helpers/html_helper.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/helpers/html_helper.php" afterPath="$PROJECT_DIR$/election/system/helpers/html_helper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/libraries/image_lib.html" afterPath="$PROJECT_DIR$/election/user_guide/libraries/image_lib.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/language/english/imglib_lang.php" afterPath="$PROJECT_DIR$/election/system/language/english/imglib_lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/application/index.html" afterPath="$PROJECT_DIR$/election/application/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/application/cache/index.html" afterPath="$PROJECT_DIR$/election/application/cache/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/application/config/index.html" afterPath="$PROJECT_DIR$/election/application/config/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/application/controllers/index.html" afterPath="$PROJECT_DIR$/election/application/controllers/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/application/core/index.html" afterPath="$PROJECT_DIR$/election/application/core/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/application/helpers/index.html" afterPath="$PROJECT_DIR$/election/application/helpers/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/application/hooks/index.html" afterPath="$PROJECT_DIR$/election/application/hooks/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/application/language/index.html" afterPath="$PROJECT_DIR$/election/application/language/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/application/language/english/index.html" afterPath="$PROJECT_DIR$/election/application/language/english/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/application/libraries/index.html" afterPath="$PROJECT_DIR$/election/application/libraries/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/application/logs/index.html" afterPath="$PROJECT_DIR$/election/application/logs/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/application/models/index.html" afterPath="$PROJECT_DIR$/election/application/models/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/application/third_party/index.html" afterPath="$PROJECT_DIR$/election/application/third_party/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/index.html" afterPath="$PROJECT_DIR$/election/system/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/core/index.html" afterPath="$PROJECT_DIR$/election/system/core/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/index.html" afterPath="$PROJECT_DIR$/election/system/database/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/drivers/index.html" afterPath="$PROJECT_DIR$/election/system/database/drivers/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/drivers/cubrid/index.html" afterPath="$PROJECT_DIR$/election/system/database/drivers/cubrid/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/drivers/mssql/index.html" afterPath="$PROJECT_DIR$/election/system/database/drivers/mssql/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/drivers/mysql/index.html" afterPath="$PROJECT_DIR$/election/system/database/drivers/mysql/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/drivers/mysqli/index.html" afterPath="$PROJECT_DIR$/election/system/database/drivers/mysqli/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/drivers/oci8/index.html" afterPath="$PROJECT_DIR$/election/system/database/drivers/oci8/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/drivers/odbc/index.html" afterPath="$PROJECT_DIR$/election/system/database/drivers/odbc/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/drivers/pdo/index.html" afterPath="$PROJECT_DIR$/election/system/database/drivers/pdo/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/drivers/postgre/index.html" afterPath="$PROJECT_DIR$/election/system/database/drivers/postgre/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/drivers/sqlite/index.html" afterPath="$PROJECT_DIR$/election/system/database/drivers/sqlite/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/drivers/sqlsrv/index.html" afterPath="$PROJECT_DIR$/election/system/database/drivers/sqlsrv/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/fonts/index.html" afterPath="$PROJECT_DIR$/election/system/fonts/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/helpers/index.html" afterPath="$PROJECT_DIR$/election/system/helpers/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/language/index.html" afterPath="$PROJECT_DIR$/election/system/language/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/language/english/index.html" afterPath="$PROJECT_DIR$/election/system/language/english/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/libraries/index.html" afterPath="$PROJECT_DIR$/election/system/libraries/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/libraries/Cache/index.html" afterPath="$PROJECT_DIR$/election/system/libraries/Cache/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/libraries/Cache/drivers/index.html" afterPath="$PROJECT_DIR$/election/system/libraries/Cache/drivers/index.html" />
-      <change type="MODIFICATION" beforePath="C:\wamp\www\arttvelection2015\election\system\libraries\javascript\index.html" afterPath="$PROJECT_DIR$/election/system/libraries/javascript/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/index.html" afterPath="$PROJECT_DIR$/election/user_guide/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/database/index.html" afterPath="$PROJECT_DIR$/election/user_guide/database/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/installation/index.html" afterPath="$PROJECT_DIR$/election/user_guide/installation/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/overview/index.html" afterPath="$PROJECT_DIR$/election/user_guide/overview/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/tutorial/index.html" afterPath="$PROJECT_DIR$/election/user_guide/tutorial/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/index.php" afterPath="$PROJECT_DIR$/election/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/helpers/inflector_helper.html" afterPath="$PROJECT_DIR$/election/user_guide/helpers/inflector_helper.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/helpers/inflector_helper.php" afterPath="$PROJECT_DIR$/election/system/helpers/inflector_helper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/libraries/input.html" afterPath="$PROJECT_DIR$/election/user_guide/libraries/input.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/libraries/javascript.html" afterPath="$PROJECT_DIR$/election/user_guide/libraries/javascript.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/libraries/language.html" afterPath="$PROJECT_DIR$/election/user_guide/libraries/language.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/helpers/language_helper.html" afterPath="$PROJECT_DIR$/election/user_guide/helpers/language_helper.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/helpers/language_helper.php" afterPath="$PROJECT_DIR$/election/system/helpers/language_helper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/general/libraries.html" afterPath="$PROJECT_DIR$/election/user_guide/general/libraries.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/license.html" afterPath="$PROJECT_DIR$/election/user_guide/license.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/license.txt" afterPath="$PROJECT_DIR$/election/license.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/libraries/loader.html" afterPath="$PROJECT_DIR$/election/user_guide/libraries/loader.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/application/controllers/login.php" afterPath="$PROJECT_DIR$/election/application/controllers/login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/application/views/login_view.php" afterPath="$PROJECT_DIR$/election/application/views/login_view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/general/managing_apps.html" afterPath="$PROJECT_DIR$/election/user_guide/general/managing_apps.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/libraries/migration.html" afterPath="$PROJECT_DIR$/election/user_guide/libraries/migration.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/application/config/migration.php" afterPath="$PROJECT_DIR$/election/application/config/migration.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/language/english/migration_lang.php" afterPath="$PROJECT_DIR$/election/system/language/english/migration_lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/application/config/mimes.php" afterPath="$PROJECT_DIR$/election/application/config/mimes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/general/models.html" afterPath="$PROJECT_DIR$/election/user_guide/general/models.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/drivers/mssql/mssql_driver.php" afterPath="$PROJECT_DIR$/election/system/database/drivers/mssql/mssql_driver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/drivers/mssql/mssql_forge.php" afterPath="$PROJECT_DIR$/election/system/database/drivers/mssql/mssql_forge.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/drivers/mssql/mssql_result.php" afterPath="$PROJECT_DIR$/election/system/database/drivers/mssql/mssql_result.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/drivers/mssql/mssql_utility.php" afterPath="$PROJECT_DIR$/election/system/database/drivers/mssql/mssql_utility.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/overview/mvc.html" afterPath="$PROJECT_DIR$/election/user_guide/overview/mvc.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/drivers/mysql/mysql_driver.php" afterPath="$PROJECT_DIR$/election/system/database/drivers/mysql/mysql_driver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/drivers/mysql/mysql_forge.php" afterPath="$PROJECT_DIR$/election/system/database/drivers/mysql/mysql_forge.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/drivers/mysql/mysql_result.php" afterPath="$PROJECT_DIR$/election/system/database/drivers/mysql/mysql_result.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/drivers/mysql/mysql_utility.php" afterPath="$PROJECT_DIR$/election/system/database/drivers/mysql/mysql_utility.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/drivers/mysqli/mysqli_driver.php" afterPath="$PROJECT_DIR$/election/system/database/drivers/mysqli/mysqli_driver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/drivers/mysqli/mysqli_forge.php" afterPath="$PROJECT_DIR$/election/system/database/drivers/mysqli/mysqli_forge.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/drivers/mysqli/mysqli_result.php" afterPath="$PROJECT_DIR$/election/system/database/drivers/mysqli/mysqli_result.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/drivers/mysqli/mysqli_utility.php" afterPath="$PROJECT_DIR$/election/system/database/drivers/mysqli/mysqli_utility.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/tutorial/news_section.html" afterPath="$PROJECT_DIR$/election/user_guide/tutorial/news_section.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/helpers/number_helper.html" afterPath="$PROJECT_DIR$/election/user_guide/helpers/number_helper.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/helpers/number_helper.php" afterPath="$PROJECT_DIR$/election/system/helpers/number_helper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/language/english/number_lang.php" afterPath="$PROJECT_DIR$/election/system/language/english/number_lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/drivers/oci8/oci8_driver.php" afterPath="$PROJECT_DIR$/election/system/database/drivers/oci8/oci8_driver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/drivers/oci8/oci8_forge.php" afterPath="$PROJECT_DIR$/election/system/database/drivers/oci8/oci8_forge.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/drivers/oci8/oci8_result.php" afterPath="$PROJECT_DIR$/election/system/database/drivers/oci8/oci8_result.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/drivers/oci8/oci8_utility.php" afterPath="$PROJECT_DIR$/election/system/database/drivers/oci8/oci8_utility.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/drivers/odbc/odbc_driver.php" afterPath="$PROJECT_DIR$/election/system/database/drivers/odbc/odbc_driver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/drivers/odbc/odbc_forge.php" afterPath="$PROJECT_DIR$/election/system/database/drivers/odbc/odbc_forge.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/drivers/odbc/odbc_result.php" afterPath="$PROJECT_DIR$/election/system/database/drivers/odbc/odbc_result.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/drivers/odbc/odbc_utility.php" afterPath="$PROJECT_DIR$/election/system/database/drivers/odbc/odbc_utility.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/libraries/output.html" afterPath="$PROJECT_DIR$/election/user_guide/libraries/output.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/libraries/pagination.html" afterPath="$PROJECT_DIR$/election/user_guide/libraries/pagination.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/libraries/parser.html" afterPath="$PROJECT_DIR$/election/user_guide/libraries/parser.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/helpers/path_helper.html" afterPath="$PROJECT_DIR$/election/user_guide/helpers/path_helper.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/helpers/path_helper.php" afterPath="$PROJECT_DIR$/election/system/helpers/path_helper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/drivers/pdo/pdo_driver.php" afterPath="$PROJECT_DIR$/election/system/database/drivers/pdo/pdo_driver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/drivers/pdo/pdo_forge.php" afterPath="$PROJECT_DIR$/election/system/database/drivers/pdo/pdo_forge.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/drivers/pdo/pdo_result.php" afterPath="$PROJECT_DIR$/election/system/database/drivers/pdo/pdo_result.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/drivers/pdo/pdo_utility.php" afterPath="$PROJECT_DIR$/election/system/database/drivers/pdo/pdo_utility.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/drivers/postgre/postgre_driver.php" afterPath="$PROJECT_DIR$/election/system/database/drivers/postgre/postgre_driver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/drivers/postgre/postgre_forge.php" afterPath="$PROJECT_DIR$/election/system/database/drivers/postgre/postgre_forge.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/drivers/postgre/postgre_result.php" afterPath="$PROJECT_DIR$/election/system/database/drivers/postgre/postgre_result.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/drivers/postgre/postgre_utility.php" afterPath="$PROJECT_DIR$/election/system/database/drivers/postgre/postgre_utility.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/application/config/profiler.php" afterPath="$PROJECT_DIR$/election/application/config/profiler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/language/english/profiler_lang.php" afterPath="$PROJECT_DIR$/election/system/language/english/profiler_lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/general/profiling.html" afterPath="$PROJECT_DIR$/election/user_guide/general/profiling.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/database/queries.html" afterPath="$PROJECT_DIR$/election/user_guide/database/queries.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/general/requirements.html" afterPath="$PROJECT_DIR$/election/user_guide/general/requirements.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/general/reserved_names.html" afterPath="$PROJECT_DIR$/election/user_guide/general/reserved_names.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/database/results.html" afterPath="$PROJECT_DIR$/election/user_guide/database/results.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/application/config/routes.php" afterPath="$PROJECT_DIR$/election/application/config/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/general/routing.html" afterPath="$PROJECT_DIR$/election/user_guide/general/routing.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/general/security.html" afterPath="$PROJECT_DIR$/election/user_guide/general/security.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/libraries/security.html" afterPath="$PROJECT_DIR$/election/user_guide/libraries/security.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/helpers/security_helper.html" afterPath="$PROJECT_DIR$/election/user_guide/helpers/security_helper.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/helpers/security_helper.php" afterPath="$PROJECT_DIR$/election/system/helpers/security_helper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/libraries/sessions.html" afterPath="$PROJECT_DIR$/election/user_guide/libraries/sessions.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/helpers/smiley_helper.html" afterPath="$PROJECT_DIR$/election/user_guide/helpers/smiley_helper.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/helpers/smiley_helper.php" afterPath="$PROJECT_DIR$/election/system/helpers/smiley_helper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/application/config/smileys.php" afterPath="$PROJECT_DIR$/election/application/config/smileys.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/drivers/sqlite/sqlite_driver.php" afterPath="$PROJECT_DIR$/election/system/database/drivers/sqlite/sqlite_driver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/drivers/sqlite/sqlite_forge.php" afterPath="$PROJECT_DIR$/election/system/database/drivers/sqlite/sqlite_forge.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/drivers/sqlite/sqlite_result.php" afterPath="$PROJECT_DIR$/election/system/database/drivers/sqlite/sqlite_result.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/drivers/sqlite/sqlite_utility.php" afterPath="$PROJECT_DIR$/election/system/database/drivers/sqlite/sqlite_utility.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/drivers/sqlsrv/sqlsrv_driver.php" afterPath="$PROJECT_DIR$/election/system/database/drivers/sqlsrv/sqlsrv_driver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/drivers/sqlsrv/sqlsrv_forge.php" afterPath="$PROJECT_DIR$/election/system/database/drivers/sqlsrv/sqlsrv_forge.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/drivers/sqlsrv/sqlsrv_result.php" afterPath="$PROJECT_DIR$/election/system/database/drivers/sqlsrv/sqlsrv_result.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/database/drivers/sqlsrv/sqlsrv_utility.php" afterPath="$PROJECT_DIR$/election/system/database/drivers/sqlsrv/sqlsrv_utility.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/tutorial/static_pages.html" afterPath="$PROJECT_DIR$/election/user_guide/tutorial/static_pages.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/helpers/string_helper.html" afterPath="$PROJECT_DIR$/election/user_guide/helpers/string_helper.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/helpers/string_helper.php" afterPath="$PROJECT_DIR$/election/system/helpers/string_helper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/general/styleguide.html" afterPath="$PROJECT_DIR$/election/user_guide/general/styleguide.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/libraries/table.html" afterPath="$PROJECT_DIR$/election/user_guide/libraries/table.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/helpers/text_helper.html" afterPath="$PROJECT_DIR$/election/user_guide/helpers/text_helper.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/helpers/text_helper.php" afterPath="$PROJECT_DIR$/election/system/helpers/text_helper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/libraries/trackback.html" afterPath="$PROJECT_DIR$/election/user_guide/libraries/trackback.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/database/transactions.html" afterPath="$PROJECT_DIR$/election/user_guide/database/transactions.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/installation/troubleshooting.html" afterPath="$PROJECT_DIR$/election/user_guide/installation/troubleshooting.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/libraries/typography.html" afterPath="$PROJECT_DIR$/election/user_guide/libraries/typography.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/helpers/typography_helper.html" afterPath="$PROJECT_DIR$/election/user_guide/helpers/typography_helper.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/helpers/typography_helper.php" afterPath="$PROJECT_DIR$/election/system/helpers/typography_helper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/language/english/unit_test_lang.php" afterPath="$PROJECT_DIR$/election/system/language/english/unit_test_lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/libraries/unit_testing.html" afterPath="$PROJECT_DIR$/election/user_guide/libraries/unit_testing.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/installation/upgrade_120.html" afterPath="$PROJECT_DIR$/election/user_guide/installation/upgrade_120.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/installation/upgrade_130.html" afterPath="$PROJECT_DIR$/election/user_guide/installation/upgrade_130.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/installation/upgrade_131.html" afterPath="$PROJECT_DIR$/election/user_guide/installation/upgrade_131.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/installation/upgrade_132.html" afterPath="$PROJECT_DIR$/election/user_guide/installation/upgrade_132.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/installation/upgrade_133.html" afterPath="$PROJECT_DIR$/election/user_guide/installation/upgrade_133.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/installation/upgrade_140.html" afterPath="$PROJECT_DIR$/election/user_guide/installation/upgrade_140.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/installation/upgrade_141.html" afterPath="$PROJECT_DIR$/election/user_guide/installation/upgrade_141.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/installation/upgrade_150.html" afterPath="$PROJECT_DIR$/election/user_guide/installation/upgrade_150.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/installation/upgrade_152.html" afterPath="$PROJECT_DIR$/election/user_guide/installation/upgrade_152.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/installation/upgrade_153.html" afterPath="$PROJECT_DIR$/election/user_guide/installation/upgrade_153.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/installation/upgrade_154.html" afterPath="$PROJECT_DIR$/election/user_guide/installation/upgrade_154.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/installation/upgrade_160.html" afterPath="$PROJECT_DIR$/election/user_guide/installation/upgrade_160.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/installation/upgrade_161.html" afterPath="$PROJECT_DIR$/election/user_guide/installation/upgrade_161.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/installation/upgrade_162.html" afterPath="$PROJECT_DIR$/election/user_guide/installation/upgrade_162.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/installation/upgrade_163.html" afterPath="$PROJECT_DIR$/election/user_guide/installation/upgrade_163.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/installation/upgrade_170.html" afterPath="$PROJECT_DIR$/election/user_guide/installation/upgrade_170.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/installation/upgrade_171.html" afterPath="$PROJECT_DIR$/election/user_guide/installation/upgrade_171.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/installation/upgrade_172.html" afterPath="$PROJECT_DIR$/election/user_guide/installation/upgrade_172.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/installation/upgrade_200.html" afterPath="$PROJECT_DIR$/election/user_guide/installation/upgrade_200.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/installation/upgrade_201.html" afterPath="$PROJECT_DIR$/election/user_guide/installation/upgrade_201.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/installation/upgrade_202.html" afterPath="$PROJECT_DIR$/election/user_guide/installation/upgrade_202.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/installation/upgrade_203.html" afterPath="$PROJECT_DIR$/election/user_guide/installation/upgrade_203.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/installation/upgrade_210.html" afterPath="$PROJECT_DIR$/election/user_guide/installation/upgrade_210.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/installation/upgrade_211.html" afterPath="$PROJECT_DIR$/election/user_guide/installation/upgrade_211.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/installation/upgrade_212.html" afterPath="$PROJECT_DIR$/election/user_guide/installation/upgrade_212.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/installation/upgrade_213.html" afterPath="$PROJECT_DIR$/election/user_guide/installation/upgrade_213.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/installation/upgrade_214.html" afterPath="$PROJECT_DIR$/election/user_guide/installation/upgrade_214.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/installation/upgrade_220.html" afterPath="$PROJECT_DIR$/election/user_guide/installation/upgrade_220.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/installation/upgrade_221.html" afterPath="$PROJECT_DIR$/election/user_guide/installation/upgrade_221.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/installation/upgrade_b11.html" afterPath="$PROJECT_DIR$/election/user_guide/installation/upgrade_b11.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/installation/upgrading.html" afterPath="$PROJECT_DIR$/election/user_guide/installation/upgrading.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/language/english/upload_lang.php" afterPath="$PROJECT_DIR$/election/system/language/english/upload_lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/libraries/uri.html" afterPath="$PROJECT_DIR$/election/user_guide/libraries/uri.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/helpers/url_helper.html" afterPath="$PROJECT_DIR$/election/user_guide/helpers/url_helper.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/helpers/url_helper.php" afterPath="$PROJECT_DIR$/election/system/helpers/url_helper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/general/urls.html" afterPath="$PROJECT_DIR$/election/user_guide/general/urls.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/application/models/user.php" afterPath="$PROJECT_DIR$/election/application/models/user.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/libraries/user_agent.html" afterPath="$PROJECT_DIR$/election/user_guide/libraries/user_agent.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/application/config/user_agents.php" afterPath="$PROJECT_DIR$/election/application/config/user_agents.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/database/utilities.html" afterPath="$PROJECT_DIR$/election/user_guide/database/utilities.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/application/controllers/verifylogin.php" afterPath="$PROJECT_DIR$/election/application/controllers/verifylogin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/general/views.html" afterPath="$PROJECT_DIR$/election/user_guide/general/views.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/application/views/welcome_message.php" afterPath="$PROJECT_DIR$/election/application/views/welcome_message.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/helpers/xml_helper.html" afterPath="$PROJECT_DIR$/election/user_guide/helpers/xml_helper.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/system/helpers/xml_helper.php" afterPath="$PROJECT_DIR$/election/system/helpers/xml_helper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/libraries/xmlrpc.html" afterPath="$PROJECT_DIR$/election/user_guide/libraries/xmlrpc.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/user_guide/libraries/zip.html" afterPath="$PROJECT_DIR$/election/user_guide/libraries/zip.html" />
     </list>
     <ignored path="arttvelection2015.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -508,134 +76,134 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home_admin.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="home_admin.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/election/application/views/home_admin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.018182">
-              <caret line="37" column="79" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="79" />
+            <state vertical-scroll-proportion="0.42348754">
+              <caret line="38" column="75" selection-start-line="38" selection-start-column="75" selection-end-line="38" selection-end-column="75" />
               <folding>
-                <marker date="1439147820782" expanded="true" signature="2322:2326" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="2861:11693" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="2984:9649" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="3063:3178" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="3284:3440" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="3319:3422" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="3553:3682" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="3797:6387" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="4025:6369" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="4073:4353" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="4221:4326" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="4444:4458" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="4459:6184" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="4520:4887" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="4948:5321" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="5382:5746" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="5807:6157" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="6243:6346" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="6499:9604" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="6725:9586" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="6773:7051" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="6915:7024" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="7122:7136" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="7137:9407" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="7198:7703" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="7365:7584" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="7528:7539" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="7764:8261" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="7916:8136" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="8080:8091" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="8322:8814" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="8475:8695" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="8639:8650" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="8875:9380" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="9022:9224" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="9166:9178" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="9466:9563" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="9759:9833" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="9944:11693" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="10010:11693" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="10049:11506" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="10171:11435" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="10239:11137" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="10273:10539" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="10573:10825" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="10859:11106" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="11191:11408" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="11545:11693" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="11772:11868" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="11918:12170" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="12224:12441" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="12580:12729" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="12812:12904" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="12954:13210" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="13264:13481" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="13621:14272" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="13743:14202" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="13956:14174" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="14355:22962" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="14394:19961" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="14438:19936" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="14551:19855" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="14607:15872" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="14669:14855" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="14923:14939" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="14940:15837" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="15238:15799" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="15440:15757" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="15942:19823" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="16006:19787" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="16078:19748" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="16126:16606" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="16171:16557" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="16654:19703" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="16699:17255" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="17300:17856" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="17901:18451" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="18496:19052" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="19097:19653" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="20000:22943" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="20047:22871" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="20152:22844" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="20205:21394" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="20263:20425" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="20489:20505" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="20506:21363" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="20792:21329" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="20986:21291" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="21460:22817" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="21520:22785" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="21588:22750" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="21632:21895" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="21673:21850" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="21939:22709" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="21980:22182" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="22223:22425" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="22466:22663" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="22993:26757" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="23033:24845" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="23144:24767" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="23196:24383" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="23254:23414" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="23478:23494" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="23495:24352" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="23781:24318" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="23975:24280" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="24442:24740" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="24884:26738" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="24989:26666" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="25041:26240" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="25099:25271" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="25335:25351" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="25352:26209" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="25638:26175" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="25832:26137" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="26299:26639" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="26991:27713" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="27022:27706" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="27054:27695" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="27195:27366" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="27402:27680" placeholder="..." />
-                <marker date="1439147820782" expanded="true" signature="27443:27661" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="2322:2326" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="2828:11660" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="2951:9616" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="3030:3145" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="3251:3407" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="3286:3389" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="3520:3649" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="3764:6354" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="3992:6336" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="4040:4320" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="4188:4293" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="4411:4425" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="4426:6151" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="4487:4854" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="4915:5288" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="5349:5713" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="5774:6124" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="6210:6313" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="6466:9571" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="6692:9553" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="6740:7018" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="6882:6991" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="7089:7103" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="7104:9374" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="7165:7670" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="7332:7551" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="7495:7506" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="7731:8228" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="7883:8103" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="8047:8058" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="8289:8781" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="8442:8662" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="8606:8617" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="8842:9347" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="8989:9191" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="9133:9145" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="9433:9530" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="9726:9800" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="9911:11660" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="9977:11660" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="10016:11473" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="10138:11402" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="10206:11104" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="10240:10506" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="10540:10792" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="10826:11073" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="11158:11375" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="11512:11660" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="11739:11835" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="11885:12137" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="12191:12408" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="12547:12696" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="12779:12871" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="12921:13177" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="13231:13448" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="13588:14239" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="13710:14169" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="13923:14141" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="14322:22929" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="14361:19928" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="14405:19903" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="14518:19822" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="14574:15839" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="14636:14822" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="14890:14906" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="14907:15804" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="15205:15766" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="15407:15724" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="15909:19790" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="15973:19754" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="16045:19715" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="16093:16573" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="16138:16524" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="16621:19670" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="16666:17222" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="17267:17823" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="17868:18418" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="18463:19019" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="19064:19620" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="19967:22910" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="20014:22838" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="20119:22811" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="20172:21361" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="20230:20392" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="20456:20472" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="20473:21330" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="20759:21296" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="20953:21258" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="21427:22784" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="21487:22752" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="21555:22717" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="21599:21862" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="21640:21817" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="21906:22676" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="21947:22149" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="22190:22392" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="22433:22630" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="22960:26724" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="23000:24812" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="23111:24734" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="23163:24350" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="23221:23381" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="23445:23461" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="23462:24319" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="23748:24285" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="23942:24247" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="24409:24707" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="24851:26705" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="24956:26633" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="25008:26207" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="25066:25238" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="25302:25318" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="25319:26176" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="25605:26142" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="25799:26104" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="26266:26606" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="26958:27680" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="26989:27673" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="27021:27662" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="27162:27333" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="27369:27647" placeholder="..." />
+                <marker date="1439149463897" expanded="true" signature="27410:27628" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -651,11 +219,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home_presenter.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home_presenter.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/election/application/views/home_presenter.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1641286">
-              <caret line="37" column="79" selection-start-line="37" selection-start-column="79" selection-end-line="37" selection-end-column="79" />
+            <state vertical-scroll-proportion="-12.230769">
+              <caret line="50" column="155" selection-start-line="50" selection-start-column="155" selection-end-line="50" selection-end-column="155" />
               <folding />
             </state>
           </provider>
@@ -664,8 +232,8 @@
       <file leaf-file-name="home_mcr.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/election/application/views/home_mcr.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.1923075">
-              <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+            <state vertical-scroll-proportion="-10.461538">
+              <caret line="49" column="155" selection-start-line="47" selection-start-column="12" selection-end-line="49" selection-end-column="155" />
               <folding />
             </state>
           </provider>
@@ -717,10 +285,10 @@
         <option value="$PROJECT_DIR$/election/application/models/user.php" />
         <option value="$PROJECT_DIR$/election/application/controllers/verifylogin.php" />
         <option value="$PROJECT_DIR$/election/application/controllers/elect.php" />
-        <option value="$PROJECT_DIR$/election/application/views/home_admin.php" />
         <option value="$PROJECT_DIR$/election/application/views/login_view.php" />
         <option value="$PROJECT_DIR$/election/application/controllers/home.php" />
         <option value="$PROJECT_DIR$/election/application/views/home_mcr.php" />
+        <option value="$PROJECT_DIR$/election/application/views/home_admin.php" />
         <option value="$PROJECT_DIR$/election/application/views/home_presenter.php" />
       </list>
     </option>
@@ -930,7 +498,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1376" height="754" extended-state="7" />
+    <frame x="-8" y="-8" width="1376" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19338235" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1346,150 +914,150 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/election/application/views/home_admin.php">
+    <entry file="file://$PROJECT_DIR$/election/application/views/home_presenter.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.018182">
-          <caret line="37" column="79" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="79" />
-          <folding>
-            <marker date="1439147820782" expanded="true" signature="2322:2326" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="2861:11693" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="2984:9649" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="3063:3178" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="3284:3440" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="3319:3422" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="3553:3682" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="3797:6387" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="4025:6369" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="4073:4353" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="4221:4326" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="4444:4458" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="4459:6184" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="4520:4887" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="4948:5321" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="5382:5746" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="5807:6157" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="6243:6346" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="6499:9604" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="6725:9586" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="6773:7051" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="6915:7024" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="7122:7136" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="7137:9407" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="7198:7703" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="7365:7584" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="7528:7539" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="7764:8261" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="7916:8136" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="8080:8091" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="8322:8814" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="8475:8695" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="8639:8650" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="8875:9380" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="9022:9224" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="9166:9178" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="9466:9563" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="9759:9833" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="9944:11693" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="10010:11693" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="10049:11506" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="10171:11435" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="10239:11137" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="10273:10539" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="10573:10825" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="10859:11106" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="11191:11408" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="11545:11693" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="11772:11868" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="11918:12170" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="12224:12441" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="12580:12729" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="12812:12904" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="12954:13210" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="13264:13481" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="13621:14272" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="13743:14202" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="13956:14174" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="14355:22962" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="14394:19961" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="14438:19936" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="14551:19855" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="14607:15872" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="14669:14855" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="14923:14939" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="14940:15837" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="15238:15799" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="15440:15757" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="15942:19823" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="16006:19787" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="16078:19748" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="16126:16606" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="16171:16557" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="16654:19703" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="16699:17255" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="17300:17856" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="17901:18451" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="18496:19052" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="19097:19653" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="20000:22943" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="20047:22871" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="20152:22844" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="20205:21394" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="20263:20425" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="20489:20505" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="20506:21363" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="20792:21329" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="20986:21291" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="21460:22817" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="21520:22785" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="21588:22750" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="21632:21895" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="21673:21850" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="21939:22709" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="21980:22182" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="22223:22425" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="22466:22663" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="22993:26757" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="23033:24845" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="23144:24767" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="23196:24383" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="23254:23414" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="23478:23494" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="23495:24352" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="23781:24318" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="23975:24280" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="24442:24740" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="24884:26738" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="24989:26666" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="25041:26240" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="25099:25271" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="25335:25351" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="25352:26209" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="25638:26175" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="25832:26137" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="26299:26639" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="26991:27713" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="27022:27706" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="27054:27695" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="27195:27366" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="27402:27680" placeholder="..." />
-            <marker date="1439147820782" expanded="true" signature="27443:27661" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="-12.230769">
+          <caret line="50" column="155" selection-start-line="50" selection-start-column="155" selection-end-line="50" selection-end-column="155" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/election/application/views/home_mcr.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.1923075">
-          <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+        <state vertical-scroll-proportion="-10.461538">
+          <caret line="49" column="155" selection-start-line="47" selection-start-column="12" selection-end-line="49" selection-end-column="155" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/election/application/views/home_presenter.php">
+    <entry file="file://$PROJECT_DIR$/election/application/views/home_admin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1641286">
-          <caret line="37" column="79" selection-start-line="37" selection-start-column="79" selection-end-line="37" selection-end-column="79" />
-          <folding />
+        <state vertical-scroll-proportion="0.42348754">
+          <caret line="38" column="75" selection-start-line="38" selection-start-column="75" selection-end-line="38" selection-end-column="75" />
+          <folding>
+            <marker date="1439149463897" expanded="true" signature="2322:2326" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="2828:11660" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="2951:9616" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="3030:3145" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="3251:3407" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="3286:3389" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="3520:3649" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="3764:6354" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="3992:6336" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="4040:4320" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="4188:4293" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="4411:4425" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="4426:6151" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="4487:4854" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="4915:5288" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="5349:5713" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="5774:6124" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="6210:6313" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="6466:9571" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="6692:9553" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="6740:7018" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="6882:6991" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="7089:7103" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="7104:9374" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="7165:7670" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="7332:7551" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="7495:7506" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="7731:8228" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="7883:8103" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="8047:8058" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="8289:8781" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="8442:8662" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="8606:8617" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="8842:9347" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="8989:9191" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="9133:9145" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="9433:9530" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="9726:9800" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="9911:11660" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="9977:11660" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="10016:11473" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="10138:11402" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="10206:11104" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="10240:10506" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="10540:10792" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="10826:11073" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="11158:11375" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="11512:11660" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="11739:11835" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="11885:12137" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="12191:12408" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="12547:12696" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="12779:12871" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="12921:13177" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="13231:13448" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="13588:14239" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="13710:14169" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="13923:14141" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="14322:22929" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="14361:19928" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="14405:19903" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="14518:19822" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="14574:15839" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="14636:14822" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="14890:14906" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="14907:15804" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="15205:15766" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="15407:15724" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="15909:19790" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="15973:19754" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="16045:19715" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="16093:16573" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="16138:16524" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="16621:19670" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="16666:17222" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="17267:17823" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="17868:18418" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="18463:19019" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="19064:19620" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="19967:22910" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="20014:22838" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="20119:22811" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="20172:21361" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="20230:20392" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="20456:20472" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="20473:21330" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="20759:21296" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="20953:21258" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="21427:22784" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="21487:22752" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="21555:22717" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="21599:21862" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="21640:21817" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="21906:22676" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="21947:22149" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="22190:22392" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="22433:22630" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="22960:26724" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="23000:24812" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="23111:24734" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="23163:24350" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="23221:23381" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="23445:23461" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="23462:24319" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="23748:24285" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="23942:24247" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="24409:24707" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="24851:26705" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="24956:26633" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="25008:26207" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="25066:25238" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="25302:25318" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="25319:26176" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="25605:26142" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="25799:26104" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="26266:26606" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="26958:27680" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="26989:27673" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="27021:27662" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="27162:27333" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="27369:27647" placeholder="..." />
+            <marker date="1439149463897" expanded="true" signature="27410:27628" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
