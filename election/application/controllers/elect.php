@@ -7,17 +7,20 @@
  */
 class Elect extends CI_controller
 {
-    function Index()
-    {
 
-        $this->load->view('index');
-
-    }
     function get_admin_home()
     {
 
         $this->load->helper('url');
-        $this->load->view('home_admin');
+        if($this->session->userdata('logged_in'))
+        {
+            $session_data = $this->session->userdata('logged_in');
+            $data['username'] = $session_data['username'];
+            $data['id'] = $session_data['id'];
+            $data['type'] = $session_data['type'];
+            $this->load->view('home_admin', $data);
+        }
+        //$this->load->view('home_admin');
 
     }
 
@@ -25,7 +28,15 @@ class Elect extends CI_controller
     {
 
         $this->load->helper('url');
-        $this->load->view('home_presenter');
+        if($this->session->userdata('logged_in'))
+        {
+            $session_data = $this->session->userdata('logged_in');
+            $data['username'] = $session_data['username'];
+            $data['id'] = $session_data['id'];
+            $data['type'] = $session_data['type'];
+            $this->load->view('home_presenter', $data);
+        }
+        //$this->load->view('');
 
     }
 
@@ -33,7 +44,15 @@ class Elect extends CI_controller
     {
 
         $this->load->helper('url');
-        $this->load->view('home_mcr');
+        if($this->session->userdata('logged_in'))
+        {
+            $session_data = $this->session->userdata('logged_in');
+            $data['username'] = $session_data['username'];
+            $data['id'] = $session_data['id'];
+            $data['type'] = $session_data['type'];
+            $this->load->view('home_mcr', $data);
+        }
+        //$this->load->view('home_mcr');
 
     }
 }
