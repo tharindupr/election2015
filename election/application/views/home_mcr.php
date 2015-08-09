@@ -45,10 +45,6 @@
                 </div>
             </li>
             <li class="xn-title">View as:</li>
-            <li class="active">
-                <a href="<?php echo site_url('elect/get_admin_home') ?>"><span class="fa fa-desktop"></span> <span class="xn-text">Admin</span></a>
-            </li>
-            <li><a href="<?php echo site_url('elect/get_presenter_home') ?>"><span class="fa fa-desktop"></span>Presenter</a></li>
             <li><a href="<?php echo site_url('elect/get_mcr_home') ?>"><span class="fa fa-desktop"></span>MCR</a></li>
 
 
@@ -268,15 +264,15 @@
             <!-- END WIDGETS -->
 
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-md-12">
 
                     <div id="admin_table">
                         <!-- START PROJECTS BLOCK -->
                         <div  class="panel panel-default">
                             <div class="panel-heading">
                                 <div class="panel-title-box">
-                                    <h3>Released Results</h3>
-                                    <span>Admin View list of released results</span>
+                                    <h3>Projects</h3>
+                                    <span>Projects activity</span>
                                 </div>
                                 <ul class="panel-controls" style="margin-top: 2px;">
                                     <li><a href="#" class="panel-fullscreen"><span class="fa fa-expand"></span></a></li>
@@ -299,44 +295,32 @@
                                             <th width="10%">Number</th>
                                             <th width="60%">Name</th>
                                             <th width="10%"></th>
-                                            <th width="10%"></th>
-                                            <th width="10%"></th>
                                         </tr>
                                         </thead>
                                         <tbody>
                                         <tr>
                                             <td><strong>01A</strong></td>
                                             <td><strong>Colombo North - Colombo</strong></td>
-                                            <td><button type="button" class="btn btn-default">Generate</button></td>
-                                            <td><button type="button" class="btn btn-default">Add</button></td>
                                             <td><button type="button" class="btn btn-default">View</button></td>
                                         </tr>
                                         <tr>
                                             <td><strong>01B</strong></td>
                                             <td><strong>Colombo South - Colombo</strong></td>
-                                            <td><button type="button" class="btn btn-default">Generate</button></td>
-                                            <td><button type="button" class="btn btn-default">Add</button></td>
                                             <td><button type="button" class="btn btn-default">View</button></td>
                                         </tr>
                                         <tr>
                                             <td><strong>02A</strong></td>
                                             <td><strong>Gampaha - Gampaha</strong></td>
-                                            <td><button type="button" class="btn btn-default">Generate</button></td>
-                                            <td><button type="button" class="btn btn-default">Add</button></td>
                                             <td><button type="button" class="btn btn-default">View</button></td>
                                         </tr>
                                         <tr>
                                             <td><strong>02B</strong></td>
                                             <td><strong>Colombo North - Colombo</strong></td>
-                                            <td><button type="button" class="btn btn-default">Generate</button></td>
-                                            <td><button type="button" class="btn btn-default">Add</button></td>
                                             <td><button type="button" class="btn btn-default">View</button></td>
                                         </tr>
                                         <tr>
                                             <td><strong>04P</strong></td>
                                             <td><strong>Colombo North - Colombo</strong></td>
-                                            <td><button type="button" class="btn btn-default">Generate</button></td>
-                                            <td><button type="button" class="btn btn-default">Add</button></td>
                                             <td><button type="button" class="btn btn-default">View</button></td>
                                         </tr>
 
@@ -348,69 +332,12 @@
 
                         </div>
 
-                        <!-- END PROJECTS BLOCK -->
 
                     </div>
 
 
                 </div>
-                <div class="col-md-4">
-                    <div id="presenter_table">
 
-                    <!-- START PROJECTS BLOCK -->
-                    <div class="panel panel-default" >
-                        <div class="panel-heading">
-                            <div class="panel-title-box">
-                                <h3>Presenter View</h3>
-                                <span>Added Cards for Presenter</span>
-                            </div>
-                            <ul class="panel-controls" style="margin-top: 2px;">
-                                <li><a href="#" class="panel-fullscreen"><span class="fa fa-expand"></span></a></li>
-                                <li><a href="#" class="panel-refresh"><span class="fa fa-refresh"></span></a></li>
-                                <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="fa fa-cog"></span></a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="#" class="panel-collapse"><span class="fa fa-angle-down"></span> Collapse</a></li>
-                                        <li><a href="#" class="panel-remove"><span class="fa fa-times"></span> Remove</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="panel-body panel-body-table">
-
-                            <div class="table-responsive">
-                                <table class="table table-striped">
-                                    <thead>
-                                    <tr>
-                                        <th width="20%">Number</th>
-                                        <th width="80%">Name</th>
-
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    <tr>
-                                        <td><strong>01A</strong></td>
-                                        <td><strong>Colombo North - Colombo</strong></td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>01B</strong></td>
-                                        <td><strong>Colombo South - Colombo</strong></td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>02A</strong></td>
-                                        <td><strong>Gampaha  - Gampaha</strong></td>
-                                    </tr>
-
-                                    </tbody>
-                                </table>
-                            </div>
-
-                        </div>
-                    </div>
-                    </div>
-                    <!-- END PROJECTS BLOCK -->
-
-                </div>
             </div>
 
             <div class="row">

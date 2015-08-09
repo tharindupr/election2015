@@ -9,3 +9,14 @@
     height: 400px;
     overflow: auto;
 }
+
+.x-navigation > li.xn-logo > a:first-child {
+
+    background: url("../img/arttv.png") top center no-repeat #e34724;
+
+}
+
+.x-navigation.x-navigation-minimized > li.xn-logo > a:first-child {
+
+    background-image: url("../img/arttv-small.jpg");
+}
