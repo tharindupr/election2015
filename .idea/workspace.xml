@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5b8b0138-6979-4843-a807-d626d5d21837" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/application/views/home_admin.php" afterPath="$PROJECT_DIR$/election/application/views/home_admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="arttvelection2015.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -68,10 +67,10 @@
       <file leaf-file-name="home_admin.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/election/application/views/home_admin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.23011844">
-              <caret line="308" column="147" selection-start-line="308" selection-start-column="147" selection-end-line="308" selection-end-column="147" />
+            <state vertical-scroll-proportion="-4.292724">
+              <caret line="297" column="70" selection-start-line="297" selection-start-column="70" selection-end-line="297" selection-end-column="70" />
               <folding>
-                <marker date="1439233541760" expanded="true" signature="2330:2334" placeholder="..." />
+                <marker date="1439234622447" expanded="true" signature="2330:2334" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -376,7 +375,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1376" height="754" extended-state="7" />
+    <frame x="-8" y="-8" width="1376" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19338235" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -789,10 +788,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/election/application/views/home_admin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23011844">
-          <caret line="308" column="147" selection-start-line="308" selection-start-column="147" selection-end-line="308" selection-end-column="147" />
+        <state vertical-scroll-proportion="-4.292724">
+          <caret line="297" column="70" selection-start-line="297" selection-start-column="70" selection-end-line="297" selection-end-column="70" />
           <folding>
-            <marker date="1439233541760" expanded="true" signature="2330:2334" placeholder="..." />
+            <marker date="1439234622447" expanded="true" signature="2330:2334" placeholder="..." />
           </folding>
         </state>
       </provider>

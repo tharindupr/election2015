@@ -75,18 +75,7 @@
                     <input type="text" name="search" placeholder="Search..."/>
                 </form>
             </li>
-            <li class="xn-search">
-                <form>
-                    <div class="form-group">
-                        <div class="input-group">
-                            <div class="input-group-addon"><i class="fa fa-search"></i></div>
 
-                            <input type="text" class="form-control" placeholder="Search Polling Divisions" ng-model="searchFish">
-
-                        </div>
-                    </div>
-                </form>
-            </li>
             <!-- END SEARCH -->
             <!-- SIGN OUT -->
             <li class="xn-icon-button pull-right">
@@ -306,7 +295,7 @@
                             <div class="panel-body panel-body-table">
 
                                 <div class="table-responsive">
-                                    <table class="table table-striped" ng-repeat="roll in sushi | orderBy:sortType:sortReverse | filter:searchFish">
+                                    <table class="table table-striped">
                                         <thead>
                                         <tr >
                                             <th width="10%">Number</th>
