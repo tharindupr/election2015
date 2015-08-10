@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app >
 <head>
     <!-- META SECTION -->
     <title>General Election-2015</title>
@@ -73,6 +73,18 @@
             <li class="xn-search">
                 <form role="form">
                     <input type="text" name="search" placeholder="Search..."/>
+                </form>
+            </li>
+            <li class="xn-search">
+                <form>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <div class="input-group-addon"><i class="fa fa-search"></i></div>
+
+                            <input type="text" class="form-control" placeholder="Search Polling Divisions" ng-model="searchFish">
+
+                        </div>
+                    </div>
                 </form>
             </li>
             <!-- END SEARCH -->
@@ -294,9 +306,9 @@
                             <div class="panel-body panel-body-table">
 
                                 <div class="table-responsive">
-                                    <table class="table table-striped">
+                                    <table class="table table-striped" ng-repeat="roll in sushi | orderBy:sortType:sortReverse | filter:searchFish">
                                         <thead>
-                                        <tr>
+                                        <tr >
                                             <th width="10%">Number</th>
                                             <th width="60%">Name</th>
                                             <th width="10%"></th>
@@ -545,6 +557,8 @@
 
 <script type="text/javascript" src="<?php echo base_url('js/demo_dashboard.js'); ?>"></script>
 <!-- END TEMPLATE -->
+<script type="text/javascript" src="<?php echo base_url('js/angular.js'); ?>"></script>
+<script type="text/javascript" src="<?php echo base_url('js/angular.min.js'); ?>"></script>
 <!-- END SCRIPTS -->
 </body>
 </html>
