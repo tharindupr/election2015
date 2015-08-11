@@ -295,23 +295,6 @@ def download(serverName,userName,passWord,remotePath,localPath):
                  print(localFile)
                  grabFile = True
                  if grabFile:
-                   if(fl=="AICOMP.txt" or fl=="AINAST.txt" or fl=="AIVOTS.txt" or fl=="AIVOTV.txt"):
-                        fileObj = open(localFile, 'wb')
-                        fileObj1 = open(localFile1, 'wb')
-                        
-                        # Download the file a chunk at a time using RETR
-                        ftp.retrbinary('RETR ' + fl, fileObj.write)
-                        ftp.retrbinary('RETR ' + fl, fileObj1.write)
-
-                                                 
-                             
-                             
-                        # Close the file
-                        fileObj.close()
-                        fileObj1.close()
-                        
-                        
-                   else:
                         fileObj = open(localFile, 'wb')
                         fileObj1 = open(localFile1, 'wb')
                         
@@ -329,7 +312,7 @@ def download(serverName,userName,passWord,remotePath,localPath):
      except:
           print "Connection Error"
 
-
+     ftp.close()
 
 while(True):     
      download('31.220.16.10','u764471038','1992july07438','','')

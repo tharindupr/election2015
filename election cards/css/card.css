@@ -1,0 +1,259 @@
+
+
+body {
+  margin: 0px;
+  padding: 0px;
+
+}
+@font-face {
+    font-family: Jaguar_Bold;
+    src: url(../fonts/Jaguar-Bold.otf);
+}
+@font-face {
+    font-family: Kalinga;
+    src: url(../fonts/kalingab_0.ttf);
+}
+
+#innerbox
+{
+    position:fixed;
+   
+    width:720px;
+    height:567px;
+   
+    background-image: url("../img/Theme-Card.png");
+}
+
+#district
+{
+position: absolute;
+	font-family: "Jaguar_Bold";
+	font-size:20px;
+	color:white;
+	top: 22%;
+	left: 16.5%;
+
+}
+
+#polling
+{
+position: absolute;
+	font-family: "Jaguar_Bold";
+	font-size:20px;
+	color:black;
+	top: 30%;
+	left: 12%
+
+}
+
+
+#party1
+{
+position: absolute;
+	font-family: "Kalinga";
+	font-size:20px;
+	color:black;
+	top: 40%;
+	left: 27%
+
+}
+#party1votes
+{
+position: absolute;
+	font-family: "Kalinga";
+	font-size:20px;
+	text-align: right;
+	color:black;
+	top: 40%;
+	left: 60%;
+	width:80px;
+
+}
+#party1percentage
+{
+	position: absolute;
+	font-family: "Kalinga";
+	font-size:20px;
+	text-align: right;
+	color:black;
+	top: 40%;
+	left: 76%;
+	width:80px;
+
+}
+
+#party2
+{
+position: absolute;
+	font-family: "Kalinga";
+	font-size:20px;
+	color:black;
+	top: 51%;
+	left: 27%
+
+}
+
+#party2votes
+{
+position: absolute;
+	font-family: "Kalinga";
+	font-size:20px;
+	text-align: right;
+	color:black;
+	top: 51%;
+	left: 60%;
+	width:80px;
+
+}
+#party2percentage
+{
+	position: absolute;
+	font-family: "Kalinga";
+	font-size:20px;
+	text-align: right;
+	color:black;
+	top: 51%;
+	left: 76%;
+	width:80px;
+
+}
+
+#party3
+{
+position: absolute;
+	font-family: "Kalinga";
+	font-size:20px;
+	color:black;
+	top: 63%;
+	left: 27%
+
+}
+#party3votes
+{
+position: absolute;
+	font-family: "Kalinga";
+	font-size:20px;
+	text-align: right;
+	color:black;
+	top: 63%;
+	left: 60%;
+	width:80px;
+
+}
+#party3percentage
+{
+	position: absolute;
+	font-family: "Kalinga";
+	font-size:20px;
+	text-align: right;
+	color:black;
+	top: 63%;
+	left: 76%;
+	width:80px;
+
+}
+#party4
+{
+position: absolute;
+	font-family: "Kalinga";
+	font-size:20px;
+	color:black;
+	top: 74%;
+	left: 27%
+
+}
+#party4votes
+{
+position: absolute;
+	font-family: "Kalinga";
+	font-size:20px;
+	text-align: right;
+	color:black;
+	top: 74%;
+	left: 60%;
+	width:80px;
+
+}
+#party4percentage
+{
+	position: absolute;
+	font-family: "Kalinga";
+	font-size:20px;
+	text-align: right;
+	color:black;
+	top: 74%;
+	left: 76%;
+	width:80px;
+
+}
+
+#progress1 { 
+	height: 15px;  /* Can be anything */
+	width:342px;
+	background-color: white;
+	position:fixed;
+	top: 41%;
+	left: 12.5%;
+	
+	
+}
+#progress2 { 
+	height: 15px;  /* Can be anything */
+	width:342px;
+	background-color: white;
+	position:fixed;
+	top: 51%;
+	left: 12.5%;
+	
+	
+}
+#progress3 { 
+	height: 15px;  /* Can be anything */
+	width:342px;
+	background-color: white;
+	position:fixed;
+	top: 62%;
+	left: 12.5%;
+	
+	
+}
+#progress4 { 
+	height: 15px;  /* Can be anything */
+	width:342px;
+	background-color: white;
+	position:fixed;
+	top: 72%;
+	left: 12.5%;
+
+}
+
+#logo1{
+    height:62px;
+	width:74px;
+	position:fixed;
+	top: 34.5%;
+	left: 6.2%;
+}
+#logo2{
+    height:62px;
+	width:74px;
+	position:fixed;
+	top: 45%;
+	left: 6.2%;
+}
+#logo3{
+    height:62px;
+	width:74px;
+	position:fixed;
+	top: 55.5%;
+	left: 6.2%;
+}
+#logo4{
+    height:62px;
+	width:74px;
+	position:fixed;
+	top: 66%;
+	left: 6.2%;
+}
+
+
