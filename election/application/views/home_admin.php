@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app >
+<html lang="en" >
 <head>
     <!-- META SECTION -->
     <title>General Election-2015</title>
@@ -174,13 +174,6 @@
             <!-- END TASKS -->
         </ul>
         <!-- END X-NAVIGATION VERTICAL -->
-
-        <!-- START BREADCRUMB -->
-        <ul class="breadcrumb">
-            <li class="active">Administrator Dashboard</li>
-        </ul>
-        <!-- END BREADCRUMB -->
-
         <!-- PAGE CONTENT WRAPPER -->
         <div class="page-content-wrap">
 
@@ -268,150 +261,254 @@
                 </div>
             </div>
             <!-- END WIDGETS -->
+            <br>
+            <br>
+
 
             <div class="row">
-                <div class="col-md-8">
+                <div id="content">
+                    <ul id="tabs" class="nav nav-tabs  nav-justified" data-tabs="tabs">
+                        <li class="active"><a href="#home" data-toggle="tab">Home</a></li>
+                        <li><a href="#presenter" data-toggle="tab">Presenter</a></li>
+                        <li><a href="#user" data-toggle="tab">User</a></li>
+                        <li><a href="#polling_division" data-toggle="tab">Polling Division</a></li>
+                        <li><a href="#other" data-toggle="tab">Other</a></li>
+                    </ul>
+                    <br>
+                    <div id="my-tab-content" class="tab-content">
+                        <div class="tab-pane active" id="home">
+                            <div class="col-md-8">
 
-                    <div id="admin_table">
-                        <!-- START PROJECTS BLOCK -->
-                        <div  class="panel panel-default">
-                            <div class="panel-heading">
-                                <div class="panel-title-box">
-                                    <h3>Released Results</h3>
-                                    <span>Admin View list of released results</span>
+                                <div id="admin_table">
+                                    <!-- START PROJECTS BLOCK -->
+                                    <div  class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <div class="panel-title-box">
+                                                <h3>Released Results</h3>
+                                                <span>Admin View list of released results</span>
+                                            </div>
+                                            <ul class="panel-controls" style="margin-top: 2px;">
+                                                <li><a href="#" class="panel-fullscreen"><span class="fa fa-expand"></span></a></li>
+                                                <li><a href="#" class="panel-refresh"><span class="fa fa-refresh"></span></a></li>
+                                                <li class="dropdown">
+                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="fa fa-cog"></span></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="#" class="panel-collapse"><span class="fa fa-angle-down"></span> Collapse</a></li>
+                                                        <li><a href="#" class="panel-remove"><span class="fa fa-times"></span> Remove</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="panel-body panel-body-table">
+
+                                            <div class="table-responsive">
+                                                <table class="table table-striped">
+                                                    <thead>
+                                                    <tr >
+                                                        <th width="10%">Number</th>
+                                                        <th width="60%">Name</th>
+                                                        <th width="10%"></th>
+                                                        <th width="10%"></th>
+                                                        <th width="10%"></th>
+                                                    </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                    <tr>
+                                                        <td><strong>01A</strong></td>
+                                                        <td><strong>Colombo North - Colombo</strong></td>
+                                                        <td><button type="button" class="btn btn-default">Generate</button></td>
+                                                        <td><button type="button" class="btn btn-default">Add</button></td>
+                                                        <td><button type="button" class="btn btn-default">View</button></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><strong>01B</strong></td>
+                                                        <td><strong>Colombo South - Colombo</strong></td>
+                                                        <td><button type="button" class="btn btn-default">Generate</button></td>
+                                                        <td><button type="button" class="btn btn-default">Add</button></td>
+                                                        <td><button type="button" class="btn btn-default">View</button></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><strong>02A</strong></td>
+                                                        <td><strong>Gampaha - Gampaha</strong></td>
+                                                        <td><button type="button" class="btn btn-default">Generate</button></td>
+                                                        <td><button type="button" class="btn btn-default">Add</button></td>
+                                                        <td><button type="button" class="btn btn-default">View</button></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><strong>02B</strong></td>
+                                                        <td><strong>Colombo North - Colombo</strong></td>
+                                                        <td><button type="button" class="btn btn-default">Generate</button></td>
+                                                        <td><button type="button" class="btn btn-default">Add</button></td>
+                                                        <td><button type="button" class="btn btn-default">View</button></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><strong>04P</strong></td>
+                                                        <td><strong>Colombo North - Colombo</strong></td>
+                                                        <td><button type="button" class="btn btn-default">Generate</button></td>
+                                                        <td><button type="button" class="btn btn-default">Add</button></td>
+                                                        <td><button type="button" class="btn btn-default">View</button></td>
+                                                    </tr>
+
+                                                    </tbody>
+                                                </table>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <!-- END PROJECTS BLOCK -->
+
                                 </div>
-                                <ul class="panel-controls" style="margin-top: 2px;">
-                                    <li><a href="#" class="panel-fullscreen"><span class="fa fa-expand"></span></a></li>
-                                    <li><a href="#" class="panel-refresh"><span class="fa fa-refresh"></span></a></li>
-                                    <li class="dropdown">
-                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="fa fa-cog"></span></a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="#" class="panel-collapse"><span class="fa fa-angle-down"></span> Collapse</a></li>
-                                            <li><a href="#" class="panel-remove"><span class="fa fa-times"></span> Remove</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
+
+
                             </div>
-                            <div class="panel-body panel-body-table">
+                            <div class="col-md-4">
+                                <div id="presenter_table">
 
-                                <div class="table-responsive">
-                                    <table class="table table-striped">
-                                        <thead>
-                                        <tr >
-                                            <th width="10%">Number</th>
-                                            <th width="60%">Name</th>
-                                            <th width="10%"></th>
-                                            <th width="10%"></th>
-                                            <th width="10%"></th>
-                                        </tr>
-                                        </thead>
-                                        <tbody>
-                                        <tr>
-                                            <td><strong>01A</strong></td>
-                                            <td><strong>Colombo North - Colombo</strong></td>
-                                            <td><button type="button" class="btn btn-default">Generate</button></td>
-                                            <td><button type="button" class="btn btn-default">Add</button></td>
-                                            <td><button type="button" class="btn btn-default">View</button></td>
-                                        </tr>
-                                        <tr>
-                                            <td><strong>01B</strong></td>
-                                            <td><strong>Colombo South - Colombo</strong></td>
-                                            <td><button type="button" class="btn btn-default">Generate</button></td>
-                                            <td><button type="button" class="btn btn-default">Add</button></td>
-                                            <td><button type="button" class="btn btn-default">View</button></td>
-                                        </tr>
-                                        <tr>
-                                            <td><strong>02A</strong></td>
-                                            <td><strong>Gampaha - Gampaha</strong></td>
-                                            <td><button type="button" class="btn btn-default">Generate</button></td>
-                                            <td><button type="button" class="btn btn-default">Add</button></td>
-                                            <td><button type="button" class="btn btn-default">View</button></td>
-                                        </tr>
-                                        <tr>
-                                            <td><strong>02B</strong></td>
-                                            <td><strong>Colombo North - Colombo</strong></td>
-                                            <td><button type="button" class="btn btn-default">Generate</button></td>
-                                            <td><button type="button" class="btn btn-default">Add</button></td>
-                                            <td><button type="button" class="btn btn-default">View</button></td>
-                                        </tr>
-                                        <tr>
-                                            <td><strong>04P</strong></td>
-                                            <td><strong>Colombo North - Colombo</strong></td>
-                                            <td><button type="button" class="btn btn-default">Generate</button></td>
-                                            <td><button type="button" class="btn btn-default">Add</button></td>
-                                            <td><button type="button" class="btn btn-default">View</button></td>
-                                        </tr>
+                                    <!-- START PROJECTS BLOCK -->
+                                    <div class="panel panel-default" >
+                                        <div class="panel-heading">
+                                            <div class="panel-title-box">
+                                                <h3>Presenter View</h3>
+                                                <span>Added Cards for Presenter</span>
+                                            </div>
+                                            <ul class="panel-controls" style="margin-top: 2px;">
+                                                <li><a href="#" class="panel-fullscreen"><span class="fa fa-expand"></span></a></li>
+                                                <li><a href="#" class="panel-refresh"><span class="fa fa-refresh"></span></a></li>
+                                                <li class="dropdown">
+                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="fa fa-cog"></span></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="#" class="panel-collapse"><span class="fa fa-angle-down"></span> Collapse</a></li>
+                                                        <li><a href="#" class="panel-remove"><span class="fa fa-times"></span> Remove</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="panel-body panel-body-table">
 
-                                        </tbody>
-                                    </table>
+                                            <div class="table-responsive">
+                                                <table class="table table-striped">
+                                                    <thead>
+                                                    <tr>
+                                                        <th width="20%">Number</th>
+                                                        <th width="80%">Name</th>
+
+                                                    </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                    <tr>
+                                                        <td><strong>01A</strong></td>
+                                                        <td><strong>Colombo North - Colombo</strong></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><strong>01B</strong></td>
+                                                        <td><strong>Colombo South - Colombo</strong></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><strong>02A</strong></td>
+                                                        <td><strong>Gampaha  - Gampaha</strong></td>
+                                                    </tr>
+
+                                                    </tbody>
+                                                </table>
+                                            </div>
+
+                                        </div>
+                                    </div>
                                 </div>
+                                <!-- END PROJECTS BLOCK -->
 
                             </div>
-
                         </div>
+                        <div class="tab-pane" id="presenter">
+                            <div class="col-md-8">
+                                <div id="presenter_table">
 
-                        <!-- END PROJECTS BLOCK -->
+                                    <!-- START PROJECTS BLOCK -->
+                                    <div class="panel panel-default" >
+                                        <div class="panel-heading">
+                                            <div class="panel-title-box">
+                                                <h3>Presenter View</h3>
+                                                <span>Added Cards for Presenter</span>
+                                            </div>
+                                            <ul class="panel-controls" style="margin-top: 2px;">
+                                                <li><a href="#" class="panel-fullscreen"><span class="fa fa-expand"></span></a></li>
+                                                <li><a href="#" class="panel-refresh"><span class="fa fa-refresh"></span></a></li>
+                                                <li class="dropdown">
+                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="fa fa-cog"></span></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="#" class="panel-collapse"><span class="fa fa-angle-down"></span> Collapse</a></li>
+                                                        <li><a href="#" class="panel-remove"><span class="fa fa-times"></span> Remove</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="panel-body panel-body-table">
 
-                    </div>
+                                            <div class="table-responsive">
+                                                <table class="table table-striped">
+                                                    <thead>
+                                                    <tr>
+                                                        <th width="20%">Number</th>
+                                                        <th width="80%">Name</th>
 
+                                                    </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                    <tr>
+                                                        <td><strong>01A</strong></td>
+                                                        <td><strong>Colombo North - Colombo</strong></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><strong>01B</strong></td>
+                                                        <td><strong>Colombo South - Colombo</strong></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><strong>02A</strong></td>
+                                                        <td><strong>Gampaha  - Gampaha</strong></td>
+                                                    </tr>
 
-                </div>
-                <div class="col-md-4">
-                    <div id="presenter_table">
+                                                    </tbody>
+                                                </table>
+                                            </div>
 
-                    <!-- START PROJECTS BLOCK -->
-                    <div class="panel panel-default" >
-                        <div class="panel-heading">
-                            <div class="panel-title-box">
-                                <h3>Presenter View</h3>
-                                <span>Added Cards for Presenter</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- END PROJECTS BLOCK -->
+
                             </div>
-                            <ul class="panel-controls" style="margin-top: 2px;">
-                                <li><a href="#" class="panel-fullscreen"><span class="fa fa-expand"></span></a></li>
-                                <li><a href="#" class="panel-refresh"><span class="fa fa-refresh"></span></a></li>
-                                <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="fa fa-cog"></span></a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="#" class="panel-collapse"><span class="fa fa-angle-down"></span> Collapse</a></li>
-                                        <li><a href="#" class="panel-remove"><span class="fa fa-times"></span> Remove</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
                         </div>
-                        <div class="panel-body panel-body-table">
+                        <div class="tab-pane" id="user">
+                            <h1>Add new User</h1>
 
-                            <div class="table-responsive">
-                                <table class="table table-striped">
-                                    <thead>
-                                    <tr>
-                                        <th width="20%">Number</th>
-                                        <th width="80%">Name</th>
+                        </div>
+                        <div class="tab-pane" id="polling_division">
+                            <h1>Add new polling division</h1>
 
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    <tr>
-                                        <td><strong>01A</strong></td>
-                                        <td><strong>Colombo North - Colombo</strong></td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>01B</strong></td>
-                                        <td><strong>Colombo South - Colombo</strong></td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>02A</strong></td>
-                                        <td><strong>Gampaha  - Gampaha</strong></td>
-                                    </tr>
-
-                                    </tbody>
-                                </table>
+                            <div class="row">
+                                <form>
+                                    <div class="col-lg-6">
+                                        <label >Code</label>
+                                        <input type="text" class="form-control" name="code" id="code" placeholder="Enter Code" required>
+                                        <label >Polling Division Name</label>
+                                        <input type="text" class="form-control" name="name" id="name" placeholder="Enter Name" required>
+                                        <label >District</label>
+                                        <input type="text" class="form-control" name="district" id="district" placeholder="Enter District" required>
+                                        <br>
+                                        <input type="submit" name="submit" id="submit" value="Submit" class="btn btn-info pull-right">
+                                    </div>
+                                </form>
                             </div>
 
+
+                        </div>
+                        <div class="tab-pane" id="other">
+                            <h1>Other</h1>
+
                         </div>
                     </div>
-                    </div>
-                    <!-- END PROJECTS BLOCK -->
-
                 </div>
             </div>
 
@@ -478,9 +575,6 @@
 
                 </div>
             </div>
-
-
-
         </div>
         <!-- END PAGE CONTENT WRAPPER -->
     </div>
@@ -548,6 +642,11 @@
 <!-- END TEMPLATE -->
 <script type="text/javascript" src="<?php echo base_url('js/angular.js'); ?>"></script>
 <script type="text/javascript" src="<?php echo base_url('js/angular.min.js'); ?>"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        $('#tabs').tab();
+    });
+</script>
 <!-- END SCRIPTS -->
 </body>
 </html>
