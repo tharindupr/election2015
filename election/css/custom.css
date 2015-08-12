@@ -1,0 +1,22 @@
+#district_table_panel
+{
+    height: 300px;
+    overflow: auto;
+}
+
+#votes_table_panel
+{
+    height: 800px;
+    overflow: auto;
+}
+
+.x-navigation > li.xn-logo > a:first-child {
+
+    background: url("../img/arttv.png") top center no-repeat #FFFFFF;
+
+}
+
+.x-navigation.x-navigation-minimized > li.xn-logo > a:first-child {
+
+    background-image: url("../img/arttv-small.jpg");
+}
