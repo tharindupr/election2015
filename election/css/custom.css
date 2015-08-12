@@ -1,12 +1,12 @@
-#presenter_table
+#district_table_panel
 {
-    height: 400px;
+    height: 300px;
     overflow: auto;
 }
 
-#admin_table
+#votes_table_panel
 {
-    height: 400px;
+    height: 800px;
     overflow: auto;
 }
 

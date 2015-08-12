@@ -21,5 +21,16 @@ Class User extends CI_Model
 		}
 
 	}
+
+	function get_users()
+	{
+
+		$this -> db -> select('userId, username, password,userType');
+		$this -> db -> from('users');
+
+
+		$query = $this -> db -> get();
+		return $query->result();
+	}
 }
 ?>

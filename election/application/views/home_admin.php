@@ -14,6 +14,108 @@
     <link rel="stylesheet" type="text/css" id="theme" href="<?php echo base_url('css/theme-default.css'); ?>"/>
     <link rel="stylesheet" type="text/css" id="theme" href="<?php echo base_url('css/custom.css'); ?>"/>
     <!-- EOF CSS INCLUDE -->
+
+
+
+
+    <script type="text/javascript" src="<?php echo base_url('js/plugins/jquery/jquery.min.js'); ?>"></script>
+    <script type="text/javascript" src="<?php echo base_url('js/plugins/jquery/jquery-ui.min.js'); ?>"></script>
+
+    <script type="text/javascript">
+
+
+        // Ajax post
+        $(document).ready(function() {
+
+            event.preventDefault();
+            var user_name = "Hello";
+            var password = "Lahiru";
+            jQuery.ajax({
+                type: "POST",
+                url: "<?php echo base_url('/result/get_votes'); ?>",
+                dataType: 'json',
+                data: {name: user_name, pwd: password},
+                success: function(res) {
+
+                    console.log("test1");
+                    if (res)
+                    {
+                        // Show Entered Value
+
+                        jQuery("div#value").html(res.username);
+                        //jQuery("div#value_pwd").html(res.pwd);
+                    }
+                }
+            });
+
+        });
+
+    </script>
+
+    <script type="text/javascript">
+
+
+        // Ajax post
+        $(document).ready(function() {
+
+            event.preventDefault();
+            var user_n = "Hello";
+            var password = "Lahiru";
+            jQuery.ajax({
+                type: "POST",
+                url: "<?php echo base_url('/result/add_to_view'); ?>",
+                dataType: 'json',
+                data: {name: user_n, pwd: password},
+                success: function(res) {
+
+                    console.log("test1");
+                    if (res)
+                    {
+                        // Show Entered Value
+                        alert("Your bookmark has been saved");
+
+                        //jQuery("div#district_table").html(res.username);
+                        //jQuery("div#value_pwd").html(res.pwd);
+                    }
+                }
+            });
+
+        });
+
+    </script>
+
+    <script type="text/javascript">
+
+
+        // Ajax post
+        $(document).ready(function() {
+            $("#btn1").onclick(function () {
+
+            event.preventDefault();
+            var user_n = "Hello";
+            var password = "Lahiru";
+            jQuery.ajax({
+                type: "POST",
+                url: "<?php echo base_url('/result/add_to_view'); ?>",
+                dataType: 'json',
+                data: {name: user_n, pwd: password},
+                success: function(res) {
+
+                    console.log("test1");
+                    if (res)
+                    {
+                        alert("Your Added To Presenter and MCR");
+                    }
+                }
+            });
+
+            });
+        });
+
+    </script>
+
+
+
 </head>
 <body>
 <!-- START PAGE CONTAINER -->
@@ -61,6 +163,8 @@
 
     <!-- PAGE CONTENT -->
     <div class="page-content">
+
+
 
         <!-- START X-NAVIGATION VERTICAL -->
         <ul class="x-navigation x-navigation-horizontal x-navigation-panel">
@@ -277,15 +381,15 @@
                     <br>
                     <div id="my-tab-content" class="tab-content">
                         <div class="tab-pane active" id="home">
-                            <div class="col-md-8">
+                            <div class="col-md-6">
 
-                                <div id="admin_table">
+                                <div id="votes_table_panel">
                                     <!-- START PROJECTS BLOCK -->
                                     <div  class="panel panel-default">
                                         <div class="panel-heading">
                                             <div class="panel-title-box">
-                                                <h3>Released Results</h3>
-                                                <span>Admin View list of released results</span>
+                                                <h3>Votes</h3>
+                                                <span>Polling Divisions and Postal Results</span>
                                             </div>
                                             <ul class="panel-controls" style="margin-top: 2px;">
                                                 <li><a href="#" class="panel-fullscreen"><span class="fa fa-expand"></span></a></li>
@@ -301,56 +405,7 @@
                                         </div>
                                         <div class="panel-body panel-body-table">
 
-                                            <div class="table-responsive">
-                                                <table class="table table-striped">
-                                                    <thead>
-                                                    <tr >
-                                                        <th width="10%">Number</th>
-                                                        <th width="60%">Name</th>
-                                                        <th width="10%"></th>
-                                                        <th width="10%"></th>
-                                                        <th width="10%"></th>
-                                                    </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                    <tr>
-                                                        <td><strong>01A</strong></td>
-                                                        <td><strong>Colombo North - Colombo</strong></td>
-                                                        <td><button type="button" class="btn btn-default">Generate</button></td>
-                                                        <td><button type="button" class="btn btn-default">Add</button></td>
-                                                        <td><button type="button" class="btn btn-default">View</button></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><strong>01B</strong></td>
-                                                        <td><strong>Colombo South - Colombo</strong></td>
-                                                        <td><button type="button" class="btn btn-default">Generate</button></td>
-                                                        <td><button type="button" class="btn btn-default">Add</button></td>
-                                                        <td><button type="button" class="btn btn-default">View</button></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><strong>02A</strong></td>
-                                                        <td><strong>Gampaha - Gampaha</strong></td>
-                                                        <td><button type="button" class="btn btn-default">Generate</button></td>
-                                                        <td><button type="button" class="btn btn-default">Add</button></td>
-                                                        <td><button type="button" class="btn btn-default">View</button></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><strong>02B</strong></td>
-                                                        <td><strong>Colombo North - Colombo</strong></td>
-                                                        <td><button type="button" class="btn btn-default">Generate</button></td>
-                                                        <td><button type="button" class="btn btn-default">Add</button></td>
-                                                        <td><button type="button" class="btn btn-default">View</button></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><strong>04P</strong></td>
-                                                        <td><strong>Colombo North - Colombo</strong></td>
-                                                        <td><button type="button" class="btn btn-default">Generate</button></td>
-                                                        <td><button type="button" class="btn btn-default">Add</button></td>
-                                                        <td><button type="button" class="btn btn-default">View</button></td>
-                                                    </tr>
-
-                                                    </tbody>
-                                                </table>
+                                            <div class="table-responsive" id="value">
                                             </div>
 
                                         </div>
@@ -363,15 +418,16 @@
 
 
                             </div>
-                            <div class="col-md-4">
-                                <div id="presenter_table">
+                            <div >
+                            <div class="col-md-6">
+                                <div id="district_table_panel">
 
                                     <!-- START PROJECTS BLOCK -->
                                     <div class="panel panel-default" >
                                         <div class="panel-heading">
                                             <div class="panel-title-box">
-                                                <h3>Presenter View</h3>
-                                                <span>Added Cards for Presenter</span>
+                                                <h3>District Results</h3>
+                                                <span>Released District Results</span>
                                             </div>
                                             <ul class="panel-controls" style="margin-top: 2px;">
                                                 <li><a href="#" class="panel-fullscreen"><span class="fa fa-expand"></span></a></li>
@@ -387,29 +443,134 @@
                                         </div>
                                         <div class="panel-body panel-body-table">
 
-                                            <div class="table-responsive">
-                                                <table class="table table-striped">
-                                                    <thead>
-                                                    <tr>
-                                                        <th width="20%">Number</th>
-                                                        <th width="80%">Name</th>
+                                            <div class="table-responsive" id="district_table">
 
-                                                    </tr>
-                                                    </thead>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- END PROJECTS BLOCK -->
+
+                            </div>
+                            </div>
+                            <div >
+                                <div class="col-md-6">
+                                    <div id="island_seats_table_panel">
+
+                                        <!-- START PROJECTS BLOCK -->
+                                        <div class="panel panel-default" >
+                                            <div class="panel-heading">
+                                                <div class="panel-title-box">
+                                                    <h3>All Island National Basis Seats</h3>
+                                                    <span>All Island National Basis Seats Result</span>
+                                                </div>
+                                                <ul class="panel-controls" style="margin-top: 2px;">
+                                                    <li><a href="#" class="panel-fullscreen"><span class="fa fa-expand"></span></a></li>
+                                                    <li><a href="#" class="panel-refresh"><span class="fa fa-refresh"></span></a></li>
+                                                    <li class="dropdown">
+                                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="fa fa-cog"></span></a>
+                                                        <ul class="dropdown-menu">
+                                                            <li><a href="#" class="panel-collapse"><span class="fa fa-angle-down"></span> Collapse</a></li>
+                                                            <li><a href="#" class="panel-remove"><span class="fa fa-times"></span> Remove</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="panel-body panel-body-table">
+
+                                                <div class="table-responsive" id="island_seats">
+                                                    <table class="table table-striped">
+                                                        <tbody>
+                                                        <tr>
+                                                            <td><strong>01A</strong></td>
+                                                            <td><strong>Colombo North - Colombo</strong></td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- END PROJECTS BLOCK -->
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div id="island_summary_table_panel">
+
+                                    <!-- START PROJECTS BLOCK -->
+                                    <div class="panel panel-default" >
+                                        <div class="panel-heading">
+                                            <div class="panel-title-box">
+                                                <h3>All Island Summary</h3>
+                                                <span>All Island Summary Result</span>
+                                            </div>
+                                            <ul class="panel-controls" style="margin-top: 2px;">
+                                                <li><a href="#" class="panel-fullscreen"><span class="fa fa-expand"></span></a></li>
+                                                <li><a href="#" class="panel-refresh"><span class="fa fa-refresh"></span></a></li>
+                                                <li class="dropdown">
+                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="fa fa-cog"></span></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="#" class="panel-collapse"><span class="fa fa-angle-down"></span> Collapse</a></li>
+                                                        <li><a href="#" class="panel-remove"><span class="fa fa-times"></span> Remove</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="panel-body panel-body-table">
+
+                                            <div class="table-responsive" id="island_summary">
+                                                <table class="table table-striped">
                                                     <tbody>
                                                     <tr>
                                                         <td><strong>01A</strong></td>
                                                         <td><strong>Colombo North - Colombo</strong></td>
                                                     </tr>
-                                                    <tr>
-                                                        <td><strong>01B</strong></td>
-                                                        <td><strong>Colombo South - Colombo</strong></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><strong>02A</strong></td>
-                                                        <td><strong>Gampaha  - Gampaha</strong></td>
-                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
 
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- END PROJECTS BLOCK -->
+
+                            </div>
+
+                            <div class="col-md-6">
+                                <div id="composition_table_panel">
+
+                                    <!-- START PROJECTS BLOCK -->
+                                    <div class="panel panel-default" >
+                                        <div class="panel-heading">
+                                            <div class="panel-title-box">
+                                                <h3>Composition of the Parliment</h3>
+                                                <span>Composition of the Parliment Result</span>
+                                            </div>
+                                            <ul class="panel-controls" style="margin-top: 2px;">
+                                                <li><a href="#" class="panel-fullscreen"><span class="fa fa-expand"></span></a></li>
+                                                <li><a href="#" class="panel-refresh"><span class="fa fa-refresh"></span></a></li>
+                                                <li class="dropdown">
+                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="fa fa-cog"></span></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="#" class="panel-collapse"><span class="fa fa-angle-down"></span> Collapse</a></li>
+                                                        <li><a href="#" class="panel-remove"><span class="fa fa-times"></span> Remove</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="panel-body panel-body-table">
+
+                                            <div class="table-responsive" id="composition">
+                                                <table class="table table-striped">
+                                                    <tbody>
+                                                    <tr>
+                                                        <td><strong>01A</strong></td>
+                                                        <td><strong>Colombo North - Colombo</strong></td>
+                                                    </tr>
                                                     </tbody>
                                                 </table>
                                             </div>
@@ -609,8 +770,8 @@
 
 <!-- START SCRIPTS -->
 <!-- START PLUGINS -->
-<script type="text/javascript" src="<?php echo base_url('js/plugins/jquery/jquery.min.js'); ?>"></script>
-<script type="text/javascript" src="<?php echo base_url('js/plugins/jquery/jquery-ui.min.js'); ?>"></script>
+
+
 <script type="text/javascript" src="<?php echo base_url('js/plugins/bootstrap/bootstrap.min.js'); ?>"></script>
 <!-- END PLUGINS -->
 
@@ -647,7 +808,9 @@
         $('#tabs').tab();
     });
 </script>
+
 <!-- END SCRIPTS -->
+
 </body>
 </html>
 

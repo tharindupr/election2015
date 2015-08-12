@@ -55,6 +55,13 @@ class Elect extends CI_controller
         //$this->load->view('home_mcr');
 
     }
+
+
+
+
+
+
+
 }
 
 ?>
