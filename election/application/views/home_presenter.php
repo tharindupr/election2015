@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
     <!-- META SECTION -->
     <title>General Election-2015</title>
@@ -14,6 +14,77 @@
     <link rel="stylesheet" type="text/css" id="theme" href="<?php echo base_url('css/theme-default.css'); ?>"/>
     <link rel="stylesheet" type="text/css" id="theme" href="<?php echo base_url('css/custom.css'); ?>"/>
     <!-- EOF CSS INCLUDE -->
+
+
+
+
+    <script type="text/javascript" src="<?php echo base_url('js/plugins/jquery/jquery.min.js'); ?>"></script>
+    <script type="text/javascript" src="<?php echo base_url('js/plugins/jquery/jquery-ui.min.js'); ?>"></script>
+
+
+
+    <script type="text/javascript">
+
+
+        // Ajax post
+        $(document).ready(function() {
+
+            event.preventDefault();
+            var user_name = "Hello";
+            var password = "Lahiru";
+            jQuery.ajax({
+                type: "POST",
+                url: "<?php echo base_url('/result/get_presenter_view'); ?>",
+                dataType: 'json',
+                data: {name: user_name, pwd: password},
+                success: function(res) {
+
+                    console.log("test1");
+                    if (res)
+                    {
+                        // Show Entered Value
+
+                        jQuery("div#presenter_view").html(res.username);
+                        //jQuery("div#value_pwd").html(res.pwd);
+                    }
+                }
+            });
+
+        });
+
+    </script>
+
+    <script type="text/javascript">
+
+
+        // Ajax post
+        $(document).ready(function() {
+
+            event.preventDefault();
+            var user_name = "Hello";
+            var password = "Lahiru";
+            jQuery.ajax({
+                type: "POST",
+                url: "<?php echo base_url('/result/get_presenter_queue'); ?>",
+                dataType: 'json',
+                data: {name: user_name, pwd: password},
+                success: function(res) {
+
+                    console.log("test1");
+                    if (res)
+                    {
+                        // Show Entered Value
+
+                        jQuery("div#presenter_queue").html(res.username);
+                        //jQuery("div#value_pwd").html(res.pwd);
+                    }
+                }
+            });
+
+        });
+
+    </script>
+
 </head>
 <body>
 <!-- START PAGE CONTAINER -->
@@ -45,10 +116,12 @@
                 </div>
             </li>
             <li class="xn-title">View as:</li>
-
             <?php if ($type=='A'){ echo ("<li><a href='http://localhost/arttvelection2015/election/elect/get_admin_home'><span class='fa fa-desktop'></span>Admin</a></li>");} ?>
             <?php if ($type!='M'){ echo ("<li><a href='http://localhost/arttvelection2015/election/elect/get_presenter_home'><span class='fa fa-desktop'></span>Presenter</a></li>");} ?>
-            <?php echo ("<li><a href='http://localhost/arttvelection2015/election/elect/get_mcr_home'><span class='fa fa-desktop'></span>MCR</a></li>"); ?>
+            <?php if ($type!='P'){echo ("<li><a href='http://localhost/arttvelection2015/election/elect/get_mcr_home'><span class='fa fa-desktop'></span>MCR</a></li>"); }?>
+
+
+
 
 
 
@@ -59,6 +132,8 @@
 
     <!-- PAGE CONTENT -->
     <div class="page-content">
+
+
 
         <!-- START X-NAVIGATION VERTICAL -->
         <ul class="x-navigation x-navigation-horizontal x-navigation-panel">
@@ -73,6 +148,7 @@
                     <input type="text" name="search" placeholder="Search..."/>
                 </form>
             </li>
+
             <!-- END SEARCH -->
             <!-- SIGN OUT -->
             <li class="xn-icon-button pull-right">
@@ -171,13 +247,6 @@
             <!-- END TASKS -->
         </ul>
         <!-- END X-NAVIGATION VERTICAL -->
-
-        <!-- START BREADCRUMB -->
-        <ul class="breadcrumb">
-            <li class="active">Administrator Dashboard</li>
-        </ul>
-        <!-- END BREADCRUMB -->
-
         <!-- PAGE CONTENT WRAPPER -->
         <div class="page-content-wrap">
 
@@ -265,148 +334,82 @@
                 </div>
             </div>
             <!-- END WIDGETS -->
+            <br>
+            <br>
+
 
             <div class="row">
-                <div class="col-md-12">
+                <div id="content">
+                    <div class="col-md-6">
+                        <div id="presenter_table_panel">
 
-                    <div id="admin_table">
-                        <!-- START PROJECTS BLOCK -->
-                        <div  class="panel panel-default">
-                            <div class="panel-heading">
-                                <div class="panel-title-box">
-                                    <h3>Projects</h3>
-                                    <span>Projects activity</span>
-                                </div>
-                                <ul class="panel-controls" style="margin-top: 2px;">
-                                    <li><a href="#" class="panel-fullscreen"><span class="fa fa-expand"></span></a></li>
-                                    <li><a href="#" class="panel-refresh"><span class="fa fa-refresh"></span></a></li>
-                                    <li class="dropdown">
-                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="fa fa-cog"></span></a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="#" class="panel-collapse"><span class="fa fa-angle-down"></span> Collapse</a></li>
-                                            <li><a href="#" class="panel-remove"><span class="fa fa-times"></span> Remove</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="panel-body panel-body-table">
-
-                                <div class="table-responsive">
-                                    <table class="table table-striped">
-                                        <thead>
-                                        <tr>
-                                            <th width="10%">Number</th>
-                                            <th width="60%">Name</th>
-                                            <th width="10%"></th>
-                                        </tr>
-                                        </thead>
-                                        <tbody>
-                                        <tr>
-                                            <td><strong>01A</strong></td>
-                                            <td><strong>Colombo North - Colombo</strong></td>
-                                            <td><button type="button" class="btn btn-default">View</button></td>
-                                        </tr>
-                                        <tr>
-                                            <td><strong>01B</strong></td>
-                                            <td><strong>Colombo South - Colombo</strong></td>
-                                            <td><button type="button" class="btn btn-default">View</button></td>
-                                        </tr>
-                                        <tr>
-                                            <td><strong>02A</strong></td>
-                                            <td><strong>Gampaha - Gampaha</strong></td>
-                                            <td><button type="button" class="btn btn-default">View</button></td>
-                                        </tr>
-                                        <tr>
-                                            <td><strong>02B</strong></td>
-                                            <td><strong>Colombo North - Colombo</strong></td>
-                                            <td><button type="button" class="btn btn-default">View</button></td>
-                                        </tr>
-                                        <tr>
-                                            <td><strong>04P</strong></td>
-                                            <td><strong>Colombo North - Colombo</strong></td>
-                                            <td><button type="button" class="btn btn-default">View</button></td>
-                                        </tr>
-
-                                        </tbody>
-                                    </table>
-                                </div>
-
-                            </div>
-
-                        </div>
-
-
-                    </div>
-
-
-                </div>
-
-            </div>
-
-            <div class="row">
-
-                <div class="col-md-4">
-
-                    <!-- START USERS ACTIVITY BLOCK -->
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <div class="panel-title-box">
-                                <h3>Summary</h3>
-                                <span>All island summery upto result</span>
-                            </div>
-                            <ul class="panel-controls" style="margin-top: 2px;">
-                                <li><a href="#" class="panel-fullscreen"><span class="fa fa-expand"></span></a></li>
-                                <li><a href="#" class="panel-refresh"><span class="fa fa-refresh"></span></a></li>
-                                <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="fa fa-cog"></span></a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="#" class="panel-collapse"><span class="fa fa-angle-down"></span> Collapse</a></li>
-                                        <li><a href="#" class="panel-remove"><span class="fa fa-times"></span> Remove</a></li>
+                            <!-- START PROJECTS BLOCK -->
+                            <div class="panel panel-default" >
+                                <div class="panel-heading">
+                                    <div class="panel-title-box">
+                                        <h3>Queue</h3>
+                                        <span>Added Cards for Presenter and MCR</span>
+                                    </div>
+                                    <ul class="panel-controls" style="margin-top: 2px;">
+                                        <li><a href="#" class="panel-fullscreen"><span class="fa fa-expand"></span></a></li>
+                                        <li><a href="#" class="panel-refresh"><span class="fa fa-refresh"></span></a></li>
+                                        <li class="dropdown">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="fa fa-cog"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#" class="panel-collapse"><span class="fa fa-angle-down"></span> Collapse</a></li>
+                                                <li><a href="#" class="panel-remove"><span class="fa fa-times"></span> Remove</a></li>
+                                            </ul>
+                                        </li>
                                     </ul>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="panel-body padding-0">
-                            <button type="button" class="btn btn-default">Generate</button>
-                            <button type="button" class="btn btn-default">Add</button>
-                            <button type="button" class="btn btn-default">View</button>
-                        </div>
-                    </div>
-                    <!-- END USERS ACTIVITY BLOCK -->
+                                </div>
+                                <div class="panel-body panel-body-table">
 
-                </div>
-                <div class="col-md-4">
+                                    <div class="table-responsive" id="presenter_queue">
 
-                    <!-- START VISITORS BLOCK -->
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <div class="panel-title-box">
-                                <h3>Connection</h3>
-                                <span>Select the connection to the ftp server</span>
+                                    </div>
+
+                                </div>
                             </div>
-                            <ul class="panel-controls" style="margin-top: 2px;">
-                                <li><a href="#" class="panel-fullscreen"><span class="fa fa-expand"></span></a></li>
-                                <li><a href="#" class="panel-refresh"><span class="fa fa-refresh"></span></a></li>
-                                <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="fa fa-cog"></span></a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="#" class="panel-collapse"><span class="fa fa-angle-down"></span> Collapse</a></li>
-                                        <li><a href="#" class="panel-remove"><span class="fa fa-times"></span> Remove</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
                         </div>
-                        <div class="panel-body padding-0">
-                            <button type="button" class="btn btn-default">View Connection</button></br>
-                            <button type="button" class="btn btn-default">Add Connection</button></br>
-                            <button type="button" class="btn btn-default">Refresh Connection</button>
-                        </div>
-                    </div>
-                    <!-- END VISITORS BLOCK -->
+                        <!-- END PROJECTS BLOCK -->
 
+                    </div>
+                    <div class="col-md-6">
+                        <div id="presenter_table_panel">
+
+                            <!-- START PROJECTS BLOCK -->
+                            <div class="panel panel-default" >
+                                <div class="panel-heading">
+                                    <div class="panel-title-box">
+                                        <h3>Viewed</h3>
+                                        <span>Viewed Cards by Presenter</span>
+                                    </div>
+                                    <ul class="panel-controls" style="margin-top: 2px;">
+                                        <li><a href="#" class="panel-fullscreen"><span class="fa fa-expand"></span></a></li>
+                                        <li><a href="#" class="panel-refresh"><span class="fa fa-refresh"></span></a></li>
+                                        <li class="dropdown">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="fa fa-cog"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#" class="panel-collapse"><span class="fa fa-angle-down"></span> Collapse</a></li>
+                                                <li><a href="#" class="panel-remove"><span class="fa fa-times"></span> Remove</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="panel-body panel-body-table">
+
+                                    <div class="table-responsive" id="presenter_view">
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END PROJECTS BLOCK -->
+
+                    </div>
                 </div>
             </div>
-
 
 
         </div>
@@ -443,8 +446,8 @@
 
 <!-- START SCRIPTS -->
 <!-- START PLUGINS -->
-<script type="text/javascript" src="<?php echo base_url('js/plugins/jquery/jquery.min.js'); ?>"></script>
-<script type="text/javascript" src="<?php echo base_url('js/plugins/jquery/jquery-ui.min.js'); ?>"></script>
+
+
 <script type="text/javascript" src="<?php echo base_url('js/plugins/bootstrap/bootstrap.min.js'); ?>"></script>
 <!-- END PLUGINS -->
 
@@ -474,7 +477,12 @@
 
 <script type="text/javascript" src="<?php echo base_url('js/demo_dashboard.js'); ?>"></script>
 <!-- END TEMPLATE -->
+<script type="text/javascript" src="<?php echo base_url('js/angular.js'); ?>"></script>
+<script type="text/javascript" src="<?php echo base_url('js/angular.min.js'); ?>"></script>
+
+
 <!-- END SCRIPTS -->
+
 </body>
 </html>
 

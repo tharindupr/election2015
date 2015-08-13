@@ -16,8 +16,8 @@ class Home extends CI_Controller {
       $data['id'] = $session_data['id'];
       $data['type'] = $session_data['type'];
       if($data['type']=='A'){$this->load->view('home_admin', $data);}
-      if($data['type']=='P'){$this->load->view('home_presenter', $data);}
-      if($data['type']=='M'){$this->load->view('home_mcr', $data);}
+      elseif($data['type']=='P'){$this->load->view('home_presenter', $data);}
+      elseif($data['type']=='M'){$this->load->view('home_mcr', $data);}
 
     }
     else

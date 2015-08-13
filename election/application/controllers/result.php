@@ -421,7 +421,6 @@ class Result extends CI_controller
                     <th width='5%'>Code</th>
                     <th width='50%'>Name</th>
                     <th width='10%'></th>
-                    <th width='10%'></th>
 
 
                 </tr>
@@ -439,8 +438,7 @@ class Result extends CI_controller
                 $string2="<tr>
                     <td><strong>".$row->code."</strong></td>
                     <td><strong>".$row->description."</strong></td>
-                    <td><button type='button' class='btn btn-default' value='rowcode'>View</a></button></td>
-                    <td><button type='button' class='btn btn-default' value='".$row->code."'><a href='".base_url('login')."'  target='_blank'>View</a></button></td>
+                    <td><button type='button' class='btn btn-default' value='".$row->code."'><a href='".base_url('viewcard/update')."/".$row->code."'  target='_blank'>View</a></button></td>
                 </tr>".$string2;
 
             }
@@ -468,6 +466,50 @@ class Result extends CI_controller
                     <th width='5%'>Code</th>
                     <th width='50%'>Name</th>
                     <th width='10%'></th>
+
+
+                </tr>
+                </thead>
+                <tbody>";
+
+        $string2="";
+
+        if($result)
+        {
+            //$sess_array = array();
+            //<td><strong>".$row->district."</strong></td>
+            foreach($result as $row)
+            {
+                $string2="<tr>
+                    <td><strong>".$row->code."</strong></td>
+                    <td><strong>".$row->description."</strong></td>
+                    <td><button type='button' class='btn btn-default' value='".$row->code."'><a href='".base_url('viewcard/update')."/".$row->code."'  target='_blank'>View</a></button></td>
+                </tr>".$string2;
+
+            }
+
+        }
+
+        $string=$string1.$string2."</tbody>
+            </table>";
+
+        $data = array(
+            'username' => $string,
+            'pwd'=>$this->input->post('pwd')
+        );
+        echo json_encode($data);
+    }
+
+    public function get_mcr_view()	{
+        $this->load->helper('url');
+        $this->load->model('resultmodel','',TRUE);
+        $result = $this->resultmodel->get_mcr_view();
+
+        $string1="<table class='table table-striped'>
+                <thead>
+                <tr >
+                    <th width='5%'>Code</th>
+                    <th width='50%'>Name</th>
                     <th width='10%'></th>
 
 
@@ -486,8 +528,52 @@ class Result extends CI_controller
                 $string2="<tr>
                     <td><strong>".$row->code."</strong></td>
                     <td><strong>".$row->description."</strong></td>
-                    <td><button type='button' class='btn btn-default' value='rowcode'>View</a></button></td>
-                    <td><button type='button' class='btn btn-default' value='".$row->code."'><a href='".base_url('login')."'  target='_blank'>View</a></button></td>
+                    <td><button type='button' class='btn btn-default' value='".$row->code."'><a href='".base_url('viewcard/update')."/".$row->code."'  target='_blank'>View</a></button></td>
+                </tr>".$string2;
+
+            }
+
+        }
+
+        $string=$string1.$string2."</tbody>
+            </table>";
+
+        $data = array(
+            'username' => $string,
+            'pwd'=>$this->input->post('pwd')
+        );
+        echo json_encode($data);
+    }
+
+    public function get_mcr_queue()	{
+        $this->load->helper('url');
+        $this->load->model('resultmodel','',TRUE);
+        $result = $this->resultmodel->get_mcr_queue();
+
+        $string1="<table class='table table-striped'>
+                <thead>
+                <tr >
+                    <th width='5%'>Code</th>
+                    <th width='50%'>Name</th>
+                    <th width='10%'></th>
+
+
+                </tr>
+                </thead>
+                <tbody>";
+
+        $string2="";
+
+        if($result)
+        {
+            //$sess_array = array();
+            //<td><strong>".$row->district."</strong></td>
+            foreach($result as $row)
+            {
+                $string2="<tr>
+                    <td><strong>".$row->code."</strong></td>
+                    <td><strong>".$row->description."</strong></td>
+                    <td><button type='button' class='btn btn-default' value='".$row->code."'><a href='".base_url('viewcard/update')."/".$row->code."'  target='_blank'>View</a></button></td>
                 </tr>".$string2;
 
             }
