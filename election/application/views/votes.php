@@ -2,8 +2,10 @@
 <head>
  <!-- jQuery 2.0.2 -->
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="<?php echo base_url(); ?>js/jquery-1.11.3.min.js"></script>
+  <script src="<?php echo base_url(); ?>js/video.js"></script>
  
+ <link href="<?php echo base_url(); ?>css/video.css" rel="stylesheet" type="text/css" />
  <link href="<?php echo base_url(); ?>css/card.css" rel="stylesheet" type="text/css" />
   
   
@@ -53,6 +55,12 @@
 								$("#progress3").css( "width",(342*Number(res.Party3_percentage)/100).toString()+"px");
 								$("#progress4").css( "width",(342*Number(res.Party4_percentage)/100).toString()+"px");
 								
+								$("#progress1").css( "background-color",res.Party1_color);
+								$("#progress2").css( "background-color",res.Party2_color);
+								$("#progress3").css( "background-color",res.Party3_color);
+								$("#progress4").css( "background-color",res.Party4_color);
+								
+								
 								$('#logo1').css("background-image", "url(<?php echo base_url(); ?>logo/"+res.Party1_Name+".PNG");  
 								$('#logo2').css("background-image", "url(<?php echo base_url(); ?>logo/"+res.Party2_Name+".PNG");  
 								$('#logo3').css("background-image", "url(<?php echo base_url(); ?>logo/"+res.Party3_Name+".PNG");  
@@ -71,11 +79,15 @@
 
 
 <body> 
+<video autoplay id="bgvid" loop>
+  <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
 
+<source src="<?php echo base_url(); ?>Presidential Election Theme Card_720X576.mp4" type="video/mp4">
+</video>
  
 <div id="innerbox" >
 <div id="value"> </div>
-<div id="progress1" style="width:200px; background-color: red">
+<div id="progress1" >
 </div>
 <div id="progress2">
 </div>

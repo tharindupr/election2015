@@ -53,6 +53,11 @@
 								$("#progress3").css( "width",(342*Number(res.Party3_percentage)/100).toString()+"px");
 								$("#progress4").css( "width",(342*Number(res.Party4_percentage)/100).toString()+"px");
 								
+								$("#progress1").css( "background-color",res.Party1_color);
+								$("#progress2").css( "background-color",res.Party2_color);
+								$("#progress3").css( "background-color",res.Party3_color);
+								$("#progress4").css( "background-color",res.Party4_color);
+								
 								$('#logo1').css("background-image", "url(<?php echo base_url(); ?>logo/"+res.Party1_Name+".PNG");  
 								$('#logo2').css("background-image", "url(<?php echo base_url(); ?>logo/"+res.Party2_Name+".PNG");  
 								$('#logo3').css("background-image", "url(<?php echo base_url(); ?>logo/"+res.Party3_Name+".PNG");  
