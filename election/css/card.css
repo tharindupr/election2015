@@ -1,5 +1,4 @@
 
-
 body {
   margin: 0px;
   padding: 0px;
@@ -65,7 +64,7 @@ position: absolute;
 	text-align: right;
 	color:black;
 	top: 40%;
-	left: 60%;
+	left: 58%;
 	width:80px;
 
 }
@@ -77,7 +76,19 @@ position: absolute;
 	text-align: right;
 	color:black;
 	top: 40%;
-	left: 76%;
+	left: 73%;
+	width:80px;
+
+}
+#party1seats
+{
+	position: absolute;
+	font-family: "Kalinga";
+	font-size:20px;
+	text-align: right;
+	color:black;
+	top: 40%;
+	left: 78%;
 	width:80px;
 
 }
@@ -101,7 +112,7 @@ position: absolute;
 	text-align: right;
 	color:black;
 	top: 51%;
-	left: 60%;
+	left: 58%;
 	width:80px;
 
 }
@@ -113,7 +124,19 @@ position: absolute;
 	text-align: right;
 	color:black;
 	top: 51%;
-	left: 76%;
+	left: 73%;
+	width:80px;
+
+}
+#party2seats
+{
+	position: absolute;
+	font-family: "Kalinga";
+	font-size:20px;
+	text-align: right;
+	color:black;
+	top: 51%;
+	left: 78%;
 	width:80px;
 
 }
@@ -136,7 +159,7 @@ position: absolute;
 	text-align: right;
 	color:black;
 	top: 63%;
-	left: 60%;
+	left: 58%;
 	width:80px;
 
 }
@@ -148,7 +171,19 @@ position: absolute;
 	text-align: right;
 	color:black;
 	top: 63%;
-	left: 76%;
+	left: 73%;
+	width:80px;
+
+}
+#party3seats
+{
+	position: absolute;
+	font-family: "Kalinga";
+	font-size:20px;
+	text-align: right;
+	color:black;
+	top: 63%;
+	left: 78%;
 	width:80px;
 
 }
@@ -170,7 +205,7 @@ position: absolute;
 	text-align: right;
 	color:black;
 	top: 74%;
-	left: 60%;
+	left: 58%;
 	width:80px;
 
 }
@@ -182,7 +217,19 @@ position: absolute;
 	text-align: right;
 	color:black;
 	top: 74%;
-	left: 76%;
+	left: 73%;
+	width:80px;
+
+}
+#party4seats
+{
+	position: absolute;
+	font-family: "Kalinga";
+	font-size:20px;
+	text-align: right;
+	color:black;
+	top: 74%;
+	left: 78%;
 	width:80px;
 
 }
@@ -370,4 +417,3 @@ color:white;
 	left: 12%;
 
 }
-

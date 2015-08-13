@@ -54,18 +54,22 @@ class district_controller extends CI_Controller {
 		{$votes[$key]=$a;}
 		if($count%3==1)
 		{$percentages[$key]=$a;}
-		else
+		if($count%3==2)
 		{$seats[$key]=$a;}
 		$count++;
 	}
 	
+	
 	asort($votes);
 	asort($percentages);
+	asort($seats);
 	$votes=array_reverse($votes);
 	$percentages=array_reverse($percentages);
+	$seats=array_reverse($seats);
 	$party_names=[];
 	$party_votes=[];
 	$party_percentage=[];
+	$party_seats=[];
 	$count=0;
 	//print_r($votes);
 	foreach ($votes as $b=>$c)
@@ -84,6 +88,16 @@ class district_controller extends CI_Controller {
 		$count++;
 		
 	}
+	$count=0;
+	//print_r($votes);
+	
+	foreach ($seats as $b=>$c)
+	{	if($count==4){break;}
+		array_push($party_seats,$c);
+		
+		$count++;
+		
+	}
 	
 
 	$data = array(
@@ -95,6 +109,10 @@ class district_controller extends CI_Controller {
 					'Party2_votes' => $party_votes[1],
 					'Party3_votes' => $party_votes[2],
 					'Party4_votes' => $party_votes[3],
+					'Party1_seats' => $party_seats[0],
+					'Party2_seats' => $party_seats[1],
+					'Party3_seats' => $party_seats[2],
+					'Party4_seats' => $party_seats[3],
 					'Party1_percentage' => $party_percentage[0],
 					'Party2_percentage' => $party_percentage[1],
 					'Party3_percentage' => $party_percentage[2],

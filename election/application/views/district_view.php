@@ -38,6 +38,10 @@
 								jQuery("div#party2percentage").html(res.Party2_percentage+" %");
 								jQuery("div#party3percentage").html(res.Party3_percentage+" %");
 								jQuery("div#party4percentage").html(res.Party4_percentage+" %");
+								jQuery("div#party1seats").html(res.Party1_seats);
+								jQuery("div#party2seats").html(res.Party2_seats);
+								jQuery("div#party3seats").html(res.Party3_seats);
+								jQuery("div#party4seats").html(res.Party4_seats);
 								jQuery("div#district").html(res.District);
 								jQuery("div#districtdescription").html(res.Polling);
 								jQuery("div#valid_votes").html(res.VALID_votes);
@@ -91,18 +95,26 @@
 
 <div id="district">COLOMB DISTRICT </div> 
 <div id="districtdescription">COLOMBO WEST </div>
+
 <div id="party1">UPFA </div>
 <div id="party1votes">500 000 </div>
 <div id="party1percentage">20.0% </div>
+<div id="party1seats" >0 </div>
+
 <div id="party2">JVP</div>
 <div id="party2votes">50 000 </div>
 <div id="party2percentage">20.0% </div>
+<div id="party2seats" >0 </div>
+
 <div id="party3">UNP</div>
 <div id="party3votes">5 000 </div>
 <div id="party3percentage">20.0% </div>
+<div id="party3seats" >0 </div>
+
 <div id="party4">JVP</div>
 <div id="party4votes"> 500 </div>
 <div id="party4percentage">20.0% </div>
+<div id="party4seats" >0 </div>
 
 <div id="valid">VALID</div> 
 <div id="valid_votes">VALID</div> 
