@@ -193,7 +193,7 @@ class Result extends CI_controller
                     <td><strong>".$row->time_stamps."</strong></td>
                     <td><strong>All Island Summary</strong></td>
                     <td><button type='button' class='btn3 btn btn-default' value='AIVOT'>Add</a></button></td>
-                    <td><button type='button' class='btn btn-default'><a href='http://localhost/arttvelection2015/election/district_controller/index/".$row->time_stamps."'  target='_blank'>View</a></button></td>
+                    <td><button type='button' class='btn btn-default'><a href='http://localhost/arttvelection2015/election/allisland_controller/index/'  target='_blank'>View</a></button></td>
                 </tr>";
 
             }
@@ -267,7 +267,7 @@ class Result extends CI_controller
                     <td><strong>".$row->time_stamps."</strong></td>
                     <td><strong>National Basis Seats</strong></td>
                     <td><button type='button' class='btn4 btn btn-default' value='AINAST'>Add</a></button></td>
-                    <td><button type='button' class='btn btn-default'><a href='http://localhost/arttvelection2015/election/district_controller/index/".$row->time_stamps."'  target='_blank'>View</a></button></td>
+                    <td><button type='button' class='btn btn-default'><a href='http://localhost/arttvelection2015/election/nationalseats_controller/index/'  target='_blank'>View</a></button></td>
                 </tr>";
 
             }
@@ -341,7 +341,7 @@ class Result extends CI_controller
                     <td><strong>".$row->time_stamps."</strong></td>
                     <td><strong>National Basis Seats</strong></td>
                     <td><button type='button' class='btn5 btn btn-default' value='AICOMP'>Add</a></button></td>
-                    <td><button type='button' class='btn btn-default'><a href='http://localhost/arttvelection2015/election/district_controller/index/".$row->time_stamps."'  target='_blank'>View</a></button></td>
+                    <td><button type='button' class='btn btn-default'><a href='http://localhost/arttvelection2015/election/composition_controller/index/'  target='_blank'>View</a></button></td>
                 </tr>";
 
             }
@@ -401,7 +401,9 @@ class Result extends CI_controller
         $this->load->helper('url');
         $this->load->model('resultmodel','',TRUE);
         $result = $this->resultmodel->add_to_view($this->input->post('name'));
-        $string="Insert";
+        //$done=$this->resultmodel->update_done($this->input->post('name'));
+
+        //$string="Insert";
         $data = array(
             'username' => $result,
             'pwd'=>$this->input->post('name')

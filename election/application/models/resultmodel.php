@@ -6,19 +6,6 @@ Class ResultModel extends CI_Model
     function get_votes()
     {
 
-
-        /*
-        $query = "
-            SELECT 'votes'.'seat', 'result_description'.'code','result_description'.'description'
-            FROM 'votes' Inner join 'result_description'
-            WHERE 'votes'.'seat' = 'result_description'.'code'";
-
-        $q = $this ->db->query($query);
-        return $q->result();
-
-
-        */
-
         $this -> db -> select('votes.seat, result_description.code , result_description.description, result_description.district');
         $this -> db -> from('votes, result_description');
         $this -> db -> where('votes.seat = result_description.code');
@@ -208,6 +195,38 @@ Class ResultModel extends CI_Model
         }
 
 
+    }
+
+    function update_done($code){
+
+        if(strlen($code)==3 && substr($code, -1)=='Z') {
+
+            $data = array(
+                'done' => 1
+            );
+
+            $this->db->where('district', $code);
+            $this->db->update('district_votes', $data);
+
+            $this -> db -> select('district, done');
+            $this -> db -> from('district_votes');
+
+            $query = $this -> db -> get();
+
+            return $query->num_rows();
+
+        }
+
+        if(strlen($code)==3 && substr($code, -1)!='Z') {
+
+            $data = array(
+                'done' => 1
+            );
+
+            $this->db->where('seat', $code);
+            $this->db->update('votes', $data);
+
+        }
     }
 
 

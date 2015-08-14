@@ -15,9 +15,6 @@
     <link rel="stylesheet" type="text/css" id="theme" href="<?php echo base_url('css/custom.css'); ?>"/>
     <!-- EOF CSS INCLUDE -->
 
-
-
-
     <script type="text/javascript" src="<?php echo base_url('js/plugins/jquery/jquery.min.js'); ?>"></script>
     <script type="text/javascript" src="<?php echo base_url('js/plugins/jquery/jquery-ui.min.js'); ?>"></script>
 
@@ -26,49 +23,31 @@
 
         // Ajax post
         //$(document).ready(function() {
+        var user_name = "Username";
+        var password = "Password";
 
         setInterval(function() {
 
                 //event.preventDefault();
-                var user_name = "Hello";
-                var password = "Lahiru";
-                jQuery.ajax({
-                    type: "POST",
-                    url: "<?php echo base_url('/result/get_votes'); ?>",
-                    dataType: 'json',
-                    data: {name: user_name, pwd: password},
-                    success: function(res) {
 
-                        console.log("test1");
-                        if (res)
-                        {
-                            // Show Entered Value
+            jQuery.ajax({
+                type: "POST",
+                url: "<?php echo base_url('/result/get_votes'); ?>",
+                dataType: 'json',
+                data: {name: user_name, pwd: password},
+                success: function(res) {
 
-                            jQuery("div#value").html(res.username);
-                            //jQuery("div#value_pwd").html(res.pwd);
-                        }
+                    console.log("test1");
+                    if (res)
+                    {
+                        // Show Entered Value
+
+                        jQuery("div#value").html(res.username);
+                        //jQuery("div#value_pwd").html(res.pwd);
                     }
-                });
-               //setTimeout("timedCount()",500);
-            //}
+                }
+            });
 
-            //timedCount();
-
-
-
-            //}, 10);
-
-
-
-        //});
-        //});
-
-        // Ajax post
-        //$(document).ready(function() {
-
-            //event.preventDefault();
-            //var user_n = "Hello";
-            //var password = "Lahiru";
             jQuery.ajax({
                 type: "POST",
                 url: "<?php echo base_url('/result/get_district'); ?>",
@@ -88,33 +67,6 @@
                 }
             });
 
-        }, 1000 );
-
-        //});
-
-
-    </script>
-
-    <script type="text/javascript">
-
-
-
-
-
-    </script>
-
-    <script type="text/javascript">
-
-
-        // Ajax post
-        //$(document).ready(function() {
-
-
-            //event.preventDefault();
-            var user_name = "Hello";
-            var password = "Lahiru";
-        setInterval(function() {
-            //your jQuery ajax code
             jQuery.ajax({
                 type: "POST",
                 url: "<?php echo base_url('/result/get_presenter_view'); ?>",
@@ -133,26 +85,6 @@
                 }
             });
 
-        }, 1000 );
-
-
-        //});
-
-    </script>
-
-    <script type="text/javascript">
-
-
-        // Ajax post
-        //$(document).ready(function() {
-
-
-
-            //event.preventDefault();
-            var user_name = "Hello";
-            var password = "Lahiru";
-
-        setInterval(function() {
             jQuery.ajax({
                 type: "POST",
                 url: "<?php echo base_url('/result/get_presenter_queue'); ?>",
@@ -171,26 +103,6 @@
                 }
             });
 
-        }, 1000 );
-
-        //});
-
-    </script>
-
-
-    <script type="text/javascript" src="<?php echo base_url('js/plugins/jquery/jquery.min.js'); ?>"></script>
-    <script type="text/javascript" src="<?php echo base_url('js/plugins/jquery/jquery-ui.min.js'); ?>"></script>
-
-    <script type="text/javascript">
-
-
-        // Ajax post
-        //$(document).ready(function() {
-        setInterval(function() {
-
-            //event.preventDefault();
-            var user_name = "Hello";
-            var password = "Lahiru";
             jQuery.ajax({
                 type: "POST",
                 url: "<?php echo base_url('/result/get_all_island'); ?>",
@@ -209,22 +121,6 @@
                 }
             });
 
-        }, 1000 );
-
-        //});
-
-    </script>
-
-    <script type="text/javascript">
-
-
-        // Ajax post
-        //$(document).ready(function() {
-        setInterval(function() {
-
-            //event.preventDefault();
-            var user_name = "Hello";
-            var password = "Lahiru";
             jQuery.ajax({
                 type: "POST",
                 url: "<?php echo base_url('/result/national_seats'); ?>",
@@ -243,22 +139,6 @@
                 }
             });
 
-        }, 1000 );
-
-        //});
-
-    </script>
-
-    <script type="text/javascript">
-
-
-        // Ajax post
-        //$(document).ready(function() {
-        setInterval(function() {
-
-            //event.preventDefault();
-            var user_name = "Hello";
-            var password = "Lahiru";
             jQuery.ajax({
                 type: "POST",
                 url: "<?php echo base_url('/result/composition'); ?>",
@@ -277,14 +157,12 @@
                 }
             });
 
-        }, 1000 );
+        }, 5000 );
 
         //});
 
+
     </script>
-
-
-
 
 </head>
 <body>
@@ -356,7 +234,7 @@
                 <a href="#" class="mb-control" data-box="#mb-signout"><span class="fa fa-sign-out"></span></a>
             </li>
             <!-- END SIGN OUT -->
-            <!-- MESSAGES -->
+            <!--
             <li class="xn-icon-button pull-right">
                 <a href="#"><span class="fa fa-comments"></span></a>
                 <div class="informer informer-danger">4</div>
@@ -399,7 +277,7 @@
                 </div>
             </li>
             <!-- END MESSAGES -->
-            <!-- TASKS -->
+            <!-- TASKS 
             <li class="xn-icon-button pull-right">
                 <a href="#"><span class="fa fa-tasks"></span></a>
                 <div class="informer informer-warning">3</div>
@@ -455,30 +333,21 @@
             <div class="row">
                 <div class="col-md-3">
 
-                    <!-- START WIDGET SLIDER -->
-                    <div class="widget widget-default widget-carousel">
-                        <div class="owl-carousel" id="owl-example">
-                            <div>
-                                <div class="widget-title">Total Visitors</div>
-                                <div class="widget-subtitle">27/08/2014 15:23</div>
-                                <div class="widget-int">3,548</div>
-                            </div>
-                            <div>
-                                <div class="widget-title">Returned</div>
-                                <div class="widget-subtitle">Visitors</div>
-                                <div class="widget-int">1,695</div>
-                            </div>
-                            <div>
-                                <div class="widget-title">New</div>
-                                <div class="widget-subtitle">Visitors</div>
-                                <div class="widget-int">1,977</div>
-                            </div>
+                    <!-- START WIDGET MESSAGES -->
+                    <div class="widget widget-default widget-item-icon" onclick="location.href='pages-messages.html';">
+                        <div class="widget-item-left">
+                            <span class="fa fa-envelope"></span>
+                        </div>
+                        <div class="widget-data">
+                            <div class="widget-int num-count">48</div>
+                            <div class="widget-title">Released Results</div>
+                            <div class="widget-subtitle">184 Total</div>
                         </div>
                         <div class="widget-controls">
                             <a href="#" class="widget-control-right widget-remove" data-toggle="tooltip" data-placement="top" title="Remove Widget"><span class="fa fa-times"></span></a>
                         </div>
                     </div>
-                    <!-- END WIDGET SLIDER -->
+                    <!-- END WIDGET MESSAGES -->
 
                 </div>
                 <div class="col-md-3">
@@ -544,9 +413,10 @@
                     <ul id="tabs" class="nav nav-tabs  nav-justified" data-tabs="tabs">
                         <li class="active"><a href="#home" data-toggle="tab">Home</a></li>
                         <li><a href="#presenter" data-toggle="tab">Presenter</a></li>
+                        <li><a href="#summary" data-toggle="tab">Summary</a></li>
                         <li><a href="#user" data-toggle="tab">User</a></li>
                         <li><a href="#polling_division" data-toggle="tab">Polling Division</a></li>
-                        <li><a href="#other" data-toggle="tab">Other</a></li>
+
                     </ul>
                     <br>
                     <div id="my-tab-content" class="tab-content">
@@ -824,7 +694,7 @@
 
 
                         </div>
-                        <div class="tab-pane" id="other">
+                        <div class="tab-pane" id="summary">
                             <h1>Generate Summary and Select Connection</h1>
 
                             <div class="row">

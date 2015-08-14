@@ -12,7 +12,7 @@
 </head>
 
 <body>
-<?php echo validation_errors(); ?>
+
 <?php echo form_open('verifylogin'); ?>
 <div class="box login">
   <fieldset class="boxBody">
@@ -23,7 +23,7 @@
 
   </fieldset>
   <footer>
-
+    <?php echo validation_errors(); ?>
     <input type="submit" class="btnLogin" value="Login" tabindex="4">
   </footer>
 
