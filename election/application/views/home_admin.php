@@ -25,42 +25,55 @@
 
 
         // Ajax post
-        $(document).ready(function() {
+        //$(document).ready(function() {
 
-            event.preventDefault();
-            var user_name = "Hello";
-            var password = "Lahiru";
-            jQuery.ajax({
-                type: "POST",
-                url: "<?php echo base_url('/result/get_votes'); ?>",
-                dataType: 'json',
-                data: {name: user_name, pwd: password},
-                success: function(res) {
+        setInterval(function() {
 
-                    console.log("test1");
-                    if (res)
-                    {
-                        // Show Entered Value
+                //event.preventDefault();
+                var user_name = "Hello";
+                var password = "Lahiru";
+                jQuery.ajax({
+                    type: "POST",
+                    url: "<?php echo base_url('/result/get_votes'); ?>",
+                    dataType: 'json',
+                    data: {name: user_name, pwd: password},
+                    success: function(res) {
 
-                        jQuery("div#value").html(res.username);
-                        //jQuery("div#value_pwd").html(res.pwd);
+                        console.log("test1");
+                        if (res)
+                        {
+                            // Show Entered Value
+
+                            jQuery("div#value").html(res.username);
+                            //jQuery("div#value_pwd").html(res.pwd);
+                        }
                     }
-                }
-            });
+                });
+               //setTimeout("timedCount()",500);
+            //}
 
-        });
+            //timedCount();
+
+
+
+            //}, 10);
+
+
+
+        //});
+        //});
 
         // Ajax post
-        $(document).ready(function() {
+        //$(document).ready(function() {
 
-            event.preventDefault();
-            var user_n = "Hello";
-            var password = "Lahiru";
+            //event.preventDefault();
+            //var user_n = "Hello";
+            //var password = "Lahiru";
             jQuery.ajax({
                 type: "POST",
                 url: "<?php echo base_url('/result/get_district'); ?>",
                 dataType: 'json',
-                data: {name: user_n, pwd: password},
+                data: {name: user_name, pwd: password},
                 success: function(res) {
 
                     console.log("test1");
@@ -75,7 +88,9 @@
                 }
             });
 
-        });
+        }, 1000 );
+
+        //});
 
 
     </script>
@@ -92,11 +107,14 @@
 
 
         // Ajax post
-        $(document).ready(function() {
+        //$(document).ready(function() {
 
-            event.preventDefault();
+
+            //event.preventDefault();
             var user_name = "Hello";
             var password = "Lahiru";
+        setInterval(function() {
+            //your jQuery ajax code
             jQuery.ajax({
                 type: "POST",
                 url: "<?php echo base_url('/result/get_presenter_view'); ?>",
@@ -115,7 +133,10 @@
                 }
             });
 
-        });
+        }, 1000 );
+
+
+        //});
 
     </script>
 
@@ -123,11 +144,15 @@
 
 
         // Ajax post
-        $(document).ready(function() {
+        //$(document).ready(function() {
 
-            event.preventDefault();
+
+
+            //event.preventDefault();
             var user_name = "Hello";
             var password = "Lahiru";
+
+        setInterval(function() {
             jQuery.ajax({
                 type: "POST",
                 url: "<?php echo base_url('/result/get_presenter_queue'); ?>",
@@ -146,7 +171,9 @@
                 }
             });
 
-        });
+        }, 1000 );
+
+        //});
 
     </script>
 
@@ -158,9 +185,10 @@
 
 
         // Ajax post
-        $(document).ready(function() {
+        //$(document).ready(function() {
+        setInterval(function() {
 
-            event.preventDefault();
+            //event.preventDefault();
             var user_name = "Hello";
             var password = "Lahiru";
             jQuery.ajax({
@@ -181,7 +209,9 @@
                 }
             });
 
-        });
+        }, 1000 );
+
+        //});
 
     </script>
 
@@ -189,9 +219,10 @@
 
 
         // Ajax post
-        $(document).ready(function() {
+        //$(document).ready(function() {
+        setInterval(function() {
 
-            event.preventDefault();
+            //event.preventDefault();
             var user_name = "Hello";
             var password = "Lahiru";
             jQuery.ajax({
@@ -212,7 +243,9 @@
                 }
             });
 
-        });
+        }, 1000 );
+
+        //});
 
     </script>
 
@@ -220,9 +253,10 @@
 
 
         // Ajax post
-        $(document).ready(function() {
+        //$(document).ready(function() {
+        setInterval(function() {
 
-            event.preventDefault();
+            //event.preventDefault();
             var user_name = "Hello";
             var password = "Lahiru";
             jQuery.ajax({
@@ -243,7 +277,9 @@
                 }
             });
 
-        });
+        }, 1000 );
+
+        //});
 
     </script>
 

@@ -495,7 +495,7 @@ class Result extends CI_controller
 
         $data = array(
             'username' => $string,
-            'pwd'=>$this->input->post('pwd')
+            'pwd'=>count($result)
         );
         echo json_encode($data);
     }
@@ -585,7 +585,7 @@ class Result extends CI_controller
 
         $data = array(
             'username' => $string,
-            'pwd'=>$this->input->post('pwd')
+            'pwd'=>count($result)
         );
         echo json_encode($data);
     }
