@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5953a210-5e77-42f7-a06b-f0cc6add9e48" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\blank.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\charts-morris.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\charts-nvd3.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\charts-other.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\charts-rickshaw.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\form-editors.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\form-elements.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\form-file-handling.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\form-layouts-one-column.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\form-layouts-separated.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\form-layouts-tabbed.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\form-layouts-two-column.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\form-validation.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\form-wizards.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\index-ci default.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\layout-boxed.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\layout-frame-left.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\layout-frame-right.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\layout-nav-custom.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\layout-nav-right.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\layout-nav-toggled.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\layout-nav-top-fixed.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\layout-nav-top.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\layout-search-left.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\maps.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\pages-address-book.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\pages-blog-list.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\pages-blog-post.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\pages-calendar.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\pages-content-table.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\pages-error-404-2.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\pages-error-404.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\pages-error-500.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\pages-faq.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\pages-gallery.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\pages-login-website-light.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\pages-login-website.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\pages-login.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\pages-mailbox-compose.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\pages-mailbox-inbox.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\pages-mailbox-message.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\pages-messages.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\pages-profile.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\pages-search.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\pages-tasks.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\pages-timeline-simple.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\pages-timeline.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\table-basic.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\table-datatables.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\table-export.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\ui-alerts-popups.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\ui-buttons.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\ui-elements.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\ui-icons.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\ui-lists.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\ui-panels.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\ui-portlet.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\ui-sliders.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\ui-tour.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\ui-typography.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\ui-widgets.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/application/views/home_admin.php" afterPath="$PROJECT_DIR$/election/application/views/home_admin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/application/controllers/result.php" afterPath="$PROJECT_DIR$/election/application/controllers/result.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/application/models/resultmodel.php" afterPath="$PROJECT_DIR$/election/application/models/resultmodel.php" />
+    </list>
+    <ignored path="arttvelection2015.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="arttvelection2015" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/election/application/models/resultmodel.php" />
+        <option value="$PROJECT_DIR$/election/application/views/home_admin.php" />
+        <option value="$PROJECT_DIR$/election/application/controllers/result.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="width" value="1364" />
+    <option name="height" value="754" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="arttvelection2015" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="arttvelection2015" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="arttvelection2015" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="arttvelection2015" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="arttvelection2015" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="election" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="arttvelection2015" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="arttvelection2015" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="election" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="arttvelection2015" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="arttvelection2015" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="election" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="arttvelection2015" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="arttvelection2015" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="election" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="arttvelection2015" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="arttvelection2015" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="election" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5953a210-5e77-42f7-a06b-f0cc6add9e48" name="Default" comment="" />
+      <created>1439580799854</created>
+      <option name="number" value="Default" />
+      <updated>1439580799854</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="0" width="1364" height="754" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15356083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/election/application/controllers/result.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.4027072">
+          <caret line="371" column="43" selection-start-line="371" selection-start-column="43" selection-end-line="371" selection-end-column="43" />
+          <folding>
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: 'POST'...}" />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: 'POST'...}" />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: 'POST'...}" />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: 'POST'...}" />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: 'POST'...}" />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439588021418" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/election/application/models/resultmodel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.890017">
+          <caret line="113" column="12" selection-start-line="113" selection-start-column="12" selection-end-line="113" selection-end-column="12" />
+          <folding>
+            <marker date="1439585759211" expanded="true" signature="-1:-1" placeholder="insert into ..." />
+            <marker date="1439585759211" expanded="true" signature="-1:-1" placeholder="insert into ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/election/application/views/home_admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6615905">
+          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

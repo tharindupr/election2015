@@ -26,7 +26,7 @@
         var user_name = "Username";
         var password = "Password";
 
-        setInterval(function() {
+        //setInterval(function() {
 
                 //event.preventDefault();
 
@@ -37,7 +37,7 @@
                 data: {name: user_name, pwd: password},
                 success: function(res) {
 
-                    console.log("test1");
+                    //console.log("test1");
                     if (res)
                     {
                         // Show Entered Value
@@ -55,7 +55,7 @@
                 data: {name: user_name, pwd: password},
                 success: function(res) {
 
-                    console.log("test1");
+                    //console.log("test1");
                     if (res)
                     {
                         // Show Entered Value
@@ -74,7 +74,7 @@
                 data: {name: user_name, pwd: password},
                 success: function(res) {
 
-                    console.log("test1");
+                    //console.log("test1");
                     if (res)
                     {
                         // Show Entered Value
@@ -92,7 +92,7 @@
                 data: {name: user_name, pwd: password},
                 success: function(res) {
 
-                    console.log("test1");
+                    //console.log("test1");
                     if (res)
                     {
                         // Show Entered Value
@@ -110,7 +110,7 @@
                 data: {name: user_name, pwd: password},
                 success: function(res) {
 
-                    console.log("testallisland");
+                    //console.log("testallisland");
                     if (res)
                     {
                         // Show Entered Value
@@ -128,7 +128,7 @@
                 data: {name: user_name, pwd: password},
                 success: function(res) {
 
-                    console.log("testallisland");
+                    //console.log("testallisland");
                     if (res)
                     {
                         // Show Entered Value
@@ -146,7 +146,7 @@
                 data: {name: user_name, pwd: password},
                 success: function(res) {
 
-                    console.log("testallisland");
+                    //console.log("testallisland");
                     if (res)
                     {
                         // Show Entered Value
@@ -157,7 +157,7 @@
                 }
             });
 
-        }, 5000 );
+        //}, 5000 );
 
         //});
 

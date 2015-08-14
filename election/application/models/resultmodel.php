@@ -110,16 +110,23 @@ Class ResultModel extends CI_Model
 
     function add_to_view($code)
     {
-        $query = "insert into view (code) values ('".$code."')";
-        if($this ->db->query($query)){
 
-            return "True";
-        }
-        else{
+            $query = "insert into view (code) values ('".$code."')";
+            //$query = "insert into view (code) values ('01A')";
+            if($this ->db->query($query)){
 
-            return "false";
+                return "True";
+            }
+            else {
 
-        }
+                return "false";
+
+            }
+
+
+
+
+
 
 
 
@@ -197,16 +204,17 @@ Class ResultModel extends CI_Model
 
     }
 
-    function update_done($code){
+    function update_done_votes($code)
+    {
 
-        if(strlen($code)==3 && substr($code, -1)=='Z') {
+        $data = array(
+            'done' => 1
+        );
 
-            $data = array(
-                'done' => 1
-            );
+        $this->db->where('seat', $code);
+        $this->db->update('votes', $data);
 
-            $this->db->where('district', $code);
-            $this->db->update('district_votes', $data);
+            /*
 
             $this -> db -> select('district, done');
             $this -> db -> from('district_votes');
@@ -215,20 +223,69 @@ Class ResultModel extends CI_Model
 
             return $query->num_rows();
 
-        }
+            */
 
-        if(strlen($code)==3 && substr($code, -1)!='Z') {
 
-            $data = array(
-                'done' => 1
-            );
-
-            $this->db->where('seat', $code);
-            $this->db->update('votes', $data);
-
-        }
     }
 
+    function update_done_district($code)
+    {
 
+        $data = array(
+            'done' => 1
+        );
+
+        $this->db->where('district', $code);
+        $this->db->update('district_votes', $data);
+
+
+
+
+    }
+
+    function update_done_allisland($code)
+    {
+
+        $data = array(
+            'done' => 1
+        );
+
+        $this->db->where('time_stamps', $code);
+        $this->db->update('all_island', $data);
+
+
+
+
+    }
+
+    function update_done_seats($code)
+    {
+
+        $data = array(
+            'done' => 1
+        );
+
+        $this->db->where('time_stamps', $code);
+        $this->db->update('national_basis_seats', $data);
+
+
+
+
+    }
+
+    function update_done_composition($code)
+    {
+
+        $data = array(
+            'done' => 1
+        );
+
+        $this->db->where('time_stamps', $code);
+        $this->db->update('composition', $data);
+
+
+
+
+    }
 }
 ?>
