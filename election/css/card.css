@@ -13,24 +13,16 @@ body {
     src: url("../fonts/kalingab_0.ttf");
 }
 
-#innerbox
-{
-    position:fixed;
-   
-    width:720px;
-    height:567px;
-	
-    background-image: url("Theme-Card.png");
-}
+
 
 #district
 {
 position: absolute;
 	font-family: "Jaguar_Bold";
-	font-size:20px;
+	font-size:32px;
 	color:white;
-	top: 22%;
-	left: 16.5%;
+	top: 24%;
+	left: 12%
 
 }
 
@@ -38,9 +30,9 @@ position: absolute;
 {
 position: absolute;
 	font-family: "Jaguar_Bold";
-	font-size:20px;
+	font-size:26px;
 	color:black;
-	top: 30%;
+	top: 31.4%;
 	left: 12%
 
 }
@@ -50,9 +42,10 @@ position: absolute;
 {
 position: absolute;
 	font-family: "Kalinga";
-	font-size:20px;
+	font-size:22px;
+	font-weight:bold;
 	color:black;
-	top: 40%;
+	top: 40.5%;
 	left: 27%
 
 }
@@ -60,11 +53,12 @@ position: absolute;
 {
 position: absolute;
 	font-family: "Kalinga";
-	font-size:20px;
+	font-size:22px;
 	text-align: right;
 	color:black;
-	top: 40%;
-	left: 58%;
+	top: 40.5%;
+	left: 64%;
+	width:80px;
 	width:80px;
 
 }
@@ -72,23 +66,35 @@ position: absolute;
 {
 	position: absolute;
 	font-family: "Kalinga";
-	font-size:20px;
+	font-size:22px;
 	text-align: right;
 	color:black;
-	top: 40%;
-	left: 73%;
-	width:80px;
+	top: 40.5%;
+	left: 79%;
+	width:85px;
 
 }
 #party1seats
 {
 	position: absolute;
 	font-family: "Kalinga";
-	font-size:20px;
+	font-size:22px;
 	text-align: right;
 	color:black;
-	top: 40%;
-	left: 78%;
+	top: 40.5%;
+	left: 71%;
+	width:80px;
+
+}
+#seats1
+{
+	position: absolute;
+	font-family: "Kalinga";
+	font-size:22px;
+	text-align: right;
+	color:black;
+	top: 40.5%;
+	left: 76%;
 	width:80px;
 
 }
@@ -97,7 +103,7 @@ position: absolute;
 {
 position: absolute;
 	font-family: "Kalinga";
-	font-size:20px;
+	font-size:22px;
 	color:black;
 	top: 51%;
 	left: 27%
@@ -108,11 +114,11 @@ position: absolute;
 {
 position: absolute;
 	font-family: "Kalinga";
-	font-size:20px;
+	font-size:22px;
 	text-align: right;
 	color:black;
 	top: 51%;
-	left: 58%;
+	left: 64%;
 	width:80px;
 
 }
@@ -120,23 +126,35 @@ position: absolute;
 {
 	position: absolute;
 	font-family: "Kalinga";
-	font-size:20px;
+	font-size:22px;
 	text-align: right;
 	color:black;
 	top: 51%;
-	left: 73%;
-	width:80px;
+	left: 79%;
+	width:85px;
 
 }
 #party2seats
 {
 	position: absolute;
 	font-family: "Kalinga";
-	font-size:20px;
+	font-size:22px;
 	text-align: right;
 	color:black;
 	top: 51%;
-	left: 78%;
+	left: 71%;
+	width:80px;
+
+}
+#seats2
+{
+	position: absolute;
+	font-family: "Kalinga";
+	font-size:22px;
+	text-align: right;
+	color:black;
+	top: 51%;
+	left: 76%;
 	width:80px;
 
 }
@@ -145,9 +163,9 @@ position: absolute;
 {
 position: absolute;
 	font-family: "Kalinga";
-	font-size:20px;
+	font-size:22px;
 	color:black;
-	top: 63%;
+	top: 62%;
 	left: 27%
 
 }
@@ -155,11 +173,11 @@ position: absolute;
 {
 position: absolute;
 	font-family: "Kalinga";
-	font-size:20px;
+	font-size:22px;
 	text-align: right;
 	color:black;
-	top: 63%;
-	left: 58%;
+	top: 62%;
+	left: 64%;
 	width:80px;
 
 }
@@ -167,23 +185,35 @@ position: absolute;
 {
 	position: absolute;
 	font-family: "Kalinga";
-	font-size:20px;
+	font-size:22px;
 	text-align: right;
 	color:black;
-	top: 63%;
-	left: 73%;
-	width:80px;
+	top: 62%;
+	left: 79%;
+	width:85px;
 
 }
 #party3seats
 {
 	position: absolute;
 	font-family: "Kalinga";
-	font-size:20px;
+	font-size:22px;
 	text-align: right;
 	color:black;
-	top: 63%;
-	left: 78%;
+	top: 62%;
+	left: 71%;
+	width:80px;
+
+}
+#seats3
+{
+	position: absolute;
+	font-family: "Kalinga";
+	font-size:22px;
+	text-align: right;
+	color:black;
+	top: 62%;
+	left: 76%;
 	width:80px;
 
 }
@@ -191,9 +221,9 @@ position: absolute;
 {
 position: absolute;
 	font-family: "Kalinga";
-	font-size:20px;
+	font-size:22px;
 	color:black;
-	top: 74%;
+	top: 72.5%;
 	left: 27%
 
 }
@@ -201,11 +231,11 @@ position: absolute;
 {
 position: absolute;
 	font-family: "Kalinga";
-	font-size:20px;
+	font-size:22px;
 	text-align: right;
 	color:black;
-	top: 74%;
-	left: 58%;
+	top: 72.5%;
+	left: 64%;
 	width:80px;
 
 }
@@ -213,64 +243,75 @@ position: absolute;
 {
 	position: absolute;
 	font-family: "Kalinga";
-	font-size:20px;
+	font-size:22px;
 	text-align: right;
 	color:black;
-	top: 74%;
-	left: 73%;
-	width:80px;
+	top: 72.5%;
+	left: 79%;
+	width:85px;
 
 }
 #party4seats
 {
 	position: absolute;
 	font-family: "Kalinga";
-	font-size:20px;
+	font-size:22px;
 	text-align: right;
 	color:black;
-	top: 74%;
-	left: 78%;
+	top: 72.5%;
+	left: 71%;
+	width:80px;
+
+}
+#seats4
+{
+	position: absolute;
+	font-family: "Kalinga";
+	font-size:22px;
+	text-align: right;
+	color:black;
+	top: 72.5%;
+	left: 76%;
 	width:80px;
 
 }
 
 #progress1 { 
 	position: absolute;
-	height: 15px;  /* Can be anything */
-	width:342px;
+	height: 10px;  /* Can be anything */
+	width:442px;
 	background-color: white;
-	top: 45%;
+	top: 44.5%;
 	left: 23.5%;
 	
 	
 }
 #progress2 { 
 	position: absolute;
-	height: 15px;  /* Can be anything */
+	height: 10px;  /* Can be anything */
 	width:342px;
 	background-color: white;
-	top: 56%;
+	top: 55%;
 	left: 23.5%;
 	
 	
 }
 #progress3 { 
 	position: absolute;
-	height: 15px;  /* Can be anything */
+	height: 10px;  /* Can be anything */
 	width:342px;
 	background-color: white;
-	
-	top: 68%;
+	top: 66.2%;
 	left: 23.5%;
 	
 	
 }
 #progress4 { 
 	position: absolute;
-	height: 15px;  /* Can be anything */
+	height: 10px;  /* Can be anything */
 	width:342px;
 	background-color: white;
-	top: 79.5%;
+	top: 76.5%;
 	left: 23.5%;
 
 }
@@ -280,31 +321,28 @@ position: absolute;
     height:62px;
 	width:74px;
 	top: 38.5%;
-	left: 12.2%;
+	left: 15%;
 }
 #logo2{
 position: absolute;
     height:62px;
 	width:74px;
-
 	top: 50%;
-	left: 12.2%;
+	left: 15%;
 }
 #logo3{
 position: absolute;
     height:62px;
 	width:74px;
-
 	top: 61.5%;
-	left: 12.2%;
+	left: 15%;
 }
 #logo4{
 	position: absolute;
     height:62px;
 	width:74px;
-	
 	top: 73%;
-	left: 12.2%;
+	left: 15%;
 	
 	
 }
@@ -313,24 +351,24 @@ position: absolute;
 {
 position: absolute;
 top: 86.5%;
-left: 30%;
-font-size:10px;
+left: 15%;
+font-size:13px;
 color:white;
 }
 #valid_votes
 {
 position: absolute;
 top: 86.5%;
-left: 39%;
-font-size:10px;
+left: 24%;
+font-size:13px;
 color:white;
 }
 #valid_percentage
 {
 position: absolute;
 top: 86.5%;
-left: 49%;
-font-size:10px;
+left: 30%;
+font-size:13px;
 color:white;
 }
 
@@ -338,24 +376,24 @@ color:white;
 {
 position: absolute;
 top: 88.5%;
-left: 30%;
-font-size:10px;
+left: 15%;
+font-size:13px;
 color:white;
 }
 #rejected_votes
 {
 position: absolute;
 top: 88.5%;
-left: 39%;
-font-size:10px;
+left: 24%;
+font-size:13px;
 color:white;
 }
 #rejected_percentage
 {
 position: absolute;
 top: 88.5%;
-left: 49%;
-font-size:10px;
+left: 30%;
+font-size:13px;
 color:white;
 }
 
@@ -364,16 +402,16 @@ color:white;
 {
 position: absolute;
 top: 91%;
-left: 30%;
-font-size:10px;
+left: 15%;
+font-size:13px;
 color:white;
 }
 #polled_votes
 {
 position: absolute;
 top: 91%;
-left: 39%;
-font-size:10px;
+left: 24%;
+font-size:13px;
 color:white;
 }
 
@@ -381,8 +419,8 @@ color:white;
 {
 position: absolute;
 top: 91%;
-left: 49%;
-font-size:10px;
+left: 30%;
+font-size:13px;
 color:white;
 }
 
@@ -393,16 +431,16 @@ color:white;
 {
 position: absolute;
 top: 93.5%;
-left: 30%;
-font-size:10px;
+left: 15%;
+font-size:13px;
 color:white;
 }
 #electors_votes
 {
 position: absolute;
 top: 93.5%;
-left: 39%;
-font-size:10px;
+left: 24%;
+font-size:13px;
 color:white;
 }
 
@@ -411,9 +449,9 @@ color:white;
 
 	position: absolute;
 	font-family: "Jaguar_Bold";
-	font-size:15px;
+	font-size:26px;
 	color:black;
-	top: 30%;
+	top: 31.4%;
 	left: 12%;
 
 }

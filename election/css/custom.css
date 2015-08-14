@@ -10,6 +10,12 @@
     overflow: auto;
 }
 
+#presenter_table_panel
+{
+    height: 800px;
+    overflow: auto;
+}
+
 .x-navigation > li.xn-logo > a:first-child {
 
     background: url("../img/arttv.png") top center no-repeat #FFFFFF;

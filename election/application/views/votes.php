@@ -50,10 +50,10 @@
 								jQuery("div#polled_percentage").html(res.POLLED_percentage);
 								jQuery("div#electors_votes").html(res.ELECTORS);
 								
-								$("#progress1").css( "width",(342*Number(res.Party1_percentage)/100).toString()+"px");
-								$("#progress2").css( "width",(342*Number(res.Party2_percentage)/100).toString()+"px");
-								$("#progress3").css( "width",(342*Number(res.Party3_percentage)/100).toString()+"px");
-								$("#progress4").css( "width",(342*Number(res.Party4_percentage)/100).toString()+"px");
+								$("#progress1").css( "width",(620*Number(res.Party1_percentage)/100).toString()+"px");
+								$("#progress2").css( "width",(620*Number(res.Party2_percentage)/100).toString()+"px");
+								$("#progress3").css( "width",(620*Number(res.Party3_percentage)/100).toString()+"px");
+								$("#progress4").css( "width",(620*Number(res.Party4_percentage)/100).toString()+"px");
 								
 								$("#progress1").css( "background-color",res.Party1_color);
 								$("#progress2").css( "background-color",res.Party2_color);
@@ -80,9 +80,7 @@
 
 <body> 
 <video autoplay id="bgvid" loop>
-  <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
-
-<source src="<?php echo base_url(); ?>Presidential Election Theme Card_720X576.mp4" type="video/mp4">
+<source src="<?php echo base_url(); ?>video.mp4" type="video/mp4">
 </video>
  
 <div id="innerbox" >

@@ -77,7 +77,7 @@ class nationalseats_controller extends CI_Controller {
 		$count++;
 		
 	}
-	
+
 
 	$data = array(
                     'Party1_Name' => substr($party_names[0], 0, -6),
@@ -88,10 +88,10 @@ class nationalseats_controller extends CI_Controller {
 					'Party2_votes' => $party_votes[1],
 					'Party3_votes' => $party_votes[2],
 					'Party4_votes' => $party_votes[3],
-					'Party1_seats' => $party_seats[0],
-					'Party2_seats' => $party_seats[1],
-					'Party3_seats' => $party_seats[2],
-					'Party4_seats' => $party_seats[3],
+					'Party1_seats' => substr($party_seats[0], 0, -3),
+					'Party2_seats' => substr($party_seats[1], 0, -3),
+					'Party3_seats' => substr($party_seats[2], 0, -3),
+					'Party4_seats' => substr($party_seats[3], 0, -3),
 					'District'=>"ALL ISLAND",
 					'Polling'=>"NATIONAL BASIS SEATS");
 					
