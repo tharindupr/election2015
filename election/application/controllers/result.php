@@ -72,7 +72,7 @@ class Result extends CI_controller
 
             if (res)
             {
-            alert('Added To Presenter and MCR'+res.pwd+res.username);
+            alert('Added To Presenter and MCR');
             }
             }
             });
@@ -466,12 +466,15 @@ class Result extends CI_controller
         {
             //$sess_array = array();
             //<td><strong>".$row->district."</strong></td>
+            //
+            //<td><button type='button' onclick='location.href='".base_url('viewcard/update')."/".$row->code." class='btn btn-default' value='".$row->code."'>View</button></td>
             foreach($result as $row)
             {
                 $string2="<tr>
                     <td><strong>".$row->code."</strong></td>
-                    <td><strong>".$row->description."</strong></td>
+                    <td><a href='".base_url('viewcard/update')."/".$row->code."'  target='_blank'><strong>".$row->description."</strong></a></td>
                     <td><button type='button' class='btn btn-default' value='".$row->code."'><a href='".base_url('viewcard/update')."/".$row->code."'  target='_blank'>View</a></button></td>
+
                 </tr>".$string2;
 
             }
@@ -511,12 +514,15 @@ class Result extends CI_controller
         {
             //$sess_array = array();
             //<td><strong>".$row->district."</strong></td>
+            //<td><button type='button' class='btn btn-default' value='".$row->code."'><a href='".base_url('viewcard/update')."/".$row->code."'  target='_blank'>View</a></button></td>
             foreach($result as $row)
             {
                 $string2="<tr>
                     <td><strong>".$row->code."</strong></td>
-                    <td><strong>".$row->description."</strong></td>
+                    <td><a href='".base_url('viewcard/update')."/".$row->code."'  target='_blank'><strong>".$row->description."</strong></a></td>
                     <td><button type='button' class='btn btn-default' value='".$row->code."'><a href='".base_url('viewcard/update')."/".$row->code."'  target='_blank'>View</a></button></td>
+
+
                 </tr>".$string2;
 
             }
@@ -619,6 +625,28 @@ class Result extends CI_controller
         $data = array(
             'username' => $string,
             'pwd'=>count($result)
+        );
+        echo json_encode($data);
+    }
+
+
+    public function admin_queue()	{
+        $this->load->helper('url');
+        $this->load->model('resultmodel','',TRUE);
+        $votes = $this->resultmodel->get_votes_queue();
+        $district = $this->resultmodel->get_district_queue();
+        $summary = $this->resultmodel->get_summary_queue();
+        $seats = $this->resultmodel->get_seats_queue();
+        $composition = $this->resultmodel->get_composition_queue();
+
+
+        $data = array(
+
+            'votes'=>count($votes),
+            'district'=>count($district),
+            'summary'=>count($summary),
+            'seats'=>count($seats),
+            'composition'=>count($composition)
         );
         echo json_encode($data);
     }

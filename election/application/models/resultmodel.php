@@ -13,7 +13,7 @@ Class ResultModel extends CI_Model
 
         $query = $this -> db -> get();
 
-        if($query -> num_rows() > 1) {
+        if($query -> num_rows() > 0) {
             return $query->result();
 
         }
@@ -112,7 +112,6 @@ Class ResultModel extends CI_Model
     {
 
             $query = "insert into view (code) values ('".$code."')";
-            //$query = "insert into view (code) values ('01A')";
             if($this ->db->query($query)){
 
                 return "True";
@@ -202,6 +201,66 @@ Class ResultModel extends CI_Model
         }
 
 
+    }
+
+    function get_votes_queue()
+    {
+        $this -> db -> select('seat, done');
+        $this -> db -> from('votes');
+        $this -> db -> where('done = 0');
+
+
+        $query = $this -> db -> get();
+
+        return $query->result();
+    }
+
+    function get_district_queue()
+    {
+        $this -> db -> select('district, done');
+        $this -> db -> from('district_votes');
+        $this -> db -> where('done = 0');
+
+
+        $query = $this -> db -> get();
+
+        return $query->result();
+    }
+
+    function get_summary_queue()
+    {
+        $this -> db -> select('time_stamps, done');
+        $this -> db -> from('all_island');
+        $this -> db -> where('done = 0');
+
+
+        $query = $this -> db -> get();
+
+        return $query->result();
+    }
+
+    function get_seats_queue()
+    {
+        $this -> db -> select('time_stamps, done');
+        $this -> db -> from('national_basis_seats');
+        $this -> db -> where('done = 0');
+
+
+        $query = $this -> db -> get();
+
+        return $query->result();
+    }
+
+    function get_composition_queue()
+    {
+        $this -> db -> select('time_stamps, done');
+        $this -> db -> from('composition');
+        $this -> db -> where('done = 0');
+
+
+        $query = $this -> db -> get();
+
+        return $query->result();
     }
 
     function update_done_votes($code)

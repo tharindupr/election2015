@@ -25,9 +25,24 @@ class Viewcard extends CI_controller
 
             redirect('district_controller/index/'.$code, 'refresh');
         }
-        else{
+        elseif(strlen($code)==3 && substr($code, -1)!='Z'){
 
             redirect('votes_controller/index/'.$code, 'refresh');
+        }
+
+        elseif($code=="AICOMP"){
+
+            redirect('composition_controller/index', 'refresh');
+        }
+
+        elseif($code=="AINAST"){
+
+            redirect('nationalseats_controller/index', 'refresh');
+        }
+
+        elseif($code=="AIVOT"){
+
+            redirect('allisland_controller/index/', 'refresh');
         }
 
 
