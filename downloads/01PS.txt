@@ -1,5 +1,5 @@
-11:59:28 06-Aug-2015
-VALID            0   0.00%
-REJECTED         0   0.00%
-POLLED           0   0.00%
-ELECTORS         0        
+13:58:57 06-Aug-2015
+VALID            6126   60.00%
+REJECTED         120   10.00%
+POLLED           50   1.00%
+ELECTORS   300,000        

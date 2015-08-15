@@ -362,6 +362,7 @@ top: 86.5%;
 left: 24%;
 font-size:13px;
 color:white;
+text-align: right;
 }
 #valid_percentage
 {
@@ -370,6 +371,7 @@ top: 86.5%;
 left: 30%;
 font-size:13px;
 color:white;
+text-align: right;
 }
 
 #rejected
@@ -387,6 +389,7 @@ top: 88.5%;
 left: 24%;
 font-size:13px;
 color:white;
+text-align: right;
 }
 #rejected_percentage
 {
@@ -395,6 +398,7 @@ top: 88.5%;
 left: 30%;
 font-size:13px;
 color:white;
+text-align: right;
 }
 
 
@@ -413,15 +417,18 @@ top: 91%;
 left: 24%;
 font-size:13px;
 color:white;
+text-align: right;
 }
 
 #polled_percentage
 {
 position: absolute;
+text-align: right;
 top: 91%;
 left: 30%;
 font-size:13px;
 color:white;
+
 }
 
 
@@ -442,6 +449,7 @@ top: 93.5%;
 left: 24%;
 font-size:13px;
 color:white;
+text-align: right;
 }
 
 #districtdescription
