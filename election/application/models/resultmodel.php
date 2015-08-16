@@ -6,9 +6,28 @@ Class ResultModel extends CI_Model
     function get_votes()
     {
 
-        $this -> db -> select('votes.seat, result_description.code , result_description.description, result_description.district');
+        $this -> db -> select('votes.seat, votes.done, result_description.code , result_description.description, result_description.district');
         $this -> db -> from('votes, result_description');
         $this -> db -> where('votes.seat = result_description.code');
+        $this -> db -> where('votes.done = 0');
+
+
+        $query = $this -> db -> get();
+
+        if($query -> num_rows() > 0) {
+            return $query->result();
+
+        }
+
+
+    }
+    function get_votes_done()
+    {
+
+        $this -> db -> select('votes.seat, votes.done, result_description.code , result_description.description, result_description.district');
+        $this -> db -> from('votes, result_description');
+        $this -> db -> where('votes.seat = result_description.code');
+        $this -> db -> where('votes.done = 1');
 
 
         $query = $this -> db -> get();
@@ -51,9 +70,30 @@ Class ResultModel extends CI_Model
         }
         */
 
-        $this -> db -> select('district_votes.district, result_description.code , result_description.description, result_description.district');
+        $this -> db -> select('district_votes.district, district_votes.done, result_description.code , result_description.description, result_description.district');
         $this -> db -> from('district_votes, result_description');
         $this -> db -> where('district_votes.district = result_description.code');
+        $this -> db -> where('district_votes.done = 0');
+
+
+        $query = $this -> db -> get();
+
+        if($query -> num_rows() > 0) {
+            return $query->result();
+
+        }
+
+
+
+    }
+
+    function get_district_done()
+    {
+
+        $this -> db -> select('district_votes.district, district_votes.done, result_description.code , result_description.description, result_description.district');
+        $this -> db -> from('district_votes, result_description');
+        $this -> db -> where('district_votes.district = result_description.code');
+        $this -> db -> where('district_votes.done = 1');
 
 
         $query = $this -> db -> get();

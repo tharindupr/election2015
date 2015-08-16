@@ -49,6 +49,46 @@ class Result extends CI_controller
         $string=$string1.$string2."</tbody>
             </table>";
 
+        $doneresult = $this->resultmodel->get_votes_done();
+
+        $done1="<table class='table table-striped'>
+                <thead>
+                <tr >
+                    <th width='5%'>DONE</th>
+                    <th width='50%'>ADDED RESULTS TO MCR AND PRESENTER</th>
+
+
+                    <th width='10%'></th>
+                    <th width='10%'></th>
+
+                </tr>
+                </thead>
+                <tbody>";
+
+        $done2="";
+
+        if($doneresult)
+        {
+            //$sess_array = array();
+            //<td><strong>".$row->district."</strong></td>
+            foreach($doneresult as $row)
+            {
+                $done2="<tr>
+                    <td><strong>".$row->code."</strong></td>
+                    <td><strong>".$row->description."</strong></td>
+                    <td><button type='button' class='btn1 btn btn-default' value='".$row->code."'>Add</button></td>
+                    <td><button type='button' class='btn btn-default' value='".$row->code."' onclick='view_card(\"$row->code\")'><a href='".base_url('votes_controller/index/')."".$row->code."'  target='_blank'>View</a></button></td>
+                </tr>".$done2;
+
+            }
+
+        }
+
+        $string=$string.$done1.$done2."</tbody>
+            </table>";
+
+
+
         $script1="<script type='text/javascript' src='".base_url('js/plugins/jquery/jquery.min.js')."'></script>
                  <script type='text/javascript' src='".base_url('js/plugins/jquery/jquery-ui.min.js')."''></script>";
 
@@ -128,6 +168,45 @@ class Result extends CI_controller
 
 
         $string=$string."</tbody>
+            </table>";
+
+
+        $doneresult = $this->resultmodel->get_district_done();
+
+        $done1="<table class='table table-striped'>
+                <thead>
+                <tr >
+                    <th width='5%'>DONE</th>
+                    <th width='50%'>ADDED RESULTS TO MCR AND PRESENTER</th>
+
+
+                    <th width='10%'></th>
+                    <th width='10%'></th>
+
+                </tr>
+                </thead>
+                <tbody>";
+
+        $done2="";
+
+        if($doneresult)
+        {
+            //$sess_array = array();
+            //<td><strong>".$row->district."</strong></td>
+            foreach($doneresult as $row)
+            {
+                $done2="<tr>
+                    <td><strong>".$row->code."</strong></td>
+                    <td><strong>".$row->description."</strong></td>
+                    <td><button type='button' class='btn1 btn btn-default' value='".$row->code."'>Add</button></td>
+                    <td><button type='button' class='btn btn-default' value='".$row->code."' onclick='view_card(\"$row->code\")'><a href='".base_url('votes_controller/index/')."".$row->code."'  target='_blank'>View</a></button></td>
+                </tr>".$done2;
+
+            }
+
+        }
+
+        $string=$string.$done1.$done2."</tbody>
             </table>";
 
         $script1="<script type='text/javascript' src='".base_url('js/plugins/jquery/jquery.min.js')."'></script>
