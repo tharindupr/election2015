@@ -43,11 +43,11 @@
 								jQuery("div#district").html(res.District);
 								jQuery("div#districtdescription").html(res.Polling);
 								jQuery("div#valid_votes").html(res.VALID_votes);
-								jQuery("div#valid_percentage").html(res.VALID_percentage);
+								jQuery("div#valid_percentage").html(res.VALID_percentage+" %");
 								jQuery("div#rejected_votes").html(res.REJECTED_votes);
-								jQuery("div#rejected_percentage").html(res.REJECTED_percentage);
+								jQuery("div#rejected_percentage").html(res.REJECTED_percentage+" %");
 								jQuery("div#polled_votes").html(res.POLLED_votes);
-								jQuery("div#polled_percentage").html(res.POLLED_percentage);
+								jQuery("div#polled_percentage").html(res.POLLED_percentage+" %");
 								jQuery("div#electors_votes").html(res.ELECTORS);
 								
 								$("#progress1").css( "width",(342*Number(res.Party1_percentage)/100).toString()+"px");

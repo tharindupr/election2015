@@ -50,8 +50,8 @@
 								jQuery("div#polled_votes").html(res.POLLED_votes);
 								jQuery("div#polled_percentage").html(res.POLLED_percentage);
 								jQuery("div#electors_votes").html(res.ELECTORS);
-								
-							
+
+
 								
 								$('#logo1').css("background-image", "url(<?php echo base_url(); ?>logo/"+res.Party1_Name+".PNG");  
 								$('#logo2').css("background-image", "url(<?php echo base_url(); ?>logo/"+res.Party2_Name+".PNG");  
