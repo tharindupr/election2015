@@ -2,73 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5953a210-5e77-42f7-a06b-f0cc6add9e48" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/election/application/controllers/barchart_controller.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/election/application/views/barchart_view.php" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\blank.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\charts-other.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\charts-rickshaw.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\form-editors.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\form-elements.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\form-file-handling.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\form-layouts-one-column.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\form-layouts-separated.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\form-layouts-tabbed.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\form-layouts-two-column.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\form-validation.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\form-wizards.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\index-ci default.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\layout-boxed.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\layout-frame-left.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\layout-frame-right.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\layout-nav-custom.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\layout-nav-right.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\layout-nav-toggled.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\layout-nav-top-fixed.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\layout-nav-top.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\layout-search-left.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\maps.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\pages-address-book.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\pages-blog-list.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\pages-blog-post.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\pages-calendar.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\pages-content-table.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\pages-error-404-2.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\pages-error-404.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\pages-error-500.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\pages-faq.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\pages-gallery.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\pages-login-website-light.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\pages-login-website.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\pages-login.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\pages-mailbox-compose.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\pages-mailbox-inbox.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\pages-mailbox-message.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\pages-messages.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\pages-profile.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\pages-search.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\pages-tasks.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\pages-timeline-simple.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\pages-timeline.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\table-basic.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\table-datatables.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\table-export.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\ui-alerts-popups.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\ui-buttons.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\ui-elements.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\ui-icons.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\ui-lists.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\ui-panels.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\ui-portlet.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\ui-sliders.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\ui-tour.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\ui-typography.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\arttvelection2015\election\application\views\ui-widgets.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/application/views/allisland_view.php" afterPath="$PROJECT_DIR$/election/application/views/allisland_view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/application/views/composition_view.php" afterPath="$PROJECT_DIR$/election/application/views/composition_view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/application/views/district_view.php" afterPath="$PROJECT_DIR$/election/application/views/district_view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/application/views/nationalseats_view.php" afterPath="$PROJECT_DIR$/election/application/views/nationalseats_view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/application/views/home_mcr.php" afterPath="$PROJECT_DIR$/election/application/views/home_mcr.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/application/views/home_presenter.php" afterPath="$PROJECT_DIR$/election/application/views/home_presenter.php" />
     </list>
     <ignored path="arttvelection2015.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -90,11 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="barchart_controller.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/election/application/controllers/barchart_controller.php">
+      <file leaf-file-name="home_admin.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/election/application/views/home_admin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.8461537">
-              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            <state vertical-scroll-proportion="595.1539">
+              <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home_mcr.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/election/application/views/home_mcr.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.31641287">
+              <caret line="380" column="97" selection-start-line="380" selection-start-column="97" selection-end-line="380" selection-end-column="97" />
               <folding />
             </state>
           </provider>
@@ -144,6 +89,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="home_presenter.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/election/application/views/home_presenter.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.8461537">
+              <caret line="72" column="13" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="district_view.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/election/application/views/district_view.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -164,38 +119,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="votes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/election/application/views/votes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.076923">
-              <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="72" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="allisland_view.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="allisland_view.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/election/application/views/allisland_view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.998308">
+            <state vertical-scroll-proportion="68.15385">
               <caret line="4" column="76" selection-start-line="4" selection-start-column="76" selection-end-line="4" selection-end-column="76" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="allisland_controller.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/election/application/controllers/allisland_controller.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="4" />
-              <folding>
-                <marker date="1439662146838" expanded="true" signature="362:420" placeholder="SELECT * FRO..all_island..." />
-                <marker date="1439662146838" expanded="true" signature="2458:2531" placeholder="SELECT color..colors..." />
-                <marker date="1439662146838" expanded="true" signature="2605:2678" placeholder="SELECT color..colors..." />
-                <marker date="1439662146838" expanded="true" signature="2753:2826" placeholder="SELECT color..colors..." />
-                <marker date="1439662146838" expanded="true" signature="2901:2974" placeholder="SELECT color..colors..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -213,14 +142,14 @@
         <option value="$PROJECT_DIR$/election/application/controllers/result.php" />
         <option value="$PROJECT_DIR$/election/application/controllers/viewcard.php" />
         <option value="$PROJECT_DIR$/election/application/views/home_admin.php" />
-        <option value="$PROJECT_DIR$/election/application/views/home_presenter.php" />
-        <option value="$PROJECT_DIR$/election/application/views/home_mcr.php" />
         <option value="$PROJECT_DIR$/election/application/controllers/barchart_controller.php" />
         <option value="$PROJECT_DIR$/election/application/views/barchart_view.php" />
         <option value="$PROJECT_DIR$/election/application/views/nationalseats_view.php" />
         <option value="$PROJECT_DIR$/election/application/views/district_view.php" />
         <option value="$PROJECT_DIR$/election/application/views/composition_view.php" />
         <option value="$PROJECT_DIR$/election/application/views/allisland_view.php" />
+        <option value="$PROJECT_DIR$/election/application/views/home_presenter.php" />
+        <option value="$PROJECT_DIR$/election/application/views/home_mcr.php" />
       </list>
     </option>
   </component>
@@ -837,40 +766,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/election/application/views/home_admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="89.57692">
-          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/election/application/views/home_presenter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="13.730769">
-          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/election/application/views/home_mcr.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.730769">
-          <caret line="76" column="13" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/election/application/controllers/allisland_controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="4" />
           <folding>
-            <marker date="1439662146838" expanded="true" signature="362:420" placeholder="SELECT * FRO..all_island..." />
-            <marker date="1439662146838" expanded="true" signature="2458:2531" placeholder="SELECT color..colors..." />
-            <marker date="1439662146838" expanded="true" signature="2605:2678" placeholder="SELECT color..colors..." />
-            <marker date="1439662146838" expanded="true" signature="2753:2826" placeholder="SELECT color..colors..." />
-            <marker date="1439662146838" expanded="true" signature="2901:2974" placeholder="SELECT color..colors..." />
+            <marker date="1439662146838" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..all_island..." />
+            <marker date="1439662146838" expanded="true" signature="-1:-1" placeholder="SELECT color..colors..." />
+            <marker date="1439662146838" expanded="true" signature="-1:-1" placeholder="SELECT color..colors..." />
+            <marker date="1439662146838" expanded="true" signature="-1:-1" placeholder="SELECT color..colors..." />
+            <marker date="1439662146838" expanded="true" signature="-1:-1" placeholder="SELECT color..colors..." />
           </folding>
         </state>
       </provider>
@@ -945,8 +850,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/election/application/views/allisland_view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.998308">
+        <state vertical-scroll-proportion="68.15385">
           <caret line="4" column="76" selection-start-line="4" selection-start-column="76" selection-end-line="4" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/election/application/views/home_presenter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.8461537">
+          <caret line="72" column="13" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/election/application/views/home_admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="595.1539">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/election/application/views/home_mcr.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31641287">
+          <caret line="380" column="97" selection-start-line="380" selection-start-column="97" selection-end-line="380" selection-end-column="97" />
           <folding />
         </state>
       </provider>

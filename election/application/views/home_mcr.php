@@ -41,7 +41,7 @@
                 data: {name: user_name, pwd: password},
                 success: function(res) {
 
-                    console.log("test1");
+                    //console.log("test1");
                     if (res)
                     {
                         // Show Entered Value
@@ -59,7 +59,7 @@
                 data: {name: user_name, pwd: password},
                 success: function(res) {
 
-                    console.log("test1");
+                    //console.log("test1");
                     if (res)
                     {
                         // Show Entered Value
@@ -70,7 +70,7 @@
                 }
             });
 
-        }, 500 );
+        }, 1000 );
 
         //});
 
@@ -378,7 +378,7 @@
 <!-- END THIS PAGE PLUGINS-->
 
 <!-- START TEMPLATE -->
-<script type="text/javascript" src="<?php echo base_url('js/settings.js'); ?>"></script>
+<!-- <script type="text/javascript" src="<?php echo base_url('js/settings.js'); ?>"></script> -->
 
 <script type="text/javascript" src="<?php echo base_url('js/plugins.js'); ?>"></script>
 <script type="text/javascript" src="<?php echo base_url('js/actions.js'); ?>"></script>
