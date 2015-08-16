@@ -2,7 +2,7 @@
 <head>
  <!-- jQuery 2.0.2 -->
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="<?php echo base_url(); ?>js/jquery-1.11.3.min.js"></script>
   <script src="<?php echo base_url(); ?>js/video.js"></script>
   <link href="<?php echo base_url(); ?>css/video.css" rel="stylesheet" type="text/css" />
  
