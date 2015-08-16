@@ -45,7 +45,7 @@
 								jQuery("div#party3seats").html(res.Party3_seats);
 								jQuery("div#party4seats").html(res.Party4_seats);
 								jQuery("div#district").html(res.District);
-								jQuery("div#districtdescription").html(res.Polling);
+								//jQuery("div#districtdescription").html(res.Polling);
 								jQuery("div#valid_votes").html(res.VALID_votes);
 								jQuery("div#valid_percentage").html(res.VALID_percentage);
 								jQuery("div#rejected_votes").html(res.REJECTED_votes);
@@ -103,7 +103,7 @@
 
 
 <div id="district">COLOMB DISTRICT </div> 
-<div id="districtdescription"> </div>
+<div id="districtdescription">FINAL DISTRICT RESULT </div>
 
 <div id="party1">UPFA </div>
 <div id="party1votes">500 000 </div>
