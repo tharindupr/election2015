@@ -52,23 +52,6 @@
                 }
             });
 
-        }, 2000 );
-
-        //});
-
-    </script>
-
-    <script type="text/javascript">
-
-
-        // Ajax post
-        //$(document).ready(function() {
-
-        setInterval(function() {
-
-            //event.preventDefault();
-            var user_name = "Hello";
-            var password = "Lahiru";
             jQuery.ajax({
                 type: "POST",
                 url: "<?php echo base_url('/result/get_mcr_queue'); ?>",
@@ -87,9 +70,21 @@
                 }
             });
 
-        }, 2000 );
+        }, 500 );
 
         //});
+
+    </script>
+
+    <script type="text/javascript">
+
+
+        function view_card(cardid){
+
+            window.open("<?php echo base_url('viewcard/update/') ?>/"+ cardid);
+
+
+        }
 
     </script>
 
@@ -103,7 +98,7 @@
         <!-- START X-NAVIGATION -->
         <ul class="x-navigation">
             <li class="xn-logo">
-                <a href="index.html"><img src="<?php echo base_url('img/arttv.jpg'); ?>" alt="Admin"/></a>
+                <a href="#"><img src="<?php echo base_url('img/arttv.jpg'); ?>" alt="Admin"/></a>
             </li>
             <li class="xn-profile">
                 <a href="#" class="profile-mini">
@@ -118,16 +113,15 @@
                         <div class="profile-data-title">Administrator</div>
                     </div>
                     <div class="profile-controls">
-                        <a href="pages-profile.html" class="profile-control-left"><span class="fa fa-info"></span></a>
-                        <a href="pages-messages.html" class="profile-control-right"><span class="fa fa-envelope"></span></a>
+                        <a href="#" class="profile-control-left"><span class="fa fa-info"></span></a>
+                        <a href="#" class="profile-control-right"><span class="fa fa-envelope"></span></a>
                     </div>
                 </div>
             </li>
             <li class="xn-title">View as:</li>
-            <?php if ($type=='A'){ echo ("<li><a href='http://localhost/arttvelection2015/election/elect/get_admin_home'><span class='fa fa-desktop'></span>Admin</a></li>");} ?>
-            <?php if ($type!='M'){ echo ("<li><a href='http://localhost/arttvelection2015/election/elect/get_presenter_home'><span class='fa fa-desktop'></span>Presenter</a></li>");} ?>
-            <?php if ($type!='P'){echo ("<li><a href='http://localhost/arttvelection2015/election/elect/get_mcr_home'><span class='fa fa-desktop'></span>MCR</a></li>"); }?>
-
+            <?php if ($type=='A'){ echo ("<li><a href='".base_url('elect/get_admin_home')."'><span class='fa fa-desktop'></span>Admin</a></li>");} ?>
+            <?php if ($type!='M'){ echo ("<li><a href='".base_url('elect/get_presenter_home')."'><span class='fa fa-desktop'></span>Presenter</a></li>");} ?>
+            <?php if ($type!='P'){echo ("<li><a href='".base_url('elect/get_mcr_home')."'><span class='fa fa-desktop'></span>MCR</a></li>"); } ?>
 
 
 
@@ -197,7 +191,7 @@
                 <div class="col-md-3">
 
                     <!-- START WIDGET MESSAGES -->
-                    <div class="widget widget-default widget-item-icon" onclick="location.href='pages-messages.html';">
+                    <div class="widget widget-default widget-item-icon" onclick="location.href='#';">
                         <div class="widget-item-left">
                             <span class="fa fa-envelope"></span>
                         </div>
@@ -216,7 +210,7 @@
                 <div class="col-md-3">
 
                     <!-- START WIDGET REGISTRED -->
-                    <div class="widget widget-default widget-item-icon" onclick="location.href='pages-address-book.html';">
+                    <div class="widget widget-default widget-item-icon" onclick="location.href='#';">
                         <div class="widget-item-left">
                             <span class="fa fa-user"></span>
                         </div>

@@ -144,10 +144,12 @@ else
 $sql=$sql.$val.","; 
 }
 
-$sql=rtrim($sql, ",").")";
+$sql=$sql."0)";
 
 
 $this->db->query($sql);
+
+	redirect('home','reresh');
 
 
 

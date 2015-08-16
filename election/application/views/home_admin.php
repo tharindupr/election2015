@@ -37,7 +37,7 @@
                 data: {name: user_name, pwd: password},
                 success: function(res) {
 
-                    console.log("test1");
+                    //console.log("test1");
                     if (res)
                     {
                         // Show Entered Value
@@ -55,7 +55,7 @@
                 data: {name: user_name, pwd: password},
                 success: function(res) {
 
-                    console.log("test1");
+                    //console.log("test1");
                     if (res)
                     {
                         // Show Entered Value
@@ -67,6 +67,8 @@
                 }
             });
 
+            /*
+
             jQuery.ajax({
                 type: "POST",
                 url: "<?php echo base_url('/result/get_presenter_view'); ?>",
@@ -74,7 +76,7 @@
                 data: {name: user_name, pwd: password},
                 success: function(res) {
 
-                    console.log("test1");
+                    //console.log("test1");
                     if (res)
                     {
                         // Show Entered Value
@@ -92,7 +94,7 @@
                 data: {name: user_name, pwd: password},
                 success: function(res) {
 
-                    console.log("test1");
+                    //console.log("test1");
                     if (res)
                     {
                         // Show Entered Value
@@ -103,6 +105,8 @@
                 }
             });
 
+            */
+
             jQuery.ajax({
                 type: "POST",
                 url: "<?php echo base_url('/result/get_all_island'); ?>",
@@ -110,7 +114,7 @@
                 data: {name: user_name, pwd: password},
                 success: function(res) {
 
-                    console.log("testallisland");
+                    //console.log("testallisland");
                     if (res)
                     {
                         // Show Entered Value
@@ -128,7 +132,7 @@
                 data: {name: user_name, pwd: password},
                 success: function(res) {
 
-                    console.log("testallisland");
+                    //console.log("testallisland");
                     if (res)
                     {
                         // Show Entered Value
@@ -146,13 +150,33 @@
                 data: {name: user_name, pwd: password},
                 success: function(res) {
 
-                    console.log("testallisland");
+                    //console.log("testallisland");
                     if (res)
                     {
                         // Show Entered Value
 
                         jQuery("div#composition").html(res.username);
                         //jQuery("div#value_pwd").html(res.pwd);
+                    }
+                }
+            });
+
+            jQuery.ajax({
+                type: "POST",
+                url: "<?php echo base_url('/result/admin_queue'); ?>",
+                dataType: 'json',
+                data: {name: user_name, pwd: password},
+                success: function(res) {
+
+                    //console.log("testallisland");
+                    if (res)
+                    {
+                        // Show Entered Value
+                        jQuery("div#votes_queue").html(res.votes);
+                        jQuery("div#district_queue").html(res.district);
+                        jQuery("div#all_island_queue").html(res.summary);
+                        jQuery("div#national_seats_queue").html(res.seats);
+                        jQuery("div#composition_queue").html(res.composition);
                     }
                 }
             });
@@ -164,6 +188,52 @@
 
     </script>
 
+    <script type="text/javascript">
+
+
+        function view_card(cardid){
+
+            window.open("<?php echo base_url('viewcard/update/') ?>/"+ cardid);
+
+
+        }
+
+        function summary_generate(){
+
+            location.href = "<?php echo base_url('summary_controller/generate') ?>";
+        }
+
+        function summary_add(){
+
+            //var user_n = $(this).val();
+            var type = 'summary';
+            jQuery.ajax({
+                type: 'POST',
+                url: "<?php echo base_url('/result/add_to_view'); ?>",
+                dataType: 'json',
+                data: {type: type},
+                success: function(res) {
+
+
+                    if (res)
+                    {
+                        alert('Your Added To Presenter and MCR');
+                    }
+                }
+            });
+
+
+        }
+
+        function summary_view(){
+
+            window.open("<?php echo base_url('summary_controller/index') ?>");
+        }
+
+    </script>
+
+
+
 </head>
 <body>
 <!-- START PAGE CONTAINER -->
@@ -174,7 +244,7 @@
         <!-- START X-NAVIGATION -->
         <ul class="x-navigation">
             <li class="xn-logo">
-                <a href="index.html"><img src="<?php echo base_url('img/arttv.jpg'); ?>" alt="Admin"/></a>
+                <a href="#"><img src="<?php echo base_url('img/arttv.jpg'); ?>" alt="Admin"/></a>
             </li>
             <li class="xn-profile">
                 <a href="#" class="profile-mini">
@@ -189,15 +259,15 @@
                         <div class="profile-data-title">Administrator</div>
                     </div>
                     <div class="profile-controls">
-                        <a href="pages-profile.html" class="profile-control-left"><span class="fa fa-info"></span></a>
-                        <a href="pages-messages.html" class="profile-control-right"><span class="fa fa-envelope"></span></a>
+                        <a href="#" class="profile-control-left"><span class="fa fa-info"></span></a>
+                        <a href="#" class="profile-control-right"><span class="fa fa-envelope"></span></a>
                     </div>
                 </div>
             </li>
             <li class="xn-title">View as:</li>
-            <?php if ($type=='A'){ echo ("<li><a href='http://localhost/arttvelection2015/election/elect/get_admin_home'><span class='fa fa-desktop'></span>Admin</a></li>");} ?>
-            <?php if ($type!='M'){ echo ("<li><a href='http://localhost/arttvelection2015/election/elect/get_presenter_home'><span class='fa fa-desktop'></span>Presenter</a></li>");} ?>
-            <?php echo ("<li><a href='http://localhost/arttvelection2015/election/elect/get_mcr_home'><span class='fa fa-desktop'></span>MCR</a></li>"); ?>
+            <?php if ($type=='A'){ echo ("<li><a href='".base_url('elect/get_admin_home')."'><span class='fa fa-desktop'></span>Admin</a></li>");} ?>
+            <?php if ($type!='M'){ echo ("<li><a href='".base_url('elect/get_presenter_home')."'><span class='fa fa-desktop'></span>Presenter</a></li>");} ?>
+            <?php echo ("<li><a href='".base_url('elect/get_mcr_home')."'><span class='fa fa-desktop'></span>MCR</a></li>"); ?>
 
 
 
@@ -221,14 +291,14 @@
                 <a href="#" class="x-navigation-minimize"><span class="fa fa-dedent"></span></a>
             </li>
             <!-- END TOGGLE NAVIGATION -->
-            <!-- SEARCH -->
+            <!--
             <li class="xn-search">
                 <form role="form">
                     <input type="text" name="search" placeholder="Search..."/>
                 </form>
             </li>
 
-            <!-- END SEARCH -->
+            -->
             <!-- SIGN OUT -->
             <li class="xn-icon-button pull-right">
                 <a href="#" class="mb-control" data-box="#mb-signout"><span class="fa fa-sign-out"></span></a>
@@ -334,14 +404,15 @@
                 <div class="col-md-3">
 
                     <!-- START WIDGET MESSAGES -->
-                    <div class="widget widget-default widget-item-icon" onclick="location.href='pages-messages.html';">
+                    <!--<div class="widget widget-default widget-item-icon" onclick="location.href='pages-messages.html';">-->
+                    <div class="widget widget-default widget-item-icon">
                         <div class="widget-item-left">
                             <span class="fa fa-envelope"></span>
                         </div>
                         <div class="widget-data">
-                            <div class="widget-int num-count">48</div>
-                            <div class="widget-title">Released Results</div>
-                            <div class="widget-subtitle">184 Total</div>
+                            <div class="widget-int num-count" id="votes_queue"></div>
+                            <div class="widget-title">Votes Results</div>
+                            <div class="widget-subtitle">Results in queue</div>
                         </div>
                         <div class="widget-controls">
                             <a href="#" class="widget-control-right widget-remove" data-toggle="tooltip" data-placement="top" title="Remove Widget"><span class="fa fa-times"></span></a>
@@ -353,14 +424,14 @@
                 <div class="col-md-3">
 
                     <!-- START WIDGET MESSAGES -->
-                    <div class="widget widget-default widget-item-icon" onclick="location.href='pages-messages.html';">
+                    <div class="widget widget-default widget-item-icon">
                         <div class="widget-item-left">
                             <span class="fa fa-envelope"></span>
                         </div>
                         <div class="widget-data">
-                            <div class="widget-int num-count">48</div>
-                            <div class="widget-title">Released Results</div>
-                            <div class="widget-subtitle">184 Total</div>
+                            <div class="widget-int num-count" id="district_queue"></div>
+                            <div class="widget-title">District Results</div>
+                            <div class="widget-subtitle">Results in queue</div>
                         </div>
                         <div class="widget-controls">
                             <a href="#" class="widget-control-right widget-remove" data-toggle="tooltip" data-placement="top" title="Remove Widget"><span class="fa fa-times"></span></a>
@@ -371,21 +442,30 @@
                 </div>
                 <div class="col-md-3">
 
-                    <!-- START WIDGET REGISTRED -->
-                    <div class="widget widget-default widget-item-icon" onclick="location.href='pages-address-book.html';">
-                        <div class="widget-item-left">
-                            <span class="fa fa-user"></span>
-                        </div>
-                        <div class="widget-data">
-                            <div class="widget-int num-count">3</div>
-                            <div class="widget-title">Registred users</div>
-                            <div class="widget-subtitle">On your website</div>
+                    <!-- START WIDGET SLIDER -->
+                    <div class="widget widget-default widget-carousel">
+                        <div class="owl-carousel" id="owl-example">
+                            <div>
+                                <div class="widget-title">Summary</div>
+                                <div class="widget-subtitle">All Island</div>
+                                <div class="widget-int" id="all_island_queue"></div>
+                            </div>
+                            <div>
+                                <div class="widget-title">Seats</div>
+                                <div class="widget-subtitle">National Basis</div>
+                                <div class="widget-int" id="national_seats_queue"></div>
+                            </div>
+                            <div>
+                                <div class="widget-title">Composition</div>
+                                <div class="widget-subtitle">of parliment</div>
+                                <div class="widget-int" id="composition_queue"></div>
+                            </div>
                         </div>
                         <div class="widget-controls">
                             <a href="#" class="widget-control-right widget-remove" data-toggle="tooltip" data-placement="top" title="Remove Widget"><span class="fa fa-times"></span></a>
                         </div>
                     </div>
-                    <!-- END WIDGET REGISTRED -->
+                    <!-- END WIDGET SLIDER -->
 
                 </div>
                 <div class="col-md-3">
@@ -410,12 +490,12 @@
 
             <div class="row">
                 <div id="content">
-                    <ul id="tabs" class="nav nav-tabs  nav-justified" data-tabs="tabs">
+                    <ul id="tabs" class="nav nav-tabs" data-tabs="tabs">
                         <li class="active"><a href="#home" data-toggle="tab">Home</a></li>
-                        <li><a href="#presenter" data-toggle="tab">Presenter</a></li>
+                        <!-- <li><a href="#presenter" data-toggle="tab">Presenter</a></li> -->
                         <li><a href="#summary" data-toggle="tab">Summary</a></li>
-                        <li><a href="#user" data-toggle="tab">User</a></li>
-                        <li><a href="#polling_division" data-toggle="tab">Polling Division</a></li>
+                        <!-- <li><a href="#user" data-toggle="tab">User</a></li>
+                        <li><a href="#polling_division" data-toggle="tab">Polling Division</a></li> -->
 
                     </ul>
                     <br>
@@ -600,11 +680,13 @@
 
                             </div>
                         </div>
+
+                        <!--
                         <div class="tab-pane" id="presenter">
                             <div class="col-md-6">
                                 <div id="presenter_table_panel">
 
-                                    <!-- START PROJECTS BLOCK -->
+
                                     <div class="panel panel-default" >
                                         <div class="panel-heading">
                                             <div class="panel-title-box">
@@ -632,13 +714,13 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- END PROJECTS BLOCK -->
+
 
                             </div>
                             <div class="col-md-6">
                                 <div id="presenter_table_panel">
 
-                                    <!-- START PROJECTS BLOCK -->
+
                                     <div class="panel panel-default" >
                                         <div class="panel-heading">
                                             <div class="panel-title-box">
@@ -666,14 +748,22 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- END PROJECTS BLOCK -->
+
 
                             </div>
                         </div>
+                        -->
+
+                        <!--
+
                         <div class="tab-pane" id="user">
                             <h1>Add new User</h1>
 
                         </div>
+
+                        -->
+
+                        <!--
                         <div class="tab-pane" id="polling_division">
                             <h1>Add new polling division</h1>
 
@@ -694,44 +784,76 @@
 
 
                         </div>
+
+                        -->
                         <div class="tab-pane" id="summary">
-                            <h1>Generate Summary and Select Connection</h1>
+                            <h1>Generate Summary</h1>
 
                             <div class="row">
 
-                                <div class="col-md-4">
+                                <div class="col-md-6">
+                                    <div id="district_table_panel">
 
-                                    <!-- START USERS ACTIVITY BLOCK -->
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading">
-                                            <div class="panel-title-box">
-                                                <h3>Summary</h3>
-                                                <span>All island summery upto result</span>
+                                        <!-- START PROJECTS BLOCK -->
+                                        <div class="panel panel-default" >
+                                            <div class="panel-heading">
+                                                <div class="panel-title-box">
+                                                    <h3>Summary</h3>
+                                                    <span>All island summary upto released results</span>
+                                                </div>
+                                                <ul class="panel-controls" style="margin-top: 2px;">
+                                                    <li><a href="#" class="panel-fullscreen"><span class="fa fa-expand"></span></a></li>
+                                                    <li><a href="#" class="panel-refresh"><span class="fa fa-refresh"></span></a></li>
+                                                    <li class="dropdown">
+                                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="fa fa-cog"></span></a>
+                                                        <ul class="dropdown-menu">
+                                                            <li><a href="#" class="panel-collapse"><span class="fa fa-angle-down"></span> Collapse</a></li>
+                                                            <li><a href="#" class="panel-remove"><span class="fa fa-times"></span> Remove</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
                                             </div>
-                                            <ul class="panel-controls" style="margin-top: 2px;">
-                                                <li><a href="#" class="panel-fullscreen"><span class="fa fa-expand"></span></a></li>
-                                                <li><a href="#" class="panel-refresh"><span class="fa fa-refresh"></span></a></li>
-                                                <li class="dropdown">
-                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="fa fa-cog"></span></a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a href="#" class="panel-collapse"><span class="fa fa-angle-down"></span> Collapse</a></li>
-                                                        <li><a href="#" class="panel-remove"><span class="fa fa-times"></span> Remove</a></li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="panel-body padding-0">
-                                            <button type="button" class="btn btn-default">Generate</button>
-                                            <button type="button" class="btn btn-default">Add</button>
-                                            <button type="button" class="btn btn-default">View</button>
+                                            <div class="panel-body panel-body-table">
+
+                                                <div class="table-responsive">
+                                                    <table class='table table-striped'>
+                                                        <thead>
+                                                        <tr >
+                                                            <th width='50%'>Description</th>
+                                                            <th width='50%'></th>
+                                                        </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                        <tr>
+                                                            <td><strong>Genrate Summary</strong></td>
+                                                            <td><button type="button" class="btn btn-default" onclick="summary_generate()" >Generate</button></td>
+                                                            <!-- <td><button type='button' class='btn btn-default' value='".$row->code."'><a href='".base_url('viewcard/update')."/".$row->code."'  target='_blank'>View</a></button></td> -->
+                                                        </tr>
+                                                        <tr>
+                                                            <td><strong>Add to Presenter View</strong></td>
+                                                            <td><button type="button" class="btn btn-default" onclick="summary_add()">Add</button></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><strong>View Generated Summary</strong></td>
+                                                            <td><button type="button" class="btn btn-default" onclick="summary_view()">View</button></td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+
+                                                </div>
+
+                                            </div>
                                         </div>
                                     </div>
-                                    <!-- END USERS ACTIVITY BLOCK -->
+                                    <!-- END PROJECTS BLOCK -->
 
                                 </div>
+
+
+                                <!--
                                 <div class="col-md-4">
 
-                                    <!-- START VISITORS BLOCK -->
+
                                     <div class="panel panel-default">
                                         <div class="panel-heading">
                                             <div class="panel-title-box">
@@ -756,9 +878,11 @@
                                             <button type="button" class="btn btn-default">Refresh Connection</button>
                                         </div>
                                     </div>
-                                    <!-- END VISITORS BLOCK -->
+
 
                                 </div>
+
+                                -->
                             </div>
 
                         </div>
@@ -825,7 +949,7 @@
 <!-- END THIS PAGE PLUGINS-->
 
 <!-- START TEMPLATE -->
-<script type="text/javascript" src="<?php echo base_url('js/settings.js'); ?>"></script>
+<!--<script type="text/javascript" src="<?php echo base_url('js/settings.js'); ?>"></script>-->
 
 <script type="text/javascript" src="<?php echo base_url('js/plugins.js'); ?>"></script>
 <script type="text/javascript" src="<?php echo base_url('js/actions.js'); ?>"></script>

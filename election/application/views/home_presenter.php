@@ -41,13 +41,31 @@
                 data: {name: user_name, pwd: password},
                 success: function(res) {
 
-                    console.log("test1");
+                    //console.log("test1");
                     if (res)
                     {
                         // Show Entered Value
 
                         jQuery("div#presenter_view").html(res.username);
                         //jQuery("div#value_pwd").html(res.pwd);
+                    }
+                }
+            });
+
+            jQuery.ajax({
+                type: "POST",
+                url: "<?php echo base_url('/result/get_presenter_queue'); ?>",
+                dataType: 'json',
+                data: {name: user_name, pwd: password},
+                success: function(res) {
+
+                    //console.log("test1");
+                    if (res)
+                    {
+                        // Show Entered Value
+
+                        jQuery("div#presenter_queue").html(res.username);
+                        jQuery("div#queue").html(res.pwd);
                     }
                 }
             });
@@ -61,34 +79,12 @@
     <script type="text/javascript">
 
 
-        // Ajax post
-        //$(document).ready(function() {
+        function view_card(cardid){
 
-            //event.preventDefault();
+            window.open("<?php echo base_url('viewcard/update/') ?>/"+ cardid);
 
-        setInterval(function() {
-            var user_name = "Hello";
-            var password = "Lahiru";
-            jQuery.ajax({
-                type: "POST",
-                url: "<?php echo base_url('/result/get_presenter_queue'); ?>",
-                dataType: 'json',
-                data: {name: user_name, pwd: password},
-                success: function(res) {
 
-                    console.log("test1");
-                    if (res)
-                    {
-                        // Show Entered Value
-
-                        jQuery("div#presenter_queue").html(res.username);
-                        jQuery("div#queue").html(res.pwd);
-                    }
-                }
-            });
-        }, 500 );
-
-        //});
+        }
 
     </script>
 
@@ -102,7 +98,7 @@
         <!-- START X-NAVIGATION -->
         <ul class="x-navigation">
             <li class="xn-logo">
-                <a href="index.html"><img src="<?php echo base_url('img/arttv.jpg'); ?>" alt="Admin"/></a>
+                <a href="#"><img src="<?php echo base_url('img/arttv.jpg'); ?>" alt="Admin"/></a>
             </li>
             <li class="xn-profile">
                 <a href="#" class="profile-mini">
@@ -117,16 +113,15 @@
                         <div class="profile-data-title">Administrator</div>
                     </div>
                     <div class="profile-controls">
-                        <a href="pages-profile.html" class="profile-control-left"><span class="fa fa-info"></span></a>
-                        <a href="pages-messages.html" class="profile-control-right"><span class="fa fa-envelope"></span></a>
+                        <a href="#" class="profile-control-left"><span class="fa fa-info"></span></a>
+                        <a href="#" class="profile-control-right"><span class="fa fa-envelope"></span></a>
                     </div>
                 </div>
             </li>
             <li class="xn-title">View as:</li>
-            <?php if ($type=='A'){ echo ("<li><a href='http://localhost/arttvelection2015/election/elect/get_admin_home'><span class='fa fa-desktop'></span>Admin</a></li>");} ?>
-            <?php if ($type!='M'){ echo ("<li><a href='http://localhost/arttvelection2015/election/elect/get_presenter_home'><span class='fa fa-desktop'></span>Presenter</a></li>");} ?>
-            <?php if ($type!='P'){echo ("<li><a href='http://localhost/arttvelection2015/election/elect/get_mcr_home'><span class='fa fa-desktop'></span>MCR</a></li>"); }?>
-
+            <?php if ($type=='A'){ echo ("<li><a href='".base_url('elect/get_admin_home')."'><span class='fa fa-desktop'></span>Admin</a></li>");} ?>
+            <?php if ($type!='M'){ echo ("<li><a href='".base_url('elect/get_presenter_home')."'><span class='fa fa-desktop'></span>Presenter</a></li>");} ?>
+            <?php if ($type!='P'){echo ("<li><a href='".base_url('elect/get_mcr_home')."'><span class='fa fa-desktop'></span>MCR</a></li>"); } ?>
 
 
 
@@ -196,7 +191,7 @@
                 <div class="col-md-3">
 
                     <!-- START WIDGET MESSAGES -->
-                    <div class="widget widget-default widget-item-icon" onclick="location.href='pages-messages.html';">
+                    <div class="widget widget-default widget-item-icon" onclick="location.href='#';">
                         <div class="widget-item-left">
                             <span class="fa fa-envelope"></span>
                         </div>
@@ -215,7 +210,7 @@
                 <div class="col-md-3">
 
                     <!-- START WIDGET REGISTRED -->
-                    <div class="widget widget-default widget-item-icon" onclick="location.href='pages-address-book.html';">
+                    <div class="widget widget-default widget-item-icon" onclick="location.href='#';">
                         <div class="widget-item-left">
                             <span class="fa fa-user"></span>
                         </div>
@@ -383,7 +378,7 @@
 <!-- END THIS PAGE PLUGINS-->
 
 <!-- START TEMPLATE -->
-<script type="text/javascript" src="<?php echo base_url('js/settings.js'); ?>"></script>
+<!-- <script type="text/javascript" src="<?php echo base_url('js/settings.js'); ?>"></script> -->
 
 <script type="text/javascript" src="<?php echo base_url('js/plugins.js'); ?>"></script>
 <script type="text/javascript" src="<?php echo base_url('js/actions.js'); ?>"></script>
