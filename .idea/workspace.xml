@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5953a210-5e77-42f7-a06b-f0cc6add9e48" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/application/controllers/result.php" afterPath="$PROJECT_DIR$/election/application/controllers/result.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/election/application/models/resultmodel.php" afterPath="$PROJECT_DIR$/election/application/models/resultmodel.php" />
-    </list>
+    <list default="true" id="5953a210-5e77-42f7-a06b-f0cc6add9e48" name="Default" comment="" />
     <ignored path="arttvelection2015.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
