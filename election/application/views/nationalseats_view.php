@@ -8,6 +8,15 @@
  <link href="<?php echo base_url(); ?>css/video.css" rel="stylesheet" type="text/css" />
  
  <link href="<?php echo base_url(); ?>css/card.css" rel="stylesheet" type="text/css" />
+
+ <script type="text/javascript">
+
+
+	 function numberWithCommas(x) {
+	    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+	}
+
+</script>
   
   
 <script type="text/javascript">
@@ -33,10 +42,10 @@
                                 jQuery("div#party2").html(res.Party2_Name);
 								jQuery("div#party3").html(res.Party3_Name);
                                 jQuery("div#party4").html(res.Party4_Name);
-								jQuery("div#party1votes").html(res.Party1_votes);
-								jQuery("div#party2votes").html(res.Party2_votes);
-								jQuery("div#party3votes").html(res.Party3_votes);
-								jQuery("div#party4votes").html(res.Party4_votes);
+								jQuery("div#party1votes").html(numberWithCommas(res.Party1_votes));
+								jQuery("div#party2votes").html(numberWithCommas(res.Party2_votes));
+								jQuery("div#party3votes").html(numberWithCommas(res.Party3_votes));
+								jQuery("div#party4votes").html(numberWithCommas(res.Party4_votes));
 								jQuery("div#seats1").html(res.Party1_seats);
 								jQuery("div#seats2").html(res.Party2_seats);
 								jQuery("div#seats3").html(res.Party3_seats);

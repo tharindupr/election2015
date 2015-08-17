@@ -7,6 +7,15 @@
  
  <link href="<?php echo base_url(); ?>css/video.css" rel="stylesheet" type="text/css" />
  <link href="<?php echo base_url(); ?>css/card.css" rel="stylesheet" type="text/css" />
+
+ <script type="text/javascript">
+
+
+	 function numberWithCommas(x) {
+	    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+	}
+
+</script>
   
   
 <script type="text/javascript">
@@ -32,23 +41,23 @@
                                 jQuery("div#party2").html(res.Party2_Name);
 								jQuery("div#party3").html(res.Party3_Name);
                                 jQuery("div#party4").html(res.Party4_Name);
-								jQuery("div#party1votes").html(res.Party1_votes);
-								jQuery("div#party2votes").html(res.Party2_votes);
-								jQuery("div#party3votes").html(res.Party3_votes);
-								jQuery("div#party4votes").html(res.Party4_votes);
+								jQuery("div#party1votes").html(numberWithCommas(res.Party1_votes));
+								jQuery("div#party2votes").html(numberWithCommas(res.Party2_votes));
+								jQuery("div#party3votes").html(numberWithCommas(res.Party3_votes));
+								jQuery("div#party4votes").html(numberWithCommas(res.Party4_votes));
 								jQuery("div#party1percentage").html(res.Party1_percentage+" %");
 								jQuery("div#party2percentage").html(res.Party2_percentage+" %");
 								jQuery("div#party3percentage").html(res.Party3_percentage+" %");
 								jQuery("div#party4percentage").html(res.Party4_percentage+" %");
 								jQuery("div#district").html(res.District);
 								jQuery("div#districtdescription").html(res.Polling);
-								jQuery("div#valid_votes").html(res.VALID_votes);
+								jQuery("div#valid_votes").html(numberWithCommas(res.VALID_votes));
 								jQuery("div#valid_percentage").html(res.VALID_percentage+" %");
-								jQuery("div#rejected_votes").html(res.REJECTED_votes);
+								jQuery("div#rejected_votes").html(numberWithCommas(res.REJECTED_votes));
 								jQuery("div#rejected_percentage").html(res.REJECTED_percentage+" %");
-								jQuery("div#polled_votes").html(res.POLLED_votes);
+								jQuery("div#polled_votes").html(numberWithCommas(res.POLLED_votes));
 								jQuery("div#polled_percentage").html(res.POLLED_percentage+" %");
-								jQuery("div#electors_votes").html(res.ELECTORS);
+								jQuery("div#electors_votes").html(numberWithCommas(res.ELECTORS));
 								
 								$("#progress1").css( "width",(342*Number(res.Party1_percentage)/100).toString()+"px");
 								$("#progress2").css( "width",(342*Number(res.Party2_percentage)/100).toString()+"px");
